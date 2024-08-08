@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/***** Global Css *****/
+
+.Active {
+  color: blue !important;
+  font-weight: bold !important;
+}
+
+a {
+  text-decoration: none !important;
+  font-size: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+.mt-9 {
+  margin-top: 9rem;
+}
+
+/***** End Global Css *****/
+
+/***** Sidebar Section *****/
+
+.navbar-toggler {
+  display: none;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.slider {
+  width: 30rem !important;
+}
+
+/***** End Sidebar Section *****/
+
+/***** NavBar Section *****/
+
+.nav {
+  padding: 2rem 4% !important;
+}
+
+/***** End NavBar Section *****/
+
+/***** Responsiveness Section *****/
+
+@media screen and (width < 1010px) {
+  html {
+    font-size: 59%;
+  }
+}
+
+@media screen and (width < 992px) {
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navLinks {
+    display: none !important;
+  }
+}
+
+/***** End Responsiveness Section *****/

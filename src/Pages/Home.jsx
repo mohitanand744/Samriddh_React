@@ -12,8 +12,7 @@ const Home = () => {
                 between borrower and Lenders
               </h1>
               <p className="fs-1 mt-5 mb-5 text-light-gray">
-                Our mission is to connect rural customers with reliable
-                services.
+                Our mission is to connect rural customers with reliable services
               </p>
             </div>
             <div className="image_Container col-xl-7 col-lg-6 col-md-12">

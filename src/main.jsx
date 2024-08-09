@@ -1,6 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./index.css";
+
+/* All CSS Imports */
+
+import "./css/fonts.css";
+import "./css/index.css";
 
 /* Importing Bootstrap */
 

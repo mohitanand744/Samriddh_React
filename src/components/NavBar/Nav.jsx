@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Nav = () => {
   return (
     <>
-      <nav className="navbar bg-body-tertiary fixed-top nav">
+      <nav className="navbar bg-body-tertiary fixed-top nav b-shadow">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             <img src="./Samriddh.webp" alt="" />

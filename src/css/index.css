@@ -12,7 +12,11 @@ html {
 
 .Active {
   color: blue !important;
-  text-shadow: 0px 0px 1.8px blue;
+  text-shadow: 1px 0px 0px blue;
+}
+
+.b-shadow {
+  box-shadow: rgba(0, 0, 0, 0.212) 0px 3px 18px;
 }
 
 a {
@@ -20,12 +24,20 @@ a {
   font-size: 2rem;
 }
 
+.offcanvas-backdrop.show {
+  opacity: 0 !important;
+}
+
 li {
   list-style: none;
 }
 
-.mt-9 {
-  margin-top: 9rem;
+.text-light-gray {
+  color: #a4a2a5;
+}
+
+.mt-15 {
+  margin-top: 15rem;
 }
 
 /***** End Global Css *****/
@@ -43,10 +55,9 @@ li {
 }
 
 .slider {
-  width: 30rem !important;
+  width: 27rem !important;
   background-color: transparent !important;
   backdrop-filter: blur(8px);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /***** End Sidebar Section *****/
@@ -54,10 +65,27 @@ li {
 /***** NavBar Section *****/
 
 .nav {
-  padding: 2rem 4% !important;
+  height: 7rem;
+  padding: 0 4% !important;
 }
 
 /***** End NavBar Section *****/
+
+/***** Home Section *****/
+
+.section_1 {
+  height: 90vh;
+
+  & .image_Container {
+    width: 52rem;
+
+    & img {
+      width: 100%;
+    }
+  }
+}
+
+/***** End Home Section *****/
 
 /***** Responsiveness Section *****/
 
@@ -77,4 +105,31 @@ li {
   }
 }
 
+@media screen and (width < 888px) {
+  html {
+    font-size: 52%;
+  }
+}
+
+@media screen and (width < 888px) {
+  html {
+    font-size: 49%;
+  }
+}
+
+@media screen and (width < 748px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media screen and (width < 488px) {
+  html {
+    font-size: 41%;
+  }
+}
+@media screen and (width < 378px) {
+  html {
+    font-size: 37%;
+  }
+}
 /***** End Responsiveness Section *****/

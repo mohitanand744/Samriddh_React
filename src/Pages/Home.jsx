@@ -1,4 +1,5 @@
 import React from "react";
+import Title from "../components/Titles/Title";
 
 const Home = () => {
   return (
@@ -21,9 +22,43 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <p className="title-font mx-6 fs-36 text-secondary">
-        Samriddh Kendra <span className="text-black">Offerings</span>
-      </p>
+
+      {/* ----------------------------------------------------- */}
+
+      <section className="section_2">
+        <header className="container col-12">
+          <Title
+            first_text="Samriddh Kendra"
+            span_text="Offerings"
+            last_text=""
+          />
+        </header>
+
+        <div className="container-fluid Loan_Container py-7">
+          <div className="row justify-content-md-center justify-content-center">
+            <div className="image_container d-flex flex-column align-items-center col-xl-7 col-lg-6 col-md-10 col-sm-12 p-5">
+              <img className="loan" src="./LOAN.webp" />
+              <img className="loan2" src="./Loan_img_1.webp" />
+            </div>
+            <div className="text_container mx-sm-4 mx-md-0  text-white d-flex flex-column  align-items-start col-xl-5 col-lg-6 col-md-10 col-sm-10 rounded-start-5 ">
+              <p className="fs-36">Loan</p>
+              <p className="font-inter fs-24">
+                Ipsum has been the industry's standard dummy text ever since the
+                1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.
+              </p>
+              <div className="btn-container mt-5">
+                <button className="btn fs-3 fw-medium cus-btn">
+                  Apply for loan{" "}
+                  <span className="mx-3 ">
+                    <img src="./Arrow.png" alt="" />
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

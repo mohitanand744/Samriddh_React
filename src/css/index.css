@@ -4,8 +4,16 @@
   box-sizing: border-box;
 }
 
-html {
+:root {
   font-size: 62.5%;
+  --bg-light-gray: #f7f7f7;
+  --dark-blue: #00225d;
+  --white: #fff;
+  --light-blue: #4473f5;
+}
+
+#root {
+  font-family: "Zilla Slab", serif !important;
 }
 
 /***** Margin & padding Section *****/
@@ -14,8 +22,19 @@ html {
   margin-top: 15rem;
 }
 
+.mt-7 {
+  margin-top: 7rem;
+}
+
 .mx-6 {
   margin: 0 6rem;
+}
+
+.py-7 {
+  padding: 7rem 0;
+}
+.p-8 {
+  padding: 8rem !important;
 }
 
 /***** End Margin & padding Section *****/
@@ -25,8 +44,8 @@ html {
 /***** Global Css *****/
 
 .Active {
-  color: blue !important;
-  text-shadow: 1px 0px 0px blue;
+  color: var(--dark-blue) !important;
+  text-shadow: 1px 0px 0px var(--dark-blue);
 }
 
 .b-shadow {
@@ -50,6 +69,24 @@ li {
   color: #a4a2a5;
 }
 
+.btn-container {
+  background: var(--light-blue);
+  padding: 0 0.7rem 0.7rem 0;
+
+  & .cus-btn {
+    background: var(--white) !important;
+    padding: 1.4rem !important;
+    position: relative !important;
+    margin-left: -0.3rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+
+.rounded-s {
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+}
+
 /***** End Global Css *****/
 
 /* ---------------------------------------------------- */
@@ -67,7 +104,7 @@ li {
 }
 
 .slider {
-  width: 27rem !important;
+  width: 35rem !important;
   background-color: transparent !important;
   backdrop-filter: blur(8px);
 }
@@ -88,10 +125,10 @@ li {
 /***** Home Section *****/
 
 .section_1 {
-  height: 90vh;
+  height: 100%;
 
   & .image_Container {
-    width: 58rem;
+    width: 50rem;
 
     & img {
       width: 100%;
@@ -103,11 +140,26 @@ li {
 
 /* ---------------------------------------------------- */
 
+/***** Loan Container Section *****/
+
+.section_2 {
+  & .Loan_Container {
+    background: var(--bg-light-gray);
+
+    & .text_container {
+      background: var(--dark-blue);
+      padding: 8rem;
+    }
+  }
+}
+
+/***** End Loan Container Section *****/
+
 /***** Responsiveness Section *****/
 
-@media screen and (width < 1010px) {
+@media screen and (width < 1200px) {
   html {
-    font-size: 59%;
+    font-size: 52%;
   }
 }
 
@@ -118,12 +170,6 @@ li {
 
   .navLinks {
     display: none !important;
-  }
-}
-
-@media screen and (width < 888px) {
-  html {
-    font-size: 52%;
   }
 }
 
@@ -141,6 +187,14 @@ li {
 @media screen and (width < 488px) {
   html {
     font-size: 41%;
+  }
+
+  .section_2 {
+    & .Loan_Container {
+      & .text_container {
+        padding: 4rem;
+      }
+    }
   }
 }
 @media screen and (width < 378px) {

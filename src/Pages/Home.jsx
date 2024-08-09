@@ -21,6 +21,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <p className="title-font mx-6 fs-36 text-secondary">
+        Samriddh Kendra <span className="text-black">Offerings</span>
+      </p>
     </div>
   );
 };

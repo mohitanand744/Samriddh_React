@@ -6,10 +6,9 @@ const Nav = () => {
     <>
       <nav className="navbar bg-body-tertiary fixed-top nav b-shadow">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <NavLink className={"navbar-brand"}>
             <img src="./Samriddh.webp" alt="" />
-          </a>
-
+          </NavLink>
           <ul className="navLinks">
             <li className="nav-item">
               <NavLink

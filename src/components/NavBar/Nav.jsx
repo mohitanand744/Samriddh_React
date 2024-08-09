@@ -15,15 +15,6 @@ const Nav = () => {
               <NavLink
                 style={{ color: "black", fontWeight: "500" }}
                 className={({ isActive }) => (isActive ? "Active" : "")}
-                to={"/"}
-              >
-                Home
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                style={{ color: "black", fontWeight: "500" }}
-                className={({ isActive }) => (isActive ? "Active" : "")}
                 to={"about"}
               >
                 About Us

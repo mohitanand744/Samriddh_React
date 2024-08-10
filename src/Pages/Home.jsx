@@ -51,13 +51,46 @@ const Home = () => {
                   scrambled it to make a type specimen book.
                 </p>
                 <div className="btn-container mt-5">
-                  <button className="btn fs-4 fw-bold cus-btn font-poppins">
+                  <button className="btn fs-3 fw-bold cus-btn font-poppins">
                     Apply for loan{" "}
                     <span className="mx-3 ">
                       <img src="./Arrow.png" alt="" />
                     </span>
                   </button>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ----------------------------------------------------- */}
+
+      <section className="section_3 mt-3">
+        <div className="container-fluid insaurance py-7">
+          <div className="row justify-content-md-center justify-content-center align-items-center">
+            <div className="  col-xl-5 col-lg-6 col-md-10 col-sm-10  order-lg-last  order-md-last order-last">
+              <div className="text_container mx-sm-4 mx-md-0 text-white d-flex flex-column justify-content-center align-items-start round ">
+                <p className="fs-36">Insaurance</p>
+                <p className="font-inter fs-24">
+                  Ipsum has been the industry's standard dummy text ever since
+                  the 1500s, when an unknown printer took a galley of type and
+                  scrambled it to make a type specimen book.
+                </p>
+                <div className="btn-container mt-5">
+                  <button className="btn fs-3 fw-bold cus-btn font-poppins">
+                    Click to know more{" "}
+                    <span className="mx-3 ">
+                      <img src="./Arrow.png" alt="" />
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="  col-xl-7 col-lg-6 col-md-12 col-sm-12 order-lg-last order-md-first order-first">
+              <div className="image_container d-flex flex-column align-items-center p-5 ">
+                <img className="loan" src="./Insaurance2.webp" />
+                <img className="loan2" src="./Insaurance.webp" />
               </div>
             </div>
           </div>

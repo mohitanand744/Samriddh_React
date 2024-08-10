@@ -12,7 +12,7 @@ html {
   --bg-light-gray: #f7f7f7;
   --dark-blue: #00225d;
   --white: #fff;
-  --light-blue: #4473f5;
+  --light-blue: #00b2ff;
 }
 
 #root {
@@ -48,7 +48,7 @@ html {
 
 .Active {
   color: var(--dark-blue) !important;
-  text-shadow: 1px 0px 0px var(--dark-blue);
+  text-shadow: 1px 1px 1px var(--dark-blue);
 }
 
 .b-shadow {
@@ -145,22 +145,51 @@ li {
 
 /***** Loan Container Section *****/
 
-.section_2 {
-  & .loan_container {
-    background: var(--bg-light-gray);
+.loan_container {
+  background: var(--bg-light-gray);
 
-    & .image_container {
-      & .loan {
-        width: 35rem;
-      }
-      & .loan2 {
-        width: 45rem;
-      }
+  & .image_container {
+    & .loan {
+      width: 32rem;
     }
+    & .loan2 {
+      width: 40rem;
+    }
+  }
 
-    & .text_container {
-      background: var(--dark-blue);
-      padding: 8rem;
+  & .text_container {
+    background: var(--dark-blue);
+    padding: 8rem;
+  }
+}
+
+/***** End Loan Container Section *****/
+
+/* ---------------------------------------------------- */
+
+/***** Loan Container Section *****/
+
+.insaurance {
+  background: var(--bg-light-gray);
+
+  & .image_container {
+    & .loan {
+      width: 45rem;
+    }
+    & .loan2 {
+      width: 50rem;
+    }
+  }
+
+  & .text_container {
+    background: var(--dark-blue);
+    padding: 8rem;
+
+    &.round {
+      border-top-right-radius: 3rem;
+      border-bottom-right-radius: 3rem;
+      border-top-left-radius: 0rem;
+      border-bottom-left-radius: 0rem;
     }
   }
 }
@@ -208,18 +237,22 @@ li {
       }
     }
   }
+
+  .insaurance {
+    & .text_container {
+      padding: 4rem;
+
+      &.round {
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+        border-bottom-left-radius: 0rem;
+      }
+    }
+  }
 }
 @media screen and (width < 488px) {
   html {
     font-size: 41%;
-  }
-
-  .section_2 {
-    & .Loan_Container {
-      & .text_container {
-        padding: 4rem;
-      }
-    }
   }
 }
 @media screen and (width < 378px) {
@@ -228,3 +261,7 @@ li {
   }
 }
 /***** End Responsiveness Section *****/
+
+::-webkit-scrollbar {
+  display: none;
+}

@@ -26,6 +26,10 @@ html {
   margin-top: 15rem;
 }
 
+.m-7 {
+  margin: 8rem;
+}
+
 .my-10 {
   margin: 10rem 0;
 }
@@ -116,6 +120,13 @@ li {
 .round {
   border-top-left-radius: 3rem;
   border-bottom-left-radius: 3rem;
+}
+.round-3 {
+  border-radius: 3rem !important;
+  -webkit-border-radius: 3rem !important;
+  -moz-border-radius: 3rem !important;
+  -ms-border-radius: 3rem !important;
+  -o-border-radius: 3rem !important;
 }
 
 .sidebar-li {
@@ -244,7 +255,7 @@ li {
 
     & .image_container {
       & .mobile {
-        width: 40rem !important;
+        width: 37rem !important;
         margin-bottom: -7.5rem;
       }
     }
@@ -252,6 +263,56 @@ li {
 }
 
 /***** End family Container *****/
+
+/* ---------------------------------------------------- */
+
+/***** Samriddh Kendra works Section *****/
+
+.section_5 {
+  & .card-slider {
+    display: flex;
+    padding: 7rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 4rem;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    & .custom-card {
+      width: 31rem;
+      height: 34rem;
+      border: 2px solid #dddd;
+      background: var(--bg-light-gray);
+      position: relative;
+      padding: 2rem !important;
+
+      & .icon {
+        margin-top: -10rem;
+      }
+
+      & .steps {
+        width: 4.6rem;
+        height: 4.6rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background: var(--dark-blue);
+        color: var(--white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -4rem;
+        font-size: 2.8rem;
+      }
+    }
+  }
+}
+
+/***** End Samriddh Kendra works Section *****/
 
 /***** Responsiveness Section *****/
 

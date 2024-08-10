@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "../components/Titles/Title";
 import Button from "../components/Buttons/Button";
+import Card from "../components/Cards/Card";
 
 const Home = () => {
   return (
@@ -124,12 +125,48 @@ const Home = () => {
             last_text=""
           />
 
-          <p className="fs-1 mb-5 text-light-gray">
+          <p className="fs-1 mb-5 text-light-gray px-2">
             Samriddh Kendra is pioneering an innovative approach to loan and
             insaurance distribution in rural Bharat by leveraging technology and
             establishing the Samriddh Sathi for effective implementation.
           </p>
         </header>
+        <div className="container-fluid">
+          <div className="container my-10">
+            <div className="card-slider">
+              <Card
+                image={"./formicon.webp"}
+                title={"Enter your basic details"}
+                description={"Enter KYC & Loan requirements in the application"}
+                steps={"1"}
+              />
+              <Card
+                image={"./validation.webp"}
+                title={"Validation"}
+                description={
+                  "Samriddh app validates your requirements with lenders and shows offer"
+                }
+                steps={"2"}
+              />
+              <Card
+                image={"./offers.webp"}
+                title={"Select loan offer"}
+                description={
+                  "Out of multiple loan offers given by samriddh, select the required loan offer"
+                }
+                steps={"3"}
+              />
+              <Card
+                image={"./check.webp"}
+                title={"Qulified lead passed and loan dispersed"}
+                description={
+                  "After you select the offer, Samriddh app passes the lead to lender, after which they disperse the loan"
+                }
+                steps={"4"}
+              />
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );

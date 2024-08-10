@@ -1,5 +1,6 @@
 import React from "react";
 import Title from "../components/Titles/Title";
+import Button from "../components/Buttons/Button";
 
 const Home = () => {
   return (
@@ -51,12 +52,7 @@ const Home = () => {
                   scrambled it to make a type specimen book.
                 </p>
                 <div className="btn-container mt-5">
-                  <button className="btn fs-3 fw-bold cus-btn font-poppins">
-                    Apply for loan{" "}
-                    <span className="mx-3 ">
-                      <img src="./Arrow.png" alt="" />
-                    </span>
-                  </button>
+                  <Button content={"Apply for loan"} />
                 </div>
               </div>
             </div>
@@ -78,12 +74,7 @@ const Home = () => {
                   scrambled it to make a type specimen book.
                 </p>
                 <div className="btn-container mt-5">
-                  <button className="btn fs-3 fw-bold cus-btn font-poppins">
-                    Click to know more{" "}
-                    <span className="mx-3 ">
-                      <img src="./Arrow.png" alt="" />
-                    </span>
-                  </button>
+                  <Button content={"Click to know more"} />
                 </div>
               </div>
             </div>
@@ -91,6 +82,32 @@ const Home = () => {
               <div className="image_container d-flex flex-column align-items-center p-5 ">
                 <img className="loan" src="./Insaurance2.webp" />
                 <img className="loan2" src="./Insaurance.webp" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ----------------------------------------------------- */}
+
+      <section className="container-fluid section_4 my-10">
+        <div className="container p-7 bg-gray">
+          <div className="row align-items-center justify-content-between">
+            <div className="col-xl-6 col-lg-6 col-md-12 col-12 ">
+              <div className="text_container d-flex flex-column gap-4 mb-md-5 mb-5">
+                <h2 className="font-inter fw-bold fs-36">Join Family</h2>
+                <p className="fs-36 mt-7 fw-medium">
+                  Become a SAMRIDDH Sathi/Samriddh Sahayak and sell financial
+                  products
+                </p>
+                <div className="btn-container mt-3">
+                  <Button content={"Click to know more"} />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-6 col-lg-6 col-md-12 col-12">
+              <div className="image_container text-xl-end text-center mt-md-5 mt-5">
+                <img className="mobile" src="./Mobile.webp" alt="" />
               </div>
             </div>
           </div>

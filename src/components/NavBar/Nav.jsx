@@ -77,7 +77,7 @@ const Nav = () => {
             </div>
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 text-center gap-3">
-                <li className="nav-item">
+                <li className="nav-item sidebar-li">
                   <NavLink
                     style={{ color: "black", fontWeight: "500" }}
                     className={({ isActive }) => (isActive ? "Active" : "")}
@@ -86,7 +86,7 @@ const Nav = () => {
                     Home
                   </NavLink>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item sidebar-li">
                   <NavLink
                     style={{ color: "black", fontWeight: "500" }}
                     className={({ isActive }) => (isActive ? "Active" : "")}
@@ -95,7 +95,7 @@ const Nav = () => {
                     About Us
                   </NavLink>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item sidebar-li">
                   <NavLink
                     style={{ color: "black", fontWeight: "500" }}
                     className={({ isActive }) => (isActive ? "Active" : "")}
@@ -104,7 +104,7 @@ const Nav = () => {
                     Products
                   </NavLink>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item sidebar-li">
                   <NavLink
                     style={{ color: "black", fontWeight: "500" }}
                     className={({ isActive }) => (isActive ? "Active" : "")}
@@ -113,7 +113,7 @@ const Nav = () => {
                     Contact Us
                   </NavLink>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item sidebar-li">
                   <NavLink
                     style={{ color: "black", fontWeight: "500" }}
                     className={({ isActive }) => (isActive ? "Active" : "")}

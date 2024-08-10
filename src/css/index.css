@@ -13,6 +13,7 @@ html {
   --dark-blue: #00225d;
   --white: #fff;
   --light-blue: #00b2ff;
+  --light-bg: #f9f9f9;
 }
 
 #root {
@@ -23,6 +24,10 @@ html {
 
 .mt-15 {
   margin-top: 15rem;
+}
+
+.my-10 {
+  margin: 10rem 0;
 }
 
 .mt-7 {
@@ -36,10 +41,18 @@ html {
 .py-7 {
   padding: 7rem 0;
 }
+
+.p-7 {
+  padding: 7rem !important;
+}
+
 .p-8 {
   padding: 8rem !important;
 }
 
+.gap-8 {
+  gap: 8rem;
+}
 /***** End Margin & padding Section *****/
 
 /* ---------------------------------------------------- */
@@ -74,7 +87,13 @@ li {
 
 .btn-container {
   background: var(--light-blue);
+  width: fit-content;
   padding: 0 0.7rem 0.7rem 0;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
 
   & .cus-btn {
     background: var(--white) !important;
@@ -82,6 +101,15 @@ li {
     position: relative !important;
     margin-left: -0.3rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    &:hover {
+      color: var(--dark-blue);
+    }
+  }
+  &:active {
+    background: var(--dark-blue);
+    color: var(--bg-light-gray);
+    scale: 0.98;
   }
 }
 
@@ -90,6 +118,11 @@ li {
   border-bottom-left-radius: 3rem;
 }
 
+.sidebar-li {
+  & a {
+    font-size: 3rem;
+  }
+}
 /***** End Global Css *****/
 
 /* ---------------------------------------------------- */
@@ -107,7 +140,7 @@ li {
 }
 
 .slider {
-  width: 35rem !important;
+  width: 38rem !important;
   background-color: transparent !important;
   backdrop-filter: blur(8px);
 }
@@ -167,7 +200,7 @@ li {
 
 /* ---------------------------------------------------- */
 
-/***** Loan Container Section *****/
+/***** insaurance Container Section *****/
 
 .insaurance {
   background: var(--bg-light-gray);
@@ -194,7 +227,25 @@ li {
   }
 }
 
-/***** End Loan Container Section *****/
+/***** End insaurance Container Section *****/
+
+/* ---------------------------------------------------- */
+
+/***** family Container *****/
+
+.section_4 {
+  & .bg-gray {
+    background-color: var(--bg-light-gray);
+
+    & .image_container {
+      & .mobile {
+        width: 40rem !important;
+      }
+    }
+  }
+}
+
+/***** End family Container *****/
 
 /***** Responsiveness Section *****/
 
@@ -217,6 +268,19 @@ li {
     border-top-right-radius: 3rem;
     border-bottom-left-radius: 0rem;
   }
+
+  .insaurance {
+    & .text_container {
+      padding: 4rem;
+
+      &.round {
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+        border-bottom-left-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+      }
+    }
+  }
 }
 
 @media screen and (width < 888px) {
@@ -237,18 +301,6 @@ li {
       }
     }
   }
-
-  .insaurance {
-    & .text_container {
-      padding: 4rem;
-
-      &.round {
-        border-top-left-radius: 3rem;
-        border-top-right-radius: 3rem;
-        border-bottom-left-radius: 0rem;
-      }
-    }
-  }
 }
 @media screen and (width < 488px) {
   html {
@@ -262,6 +314,27 @@ li {
 }
 /***** End Responsiveness Section *****/
 
+/***** Custom Scroll Bar *****/
+
 ::-webkit-scrollbar {
-  display: none;
+  width: 1.1rem;
 }
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--dark-blue);
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #003694;
+}
+
+/***** End Custom Scroll Bar *****/

@@ -5,7 +5,7 @@ const Card = ({ title, description, steps, image }) => {
     <div>
       <div className="custom-card round-3">
         <div className="card-body text-center d-flex flex-column align-items-center justify-content-center">
-          <img src={image} className="icon" alt="" />
+          <img src={image} className="img-fluid" alt="" />
           <h2 className="card-title mt-4 mb-3 font-inter fw-semibold fs-26">
             {title}
           </h2>

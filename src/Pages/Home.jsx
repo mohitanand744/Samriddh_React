@@ -113,6 +113,24 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* ----------------------------------------------------- */}
+
+      <section className="section_5">
+        <header className="container col-12">
+          <Title
+            first_text="How does"
+            span_text="Samriddh Kendra works?"
+            last_text=""
+          />
+
+          <p className="fs-1 mb-5 text-light-gray">
+            Samriddh Kendra is pioneering an innovative approach to loan and
+            insaurance distribution in rural Bharat by leveraging technology and
+            establishing the Samriddh Sathi for effective implementation.
+          </p>
+        </header>
+      </section>
     </div>
   );
 };

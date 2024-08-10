@@ -236,6 +236,11 @@ li {
 .section_4 {
   & .bg-gray {
     background-color: var(--bg-light-gray);
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
 
     & .image_container {
       & .mobile {

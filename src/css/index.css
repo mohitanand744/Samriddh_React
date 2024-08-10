@@ -240,6 +240,7 @@ li {
     & .image_container {
       & .mobile {
         width: 40rem !important;
+        margin-bottom: -7.5rem;
       }
     }
   }
@@ -272,6 +273,7 @@ li {
   .insaurance {
     & .text_container {
       padding: 4rem;
+      margin-bottom: -7rem;
 
       &.round {
         border-top-left-radius: 3rem;
@@ -279,6 +281,12 @@ li {
         border-bottom-left-radius: 0rem;
         border-bottom-right-radius: 0rem;
       }
+    }
+  }
+
+  .loan_container {
+    & .text_container {
+      margin-bottom: -7rem;
     }
   }
 }

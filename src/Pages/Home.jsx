@@ -8,7 +8,8 @@ const Home = () => {
     <div className="Home">
       <section className="container-fluid mt-15 section_1">
         <div className="container">
-          <div className="row align-items-center justify-content-xl-between justify-content-lg-center  justify-content-lg-center gap-2">
+          <div className="row align-items-center justify-content-xl-between justify-content-lg-center  justify-content-md-center justify-content-center gap-2">
+          
             <div className="col-xl-5  col-lg-6 col-md-12 text-lg-start text-center ">
               <h1 className="title-font fs-55">
                 <span className="text-body-secondary">Bridging the gap</span>{" "}

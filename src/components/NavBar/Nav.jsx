@@ -5,14 +5,13 @@ const Nav = () => {
   return (
     <>
       <nav className="navbar bg-body-tertiary fixed-top nav b-shadow">
-        <div className="container-fluid">
+        <div className="container-fluid font-poppins">
           <NavLink className={"navbar-brand"}>
             <img src="./Samriddh.webp" alt="" />
           </NavLink>
           <ul className="navLinks">
-            <li className="nav-item">
+            <li className="nav-item ">
               <NavLink
-                style={{ color: "black", fontWeight: "500" }}
                 className={({ isActive }) => (isActive ? "Active" : "")}
                 to={"about"}
               >
@@ -21,7 +20,6 @@ const Nav = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                style={{ color: "black", fontWeight: "500" }}
                 className={({ isActive }) => (isActive ? "Active" : "")}
                 to={"products"}
               >
@@ -30,7 +28,6 @@ const Nav = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                style={{ color: "black", fontWeight: "500" }}
                 className={({ isActive }) => (isActive ? "Active" : "")}
                 to={"contact"}
               >
@@ -39,7 +36,6 @@ const Nav = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                style={{ color: "black", fontWeight: "500" }}
                 className={({ isActive }) => (isActive ? "Active" : "")}
                 to={"become_our_partner"}
               >
@@ -79,7 +75,6 @@ const Nav = () => {
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 text-center gap-3">
                 <li className="nav-item sidebar-li">
                   <NavLink
-                    style={{ color: "black", fontWeight: "500" }}
                     className={({ isActive }) => (isActive ? "Active" : "")}
                     to={"/"}
                   >
@@ -88,7 +83,6 @@ const Nav = () => {
                 </li>
                 <li className="nav-item sidebar-li">
                   <NavLink
-                    style={{ color: "black", fontWeight: "500" }}
                     className={({ isActive }) => (isActive ? "Active" : "")}
                     to={"about"}
                   >
@@ -97,7 +91,6 @@ const Nav = () => {
                 </li>
                 <li className="nav-item sidebar-li">
                   <NavLink
-                    style={{ color: "black", fontWeight: "500" }}
                     className={({ isActive }) => (isActive ? "Active" : "")}
                     to={"products"}
                   >
@@ -106,7 +99,6 @@ const Nav = () => {
                 </li>
                 <li className="nav-item sidebar-li">
                   <NavLink
-                    style={{ color: "black", fontWeight: "500" }}
                     className={({ isActive }) => (isActive ? "Active" : "")}
                     to={"contact"}
                   >
@@ -115,7 +107,6 @@ const Nav = () => {
                 </li>
                 <li className="nav-item sidebar-li">
                   <NavLink
-                    style={{ color: "black", fontWeight: "500" }}
                     className={({ isActive }) => (isActive ? "Active" : "")}
                     to={"become_our_partner"}
                   >

@@ -8,18 +8,18 @@ const Home = () => {
     <div className="Home">
       <section className="container-fluid mt-15 section_1">
         <div className="container">
-          <div className="row align-items-center justify-content-xl-between justify-content-lg-center justify-content-center gap-2">
-            <div className="col-xl-5  col-lg-8 col-md-12 text-lg-start text-center ">
+          <div className="row align-items-center justify-content-xl-between justify-content-lg-center  justify-content-lg-center gap-2">
+            <div className="col-xl-5  col-lg-6 col-md-12 text-lg-start text-center ">
               <h1 className="title-font fs-55">
                 <span className="text-body-secondary">Bridging the gap</span>{" "}
                 between borrower and Lenders
               </h1>
-              <p className="fs-1 mt-5 mb-5 text-light-gray">
+              <p className="fs-30 mt-5 mb-5 text-light-gray">
                 Our mission is to connect rural customers with reliable services
               </p>
             </div>
             <div className="image_Container col-xl-7 col-lg-6 col-md-12">
-              <img src="./Home_img_1.webp" />
+              <img src="./Home_img_1.webp" className="img-fluid" />
             </div>
           </div>
         </div>
@@ -40,8 +40,8 @@ const Home = () => {
           <div className="row justify-content-md-center justify-content-center align-items-center">
             <div className="  col-xl-7 col-lg-6 col-md-12 col-sm-12 ">
               <div className="image_container d-flex flex-column align-items-center p-5">
-                <img className="loan" src="./LOAN.webp" />
-                <img className="loan2" src="./Loan_img_1.webp" />
+                <img className="img-fluid" src="./LOAN.webp" />
+                <img className="img-fluid" src="./Loan_img_1.webp" />
               </div>
             </div>
             <div className="  col-xl-5 col-lg-6 col-md-10 col-sm-10  ">
@@ -81,8 +81,8 @@ const Home = () => {
             </div>
             <div className="  col-xl-7 col-lg-6 col-md-12 col-sm-12 order-lg-last order-md-first order-first">
               <div className="image_container d-flex flex-column align-items-center p-5 ">
-                <img className="loan" src="./Insaurance2.webp" />
-                <img className="loan2" src="./Insaurance.webp" />
+                <img className="img-fluid" src="./Insaurance2.webp" />
+                <img className="img-fluid" src="./Insaurance.webp" />
               </div>
             </div>
           </div>
@@ -108,7 +108,7 @@ const Home = () => {
             </div>
             <div className="col-xl-6 col-lg-6 col-md-12 col-12">
               <div className="image_container text-xl-end text-center mt-md-5 mt-5">
-                <img className="mobile" src="./Mobile.webp" alt="" />
+                <img className="img-fluid" src="./Mobile.webp" alt="" />
               </div>
             </div>
           </div>
@@ -131,8 +131,8 @@ const Home = () => {
             establishing the Samriddh Sathi for effective implementation.
           </p>
         </header>
-        <div className="container-fluid">
-          <div className="container my-10">
+        <div className="container-fluid my-10">
+          <div className="container">
             <div className="card-slider">
               <Card
                 image={"./formicon.webp"}

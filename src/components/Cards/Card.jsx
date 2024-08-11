@@ -4,15 +4,19 @@ const Card = ({ title, description, steps, image }) => {
   return (
     <div>
       <div className="custom-card round-3">
-        <div className="card-body text-center d-flex flex-column align-items-center justify-content-center">
-          <img src={image} className="icon" alt="" />
-          <h2 className="card-title mt-4 mb-3 font-inter fw-semibold fs-26">
-            {title}
-          </h2>
-          <p className="card-text fs-2 mb-4 mt-4">{description}</p>
+        <div className="h-100 card-body d-flex flex-column align-items-center justify-content-between ">
+          <div className="top-container text-center">
+            <img src={image} className="icon img-fluid" alt="" />
+            <h2 className="card-title  mb-3 font-inter fw-semibold fs-26">
+              {title}
+            </h2>
+            <p className="card-text fs-2 ">{description}</p>
+          </div>
 
-          <p className="mb-5 fs-2 fw-bold font-inter">STEP</p>
-          <div className="steps">{steps}</div>
+          <div className="steps-container text-center d-flex flex-column align-items-center">
+            <p className="fs-2 fw-bold font-inter">STEP</p>
+            <p className="steps">{steps}</p>
+          </div>
         </div>
       </div>
     </div>

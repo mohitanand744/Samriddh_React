@@ -14,6 +14,7 @@ html {
   --white: #fff;
   --light-blue: #00b2ff;
   --light-bg: #f9f9f9;
+  --text-gray: #525252;
 }
 
 #root {
@@ -32,6 +33,10 @@ html {
 
 .my-10 {
   margin: 10rem 0;
+}
+
+.mb-8 {
+  margin-bottom: 8rem !important;
 }
 
 .mt-7 {
@@ -163,8 +168,14 @@ li {
 /***** NavBar Section *****/
 
 .nav {
-  height: 7rem;
+  height: 7.3rem;
   padding: 0 4% !important;
+}
+
+.nav-item a {
+  font-size: 2.4rem !important;
+  font-weight: 400;
+  color: var(--text-gray);
 }
 
 /***** End NavBar Section *****/
@@ -175,7 +186,7 @@ li {
   height: 100%;
 
   & .image_Container {
-    width: 50rem;
+    width: 65rem;
 
     & img {
       width: 100%;
@@ -271,18 +282,19 @@ li {
 .section_5 {
   & .card-slider {
     display: flex;
-    padding: 7rem;
+    align-items: center;
+    height: 53rem;
     overflow-x: scroll;
     overflow-y: hidden;
-    gap: 4rem;
+    gap: 2rem;
 
     &::-webkit-scrollbar {
       display: none;
     }
 
     & .custom-card {
-      width: 31rem;
-      height: 34rem;
+      width: 30rem;
+      height: 34.7rem;
       border: 2px solid #dddd;
       background: var(--bg-light-gray);
       position: relative;
@@ -292,21 +304,20 @@ li {
         margin-top: -10rem;
       }
 
-      & .steps {
-        width: 4.6rem;
-        height: 4.6rem;
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-        background: var(--dark-blue);
-        color: var(--white);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: -4rem;
-        font-size: 2.8rem;
+      .steps-container {
+        margin-bottom: -5rem;
+        & .steps {
+          width: 4.6rem;
+          height: 4.6rem;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          -o-border-radius: 50%;
+          background: var(--dark-blue);
+          color: var(--white);
+          font-size: 2.8rem;
+        }
       }
     }
   }
@@ -316,7 +327,7 @@ li {
 
 /***** Responsiveness Section *****/
 
-@media screen and (width < 1200px) {
+@media screen and (width < 1140px) {
   html {
     font-size: 52%;
   }
@@ -379,11 +390,6 @@ li {
 @media screen and (width < 488px) {
   html {
     font-size: 41%;
-  }
-}
-@media screen and (width < 378px) {
-  html {
-    font-size: 37%;
   }
 }
 /***** End Responsiveness Section *****/

@@ -4,16 +4,16 @@ const Footer = () => {
   return (
     <footer className="footer mt-5 font-inter">
       <div className="container">
-        <div className="row flex-lg-wrap">
-          <div className="col-lg-4 col-md-6">
-            <div className="row flex-column gap-8">
-              <div className="pera fs-18  text-light-gray order-md-last order-last">
+        <div className="row justify-content-md-center">
+          <div className=" col-md-8 col-lg-3 col-xl-3">
+            <div className="row flex-column gap-8 text-md-center order-md-first  order-sm-last order-last">
+              <div className="pera fs-18  text-light-gray mt-sm-5">
                 <span className="fw-bold text-white">SAMRIDDH KENDRA</span> is
                 an early stage Fi Tech player working in the field of Finance
                 and technology to bridge the gap between rural customers and
                 Finance Institutions
               </div>
-              <div className="social-media-icons d-flex align-items-center my-5  gap-5">
+              <div className="social-media-icons d-flex align-items-center my-5  gap-5  justify-content-sm-center justify-content-center">
                 <img src="./instagram.webp" className="img-fluid" alt="" />
                 <img src="./linkedin.webp" className="img-fluid" alt="" />
                 <img src="./telephone.webp" className="img-fluid" alt="" />
@@ -21,8 +21,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-8 col-sm-12 d-flex justify-content-lg-around  flex-sm-wrap flex-wrap justify-content-sm-center justify-content-center gap-5 order-md-first order-first">
-            <div className="col-md-2 col-sm-6">
+          <div className="col-12 col-md-12 col-lg-9  d-flex justify-content-lg-around  flex-sm-wrap flex-wrap justify-content-sm-center justify-content-center gap-5 order-md-last order-sm-first order-first">
+            <div className="col-4 col-sm-6 col-lg-2">
               <h1 className="footer-heading">Platform</h1>
               <ul className="list-unstyled">
                 <li className="mt-4">
@@ -47,7 +47,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-2 col-sm-6">
+            <div className="col-4 col-sm-6 col-lg-2 ">
               <h1 className="footer-heading">About</h1>
               <ul className="list-unstyled">
                 <li className="mt-4">
@@ -72,7 +72,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-2 col-sm-6">
+            <div className="col-4 col-sm-6 col-lg-2">
               <h1 className="footer-heading">Information</h1>
               <ul className="list-unstyled">
                 <li className="mt-4">
@@ -98,7 +98,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="col-md-2 col-sm-6">
+            <div className="col-4 col-sm-6 col-lg-2">
               <h1 className="footer-heading">Tools</h1>
               <ul className="list-unstyled">
                 <li className="mt-4">

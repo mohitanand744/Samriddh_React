@@ -15,6 +15,8 @@ html {
   --light-blue: #00b2ff;
   --light-bg: #f9f9f9;
   --text-gray: #525252;
+  --bg-md-gray: #6e6e6e;
+  --heading-color: #84a7ff;
 }
 
 #root {
@@ -287,6 +289,7 @@ li {
     overflow-x: scroll;
     overflow-y: hidden;
     gap: 2rem;
+    padding: 0 1rem;
 
     &::-webkit-scrollbar {
       display: none;
@@ -299,6 +302,11 @@ li {
       background: var(--bg-light-gray);
       position: relative;
       padding: 2rem !important;
+      transition: 0.3s;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
 
       & .icon {
         margin-top: -10rem;
@@ -317,13 +325,70 @@ li {
           background: var(--dark-blue);
           color: var(--white);
           font-size: 2.8rem;
+          border: 3px solid var(--white);
         }
+      }
+
+      &:hover {
+        scale: 1.046;
+        background-color: var(--dark-blue);
+        color: var(--white);
       }
     }
   }
 }
 
 /***** End Samriddh Kendra works Section *****/
+
+/* ---------------------------------------------------- */
+
+/***** Footer Section *****/
+
+.footer {
+  background-color: var(--dark-blue);
+  height: fit-content;
+  padding: 7rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-heading {
+  color: var(--heading-color);
+  font-size: 2.4rem;
+}
+.pera {
+  display: block;
+}
+.highlight {
+  padding: 0.5rem 0.7rem;
+  background: #000;
+  color: yellow;
+  border: none;
+}
+
+.social-media-icons {
+  & .img-fluid {
+    width: 6rem;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+
+    &:hover {
+      scale: 1.015;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+  }
+}
+
+/***** End Footer Section *****/
 
 /***** Responsiveness Section *****/
 
@@ -385,6 +450,9 @@ li {
         padding: 4rem;
       }
     }
+  }
+  .pera {
+    display: none;
   }
 }
 @media screen and (width < 488px) {

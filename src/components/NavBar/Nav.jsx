@@ -44,16 +44,22 @@ const Nav = () => {
             </li>
             <button className="btn btn-outline-dark fs-3 px-4">Login</button>
           </ul>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon fs-2"></span>
-          </button>
+
+          <div className="d-lg-none d-flex align-items-center gap-5">
+            <button className="btn btn-outline-dark fs-3 px-4 sign_in">
+              Sign in
+            </button>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon fs-2"></span>
+            </button>
+          </div>
           <div
             className="offcanvas offcanvas-end slider p-2"
             tabIndex="-1"

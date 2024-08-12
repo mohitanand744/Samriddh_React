@@ -8,11 +8,12 @@ const Home = () => {
     <div className="Home">
       <section className="container-fluid mt-15 section_1">
         <div className="container">
-          <div className="row align-items-center justify-content-xl-between justify-content-lg-center  justify-content-md-center justify-content-center gap-2">
-          
+          <div className="row align-items-center justify-content-xl-around justify-content-lg-center  justify-content-md-center justify-content-center gap-2">
             <div className="col-xl-5  col-lg-6 col-md-12 text-lg-start text-center ">
-              <h1 className="title-font fs-55">
-                <span className="text-body-secondary">Bridging the gap</span>{" "}
+              <h1 className="title-font fw-semibold fs-55">
+                <span className="text-body-secondary fw-medium">
+                  Bridging the gap
+                </span>{" "}
                 between borrower and Lenders
               </h1>
               <p className="fs-30 mt-5 mb-5 text-light-gray">
@@ -165,6 +166,53 @@ const Home = () => {
                 }
                 steps={"4"}
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ----------------------------------------------------- */}
+
+      <section className="section_6">
+        <header className="container mb-5">
+          <Title first_text="" span_text="Recognitions" last_text="" />
+        </header>
+
+        <div className="recognitions container-fluid">
+          <div className="container">
+            <div className="Logo-slider">
+              <div className="company-Logo col-3">
+                <img
+                  src="./wadhwanifoundation_logo.webp"
+                  alt=""
+                  className="img-fluid "
+                />
+              </div>
+              <div className="company-Logo col-3">
+                <img src="./STPI Logo 1.webp" alt="" className="img-fluid " />
+              </div>
+              <div className="company-Logo col-3">
+                <img
+                  src="./Bihar Say Logo.webp"
+                  alt=""
+                  className="img-fluid "
+                />
+              </div>
+              <div className="company-Logo col-3">
+                <img
+                  src="./Startup India Logo.webp"
+                  alt=""
+                  className="img-fluid "
+                />
+              </div>
+
+              <div className="company-Logo col-3">
+                <img
+                  src="./startup Bihar Logo 1.webp"
+                  alt=""
+                  className="img-fluid "
+                />
+              </div>
             </div>
           </div>
         </div>

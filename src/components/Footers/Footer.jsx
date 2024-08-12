@@ -21,9 +21,9 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-12 col-lg-9 order-md-last order-sm-first order-first ">
+          <div className=" col-md-12 col-lg-9 col-12 order-md-last order-sm-first order-first ">
             <div className="d-flex flex-sm-wrap flex-wrap justify-content-sm-center justify-content-center gap-5  gap-3">
-              <div className=" col-sm-6 col-md-2 col-lg-2">
+              <div className=" col-sm-2 col-md-2 col-lg-2">
                 <h1 className="footer-heading">Platform</h1>
                 <ul className="list-unstyled">
                   <li className="mt-4">
@@ -48,7 +48,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className=" col-sm-6 col-md-2 col-lg-2 ">
+              <div className=" col-sm-2 col-md-2 col-lg-2 ">
                 <h1 className="footer-heading">About</h1>
                 <ul className="list-unstyled">
                   <li className="mt-4">
@@ -73,7 +73,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className=" col-sm-6 col-md-2 col-lg-2">
+              <div className=" col-sm-2 col-md-2 col-lg-2">
                 <h1 className="footer-heading">Information</h1>
                 <ul className="list-unstyled">
                   <li className="mt-4">
@@ -99,7 +99,7 @@ const Footer = () => {
                 </ul>
               </div>
 
-              <div className=" col-sm-6 col-md-2 col-lg-2">
+              <div className=" col-sm-2 col-md-2 col-lg-2">
                 <h1 className="footer-heading">Tools</h1>
                 <ul className="list-unstyled">
                   <li className="mt-4">

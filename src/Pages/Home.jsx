@@ -8,8 +8,8 @@ const Home = () => {
     <div className="Home">
       <section className="container-fluid mt-15 section_1">
         <div className="container">
-          <div className="row align-items-center justify-content-xl-around justify-content-lg-center  justify-content-md-center justify-content-center gap-2">
-            <div className="col-xl-5  col-lg-6 col-md-12 text-lg-start text-center ">
+          <div className="row align-items-center justify-content-xl-around justify-content-lg-center  justify-content-md-center justify-content-center">
+            <div className="col-xl-5  col-lg-6 col-md-6 col-12 text-lg-start text-center ">
               <h1 className="title-font fw-semibold fs-55">
                 <span className="text-body-secondary fw-medium">
                   Bridging the gap
@@ -20,7 +20,7 @@ const Home = () => {
                 Our mission is to connect rural customers with reliable services
               </p>
             </div>
-            <div className="image_Container col-xl-7 col-lg-6 col-md-12">
+            <div className="image_Container col-xl-7 col-lg-6 col-md-6 col-12">
               <img src="./Home_img_1.webp" className="img-fluid" />
             </div>
           </div>
@@ -42,8 +42,8 @@ const Home = () => {
           <div className="row justify-content-md-center justify-content-center align-items-center">
             <div className="  col-xl-7 col-lg-6 col-md-12 col-sm-12 ">
               <div className="image_container d-flex flex-column align-items-center p-5">
-                <img className="img-fluid" src="./LOAN.webp" />
-                <img className="img-fluid" src="./Loan_img_1.webp" />
+                <img className="img-fluid loan" src="./LOAN.webp" />
+                <img className="img-fluid loan2" src="./Loan_img_1.webp" />
               </div>
             </div>
             <div className="  col-xl-5 col-lg-6 col-md-10 col-sm-10  ">
@@ -83,8 +83,14 @@ const Home = () => {
             </div>
             <div className="  col-xl-7 col-lg-6 col-md-12 col-sm-12 order-lg-last order-md-first order-first">
               <div className="image_container d-flex flex-column align-items-center p-5 ">
-                <img className="img-fluid" src="./Insaurance2.webp" />
-                <img className="img-fluid" src="./Insaurance.webp" />
+                <img
+                  className="img-fluid insaurance1"
+                  src="./Insaurance2.webp"
+                />
+                <img
+                  className="img-fluid insaurance2"
+                  src="./Insaurance.webp"
+                />
               </div>
             </div>
           </div>
@@ -228,7 +234,7 @@ const Home = () => {
             last_text=" - We work only with best!"
           />
         </header>
-
+        <hr />
         <div className="trustedFinancialPartners">
           <div className="container">
             <div className="row text-start align-items-center ">
@@ -317,6 +323,83 @@ const Home = () => {
               </div>{" "}
               <div className="image-container col-lg-2  col-md-3 col-4 ">
                 <img className="img-fluid" src="Finnable Logo.webp" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+      </section>
+
+      <section className="section_8">
+        <header className="container mb-5">
+          <Title
+            first_text="What does "
+            span_text="Partners & Customers"
+            last_text="say about us?"
+          />
+        </header>
+
+        <div className="partners-Customers container-fluid">
+          <div className="container">
+            <div className="d-flex justify-content-lg-between align-items-center flex-md-column flex-column justify-content-md-center">
+              <div className="ratings-container col-xl-4 col-lg-4  mb-md-5 mb-5 d-flex justify-content-center ">
+                <div className=" text-center rating-card d-flex flex-column align-items-center ">
+                  <div className="img-container">
+                    <img src="ratings.webp" alt="" />
+                  </div>
+                  <p className="fs-3 text-white font-poppins mt-4">
+                    Our Partners
+                  </p>
+
+                  <div className=" ratings mb-5">
+                    <span className="text-war fs-3 mx-1">5.0</span>{" "}
+                    <img src="./star.png" alt="rating" />
+                    <img src="./star.png" alt="rating" />
+                    <img src="./star.png" alt="rating" />
+                    <img src="./star.png" alt="rating" />
+                    <img src="./star.png" alt="rating" />
+                  </div>
+                  <div className="slider-btn d-flex gap-5 justify-content-center align-items-center mt-2 ">
+                    <button className=" btn btn-primary slide">
+                      <img src="./Arrow left.png" alt="" />
+                    </button>
+                    <button className=" btn btn-primary slide">
+                      <img src="./Arrow right.png" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className=" reviews-container col-lg-8 col-md-8 col-12">
+                <div className="reviews">
+                  <div className="col-lg-4 col-md-6 col-6 bg-white review-card rounded-top-5 d-flex flex-column justify-content-between">
+                    <div className="text">
+                      <h2 className="title-font text-dark fw-bold">
+                        Top notch team, top notch product
+                      </h2>
+                      <p className="font-inter fs-4 text-gray mt-5">
+                        Metaforms has been a gamechanger in our journey of
+                        optimising our user funnels. The level of attention to
+                        detail the team brings with pro-activeness in
+                        understanding the nuances of business is exemplary. 
+                      </p>
+                    </div>
+                    <div className="profile-footer d-flex align-items-center">
+                      <img
+                        className="img-fluid avatar mr-4"
+                        src="./avtar.png"
+                        alt=""
+                      />
+                      <div className="d-flex flex-column gap-2">
+                        <p className="fs-2 font-poppins fw-semibold ">
+                          Apoorva
+                        </p>
+                        <p className="fs-4 font-poppins">Porter</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-6  bg-white review-card rounded-4"></div>
+                </div>
               </div>
             </div>
           </div>

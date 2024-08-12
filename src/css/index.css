@@ -37,6 +37,10 @@ html {
   margin: 10rem 0;
 }
 
+.mr-4 {
+  margin-right: 4rem;
+}
+
 .mb-8 {
   margin-bottom: 8rem !important;
 }
@@ -191,7 +195,7 @@ li {
   height: 100%;
 
   & .image_Container {
-    width: 58rem;
+    width: 57rem;
 
     & img {
       width: 100%;
@@ -233,10 +237,10 @@ li {
   background: var(--bg-light-gray);
 
   & .image_container {
-    & .loan {
+    & .insaurance1 {
       width: 45rem;
     }
-    & .loan2 {
+    & .insaurance2 {
       width: 50rem;
     }
   }
@@ -403,19 +407,123 @@ li {
 
 /***** End recognitions Section *****/
 
+/* ---------------------------------------------------- */
+
 /***** Trusted Financial Partners Section *****/
 
 .section_7 {
-  & .image-container {
-    text-align: center;
+  & .trustedFinancialPartners {
+    padding: 5rem;
+    & .image-container {
+      text-align: center;
+      padding: 2rem;
 
-    & img {
-      width: 11rem;
+      & img {
+        width: 14rem;
+      }
     }
   }
 }
 
 /***** End Trusted Financial Partners Section *****/
+
+/* ---------------------------------------------------- */
+
+/***** partnersCustomers Section *****/
+
+.section_8 {
+  & .partners-Customers {
+    background: var(--dark-blue);
+    height: fit-content;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .img-container {
+      width: 18rem;
+      height: 18rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #0000008a;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+
+      & img {
+        width: 17rem;
+      }
+    }
+
+    & .ratings {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+
+      img {
+        width: 4rem;
+        background: #0000007a;
+        padding: 1rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }
+    }
+
+    & .slide {
+      width: 5.5rem;
+      height: 5.5rem;
+      padding: 1rem !important;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+
+    & .reviews-container {
+      & .reviews {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        overflow-y: hidden;
+        overflow-x: scroll;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+    }
+
+    & .review-card {
+      width: 35rem;
+      height: 44rem;
+
+      & .text {
+        padding: 4rem;
+      }
+
+      & .profile-footer {
+        width: 100%;
+        height: 10rem;
+        background: var(--bg-light-gray);
+      }
+
+      & .avatar {
+        width: 11rem;
+      }
+    }
+  }
+}
+
+/***** End partnersCustomers Section *****/
 
 /***** Footer Section *****/
 

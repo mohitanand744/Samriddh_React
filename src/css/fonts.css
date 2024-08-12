@@ -45,3 +45,11 @@
   font-size: 1.8rem;
 }
 /***** End Font size Section *****/
+
+/***** font-color Section *****/
+
+.text-war {
+  color: #ffd900 !important;
+}
+
+/***** End font-color Section *****/

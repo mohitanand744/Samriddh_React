@@ -217,6 +217,111 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* ----------------------------------------------------- */}
+
+      <section className="section_7">
+        <header className="container mb-5">
+          <Title
+            first_text="Our"
+            span_text="Trusted Financial Partners"
+            last_text=" - We work only with best!"
+          />
+        </header>
+
+        <div className="trustedFinancialPartners">
+          <div className="container">
+            <div className="row text-start align-items-center ">
+              <div className="image-container col-lg-2  col-md-3 col-4">
+                <img
+                  className="img-fluid"
+                  src="Mannapuram Finance Logo.webp"
+                  alt=""
+                />
+              </div>
+              <div className="image-container col-lg-2  col-md-3 col-4 ">
+                <img className="img-fluid" src="Lendingkart Logo.webp" alt="" />
+              </div>{" "}
+              <div className="image-container col-lg-2  col-md-3 col-4 ">
+                <img
+                  className="img-fluid"
+                  src="Jana small finance Bank Logo.webp"
+                  alt=""
+                />
+              </div>{" "}
+              <div className="image-container col-lg-2  col-md-3 col-4 ">
+                <img
+                  className="img-fluid"
+                  src="Bank of Baroda Logo.webp"
+                  alt=""
+                />
+              </div>{" "}
+              <div className="image-container col-lg-2  col-md-3 col-4 ">
+                <img
+                  className="img-fluid"
+                  src="Bajaj Finserve Logo.webp"
+                  alt=""
+                />
+              </div>{" "}
+              <div className="image-container col-lg-2  col-md-3 col-4 ">
+                <img
+                  className="img-fluid"
+                  src="Bandhan Bank Logo.webp"
+                  alt=""
+                />
+              </div>{" "}
+              <div className="image-container col-lg-2  col-md-3 col-4 ">
+                <img
+                  className="img-fluid"
+                  src="Utakrsh small finance Bank Logo.webp"
+                  alt=""
+                />
+              </div>{" "}
+              <div className="image-container col-lg-2  col-md-3 col-4 ">
+                <img className="img-fluid" src="Union Bank Logo.webp" alt="" />
+              </div>{" "}
+              <div className="image-container col-lg-2  col-md-3 col-4 ">
+                <img className="img-fluid" src="Yes Bank Logo.webp" alt="" />
+              </div>{" "}
+              <div className="image-container col-lg-2  col-md-3 col-4 ">
+                <img className="img-fluid" src="SMFG India Logo.webp" alt="" />
+              </div>{" "}
+              <div className="image-container col-lg-2  col-md-3 col-4 ">
+                <img className="img-fluid" src="Faircent Logo.webp" alt="" />
+              </div>{" "}
+              <div className="image-container col-lg-2  col-md-3 col-4 ">
+                <img className="img-fluid" src="HDFC Bank Logo.webp" alt="" />
+              </div>{" "}
+              <div className="image-container col-lg-2  col-md-3 col-4 ">
+                <img
+                  className="img-fluid"
+                  src="Piramal finance Logo.webp"
+                  alt=""
+                />
+              </div>{" "}
+              <div className="image-container col-lg-2  col-md-3 col-4 ">
+                <img
+                  className="img-fluid"
+                  src="IIFL Finance Logo.webp"
+                  alt=""
+                />
+              </div>{" "}
+              <div className="image-container col-lg-2  col-md-3 col-4 ">
+                <img className="img-fluid" src="Chola Logo.webp" alt="" />
+              </div>{" "}
+              <div className="image-container col-lg-2  col-md-3 col-4 ">
+                <img className="img-fluid" src="Paysense Logo.webp" alt="" />
+              </div>{" "}
+              <div className="image-container col-lg-2  col-md-3 col-4 ">
+                <img className="img-fluid" src="Indian Bank Logo.webp" alt="" />
+              </div>{" "}
+              <div className="image-container col-lg-2  col-md-3 col-4 ">
+                <img className="img-fluid" src="Finnable Logo.webp" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

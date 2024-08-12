@@ -403,6 +403,20 @@ li {
 
 /***** End recognitions Section *****/
 
+/***** Trusted Financial Partners Section *****/
+
+.section_7 {
+  & .image-container {
+    text-align: center;
+
+    & img {
+      width: 11rem;
+    }
+  }
+}
+
+/***** End Trusted Financial Partners Section *****/
+
 /***** Footer Section *****/
 
 .footer {

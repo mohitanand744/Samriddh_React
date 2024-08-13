@@ -42,11 +42,13 @@ const Nav = () => {
                 Become Our Partner
               </NavLink>
             </li>
-            <button className="btn btn-outline-dark fs-3 px-4">Login</button>
+            <button className="btn btn-outline-dark fs-2 px-4 border-none">
+              Login
+            </button>
           </ul>
 
           <div className="d-lg-none d-flex align-items-center gap-5">
-            <button className="btn btn-outline-dark fs-3 px-4 sign_in">
+            <button className="btn btn-outline-dark fs-2 px-4 sign_in border-none">
               Sign in
             </button>
             <button

@@ -136,6 +136,11 @@ li {
   border-top-left-radius: 3rem;
   border-bottom-left-radius: 3rem;
 }
+
+.rounded-top-6 {
+  border-top-left-radius: 5rem !important;
+  border-top-right-radius: 5rem !important;
+}
 .round-3 {
   border-radius: 3rem !important;
   -webkit-border-radius: 3rem !important;
@@ -494,7 +499,7 @@ li {
       align-items: center;
       & .reviews {
         display: flex;
-        gap: 2rem;
+        gap: 4rem;
         align-items: center;
         overflow-y: hidden;
         overflow-x: scroll;
@@ -506,8 +511,29 @@ li {
     }
 
     & .review-card {
-      width: 35rem;
+      width: 34rem;
       height: 44rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      & .top-container {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        & .img {
+          & img {
+            width: 100%;
+            border-radius: 1rem;
+            -webkit-border-radius: 1rem;
+            -moz-border-radius: 1rem;
+            -ms-border-radius: 1rem;
+            -o-border-radius: 1rem;
+          }
+        }
+      }
 
       & .text {
         padding: 4rem;
@@ -520,7 +546,7 @@ li {
       }
 
       & .avatar {
-        width: 11rem;
+        width: 10rem;
       }
     }
   }
@@ -636,7 +662,7 @@ li {
 
 @media screen and (width < 748px) {
   html {
-    font-size: 45%;
+    font-size: 44%;
   }
 
   .section_2 {
@@ -651,6 +677,11 @@ li {
   }
 }
 
+@media screen and (width < 548px) {
+  .footer {
+    background: linear-gradient(200deg, #000000 0%, #003c79 100%);
+  }
+}
 /***** End Responsiveness Section *****/
 
 /***** Custom Scroll Bar *****/

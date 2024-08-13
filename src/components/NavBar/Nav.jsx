@@ -123,6 +123,10 @@ const Nav = () => {
                 </li>
               </ul>
             </div>
+            <div className="button-container">
+              <button className="btn btn-dark-blue fs-3">Login</button>
+              <button className="btn btn-dark-blue fs-3"> Sign Up</button>
+            </div>
           </div>
         </div>
       </nav>

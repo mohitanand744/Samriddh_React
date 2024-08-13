@@ -159,6 +159,14 @@ li {
   }
 }
 
+.loan_container,
+.insaurance {
+  .row > * {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
 /***** End Global Css *****/
 
 /* ---------------------------------------------------- */
@@ -177,15 +185,21 @@ li {
 
 .slider {
   width: 38rem !important;
-  background-color: transparent !important;
-  backdrop-filter: blur(8px);
 }
 
-.loan_container,
-.insaurance {
-  .row > * {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+
+  & .btn-dark-blue {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
   }
 }
 

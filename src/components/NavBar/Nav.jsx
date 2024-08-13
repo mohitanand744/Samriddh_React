@@ -7,7 +7,7 @@ const Nav = () => {
       <nav className="navbar bg-body-tertiary fixed-top nav b-shadow">
         <div className="container-fluid font-poppins">
           <NavLink className={"navbar-brand"}>
-            <h1 className="fs-30 fw-bold newsreader">Samriddh</h1>
+            <h1 className="fs-30 fw-bolder mt-2 newsreader">Samriddh</h1>
           </NavLink>
           <ul className="navLinks">
             <li className="nav-item ">
@@ -49,7 +49,7 @@ const Nav = () => {
 
           <div className="d-lg-none d-flex align-items-center gap-5">
             <li className="nav-item">
-              <a className="btn btn-outline-dark px-4 ">Sign Up</a>
+              <a className="btn btn-outline-dark px-4 py-1 hover ">Sign Up</a>
             </li>
             <button
               className="navbar-toggler"

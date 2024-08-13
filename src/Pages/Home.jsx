@@ -345,7 +345,7 @@ const Home = () => {
         <div className="partners-Customers py-5 container-fluid">
           <div className="container py-5">
             <div className="d-flex justify-content-lg-between align-items-center flex-lg-row flex-md-column flex-column justify-content-md-center">
-              <div className="ratings-container col-xl-3 col-lg-4 col-md-12 col-12  mb-md-5 mb-5 d-flex justify-content-center ">
+              <div className="ratings-container col-xl-3 col-lg-4 col-md-12 col-12  mb-md-5 mb-5 d-flex justify-content-lg-start justify-content-md-center justify-content-center ">
                 <div className=" text-center rating-card d-flex flex-column align-items-center ">
                   <div className="img-container">
                     <img src="ratings.webp" alt="" />
@@ -476,8 +476,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* ----------------------------------------------------- */}
-
       <section className="section_8">
         <header className="container mb-5">
           <Title
@@ -589,7 +587,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="ratings-container col-xl-3 col-lg-4 col-md-12 col-12  mb-md-5 mb-5 d-flex justify-content-center order-lg-last order-md-first order-first">
+              <div className="ratings-container col-xl-3 col-lg-4 col-md-12 col-12  mb-md-5 mb-5 d-flex justify-content-lg-end justify-content-md-center justify-content-center order-lg-last order-md-first order-first">
                 <div className=" text-center rating-card d-flex flex-column align-items-center ">
                   <div className="img-container">
                     <img
@@ -624,6 +622,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* ----------------------------------------------------- */}
     </div>
   );
 };

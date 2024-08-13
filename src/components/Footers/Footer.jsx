@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer mt-5 font-inter">
       <div className="container">
         <div className="row justify-content-md-center justify-content-between">
-          <div className=" col-md-8 col-lg-3 col-xl-3">
+          <div className=" col-xl-3 col-lg-3 col-md-8 col-12">
             <div className="row flex-column gap-8 text-md-center order-md-first  order-sm-last order-last">
               <div className="pera fs-18  text-light-gray text-lg-start mt-sm-5">
                 <span className="fw-bold text-white">SAMRIDDH KENDRA</span> is
@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
           <div className=" col-md-12 col-lg-9 col-12 order-md-last order-sm-first order-first ">
             <div className="d-flex flex-sm-wrap flex-wrap justify-content-sm-center justify-content-center gap-5  gap-3">
-              <div className=" col-sm-2 col-md-2 col-lg-2">
+              <div className="col-lg-2 col-md-3 col-sm-3 col-5">
                 <h1 className="footer-heading">Platform</h1>
                 <ul className="list-unstyled">
                   <li className="mt-4">
@@ -48,7 +48,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className=" col-sm-2 col-md-2 col-lg-2 ">
+              <div className="col-lg-2 col-md-3 col-sm-3 col-5 ">
                 <h1 className="footer-heading">About</h1>
                 <ul className="list-unstyled">
                   <li className="mt-4">
@@ -73,7 +73,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className=" col-sm-2 col-md-2 col-lg-2">
+              <div className="col-lg-2 col-md-3 col-sm-3 col-5">
                 <h1 className="footer-heading">Information</h1>
                 <ul className="list-unstyled">
                   <li className="mt-4">
@@ -99,7 +99,7 @@ const Footer = () => {
                 </ul>
               </div>
 
-              <div className=" col-sm-2 col-md-2 col-lg-2">
+              <div className=" col-lg-2 col-md-3 col-sm-3 col-5">
                 <h1 className="footer-heading">Tools</h1>
                 <ul className="list-unstyled">
                   <li className="mt-4">
@@ -109,7 +109,7 @@ const Footer = () => {
                   </li>
                   <li className="mt-4">
                     <a href="#" className="text-white">
-                      Balance transfer calculator
+                      Balance Transfer Calculator
                     </a>
                   </li>
                 </ul>

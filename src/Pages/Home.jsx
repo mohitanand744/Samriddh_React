@@ -342,8 +342,8 @@ const Home = () => {
 
         <div className="partners-Customers container-fluid">
           <div className="container">
-            <div className="d-flex justify-content-lg-between align-items-center flex-md-column flex-column justify-content-md-center">
-              <div className="ratings-container col-xl-4 col-lg-4  mb-md-5 mb-5 d-flex justify-content-center ">
+            <div className="d-flex justify-content-lg-between align-items-center flex-lg-row flex-md-column flex-column justify-content-md-center">
+              <div className="ratings-container col-lg-4 col-md-12 col-12  mb-md-5 mb-5 d-flex justify-content-center ">
                 <div className=" text-center rating-card d-flex flex-column align-items-center ">
                   <div className="img-container">
                     <img src="ratings.webp" alt="" />
@@ -370,7 +370,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className=" reviews-container col-lg-8 col-md-8 col-12">
+              <div className=" reviews-container col-lg-8 col-md-12 col-12 ">
                 <div className="reviews">
                   <div className="col-lg-4 col-md-6 col-6 bg-white review-card rounded-top-5 d-flex flex-column justify-content-between">
                     <div className="text">

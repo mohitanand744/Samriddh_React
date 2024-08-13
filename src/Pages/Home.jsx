@@ -476,14 +476,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="section_8">
-        <header className="container mb-5">
-          <Title
-            first_text="What does "
-            span_text="Partners & Customers"
-            last_text="say about us?"
-          />
-        </header>
+      <section className="section_8 mt-3">
 
         <div className="partners-Customers py-5 container-fluid">
           <div className="container py-5">

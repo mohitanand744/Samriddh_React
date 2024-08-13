@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container">
         <div className="row justify-content-md-center align-items-center justify-content-between">
           <div className=" col-xl-3 col-lg-3 col-md-8 col-12">
-            <div className="row flex-column gap-8 text-md-center order-md-first mt-lg-5 mt-5 order-sm-last order-last">
+            <div className="row flex-column gap-8 text-md-center order-lg-first order-md-first mt-lg-5 mt-5 order-sm-last order-last">
               <div className="pera fs-18  text-light-gray text-lg-start mt-sm-5">
                 <span className="fw-bold text-white">SAMRIDDH KENDRA</span> is
                 an early stage Fi Tech player working in the field of Finance
@@ -21,7 +21,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className=" col-md-12 col-lg-9 col-12  order-sm-first order-first ">
+          <div className=" col-md-12 col-lg-9 col-12 order-lg-last  order-sm-first order-first ">
             <div className="d-flex flex-sm-wrap flex-wrap justify-content-sm-center justify-content-center gap-5  gap-3">
               <div className="col-lg-2 col-md-3 col-sm-3 col-5">
                 <h1 className="footer-heading">Platform</h1>

@@ -497,6 +497,7 @@ li {
       display: flex;
       justify-content: center;
       align-items: center;
+
       & .reviews {
         display: flex;
         gap: 4rem;

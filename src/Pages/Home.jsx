@@ -331,6 +331,8 @@ const Home = () => {
         <hr />
       </section>
 
+      {/* ----------------------------------------------------- */}
+
       <section className="section_8">
         <header className="container mb-5">
           <Title
@@ -420,6 +422,105 @@ const Home = () => {
                         <p className="fs-4 font-poppins">Porter</p>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ----------------------------------------------------- */}
+
+      <section className="section_8">
+        <header className="container mb-5">
+          <Title
+            first_text="What does "
+            span_text="Partners & Customers"
+            last_text="say about us?"
+          />
+        </header>
+
+        <div className="partners-Customers container-fluid">
+          <div className="container">
+            <div className="d-flex justify-content-xl-start justify-content-lg-between align-items-center flex-lg-row flex-md-column flex-column justify-content-md-center">
+              <div className=" reviews-container col-xl-9 col-lg-8 col-md-12 col-12 order-md-last order-last">
+                <div className="reviews">
+                  <div className="col-lg-4 col-md-6 col-6 bg-white review-card rounded-top-6 d-flex flex-column justify-content-between">
+                    <div className="text">
+                      <h2 className="title-font text-dark fw-bold">
+                        Top notch team, top notch product
+                      </h2>
+                      <p className="font-inter fs-4 text-gray mt-5">
+                        Metaforms has been a gamechanger in our journey of
+                        optimising our user funnels. The level of attention to
+                        detail the team brings with pro-activeness in
+                        understanding the nuances of business is exemplary. 
+                      </p>
+                    </div>
+                    <div className="profile-footer d-flex align-items-center">
+                      <img
+                        className="img-fluid avatar mr-4"
+                        src="./avtar.png"
+                        alt=""
+                      />
+                      <div className="d-flex flex-column gap-2">
+                        <p className="fs-2 font-poppins fw-semibold ">
+                          Apoorva
+                        </p>
+                        <p className="fs-4 font-poppins">Porter</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-6  bg-white review-card rounded-4">
+                    <div className="top-container">
+                      <div className="img">
+                        <img src="./empty-img.webp" alt="" />
+                      </div>
+                      <h2 className="title-font text-dark fw-bold mx-4">
+                        All necessary integrations were available.
+                      </h2>
+                    </div>
+                    <div className="profile-footer d-flex align-items-center">
+                      <img
+                        className="img-fluid avatar mr-4"
+                        src="./avtar.png"
+                        alt=""
+                      />
+                      <div className="d-flex flex-column gap-2">
+                        <p className="fs-2 font-poppins fw-semibold ">
+                          Apoorva
+                        </p>
+                        <p className="fs-4 font-poppins">Porter</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="ratings-container col-xl-3 col-lg-4 col-md-12 col-12  mb-md-5 mb-5 d-flex justify-content-center order-md-first order-first">
+                <div className=" text-center rating-card d-flex flex-column align-items-center ">
+                  <div className="img-container">
+                    <img src="ratings.webp" alt="" />
+                  </div>
+                  <p className="fs-3 text-white font-poppins mt-4">
+                    Our Partners
+                  </p>
+
+                  <div className=" ratings mb-5">
+                    <span className="text-war fs-3 mx-1">5.0</span>{" "}
+                    <img src="./star.png" alt="rating" />
+                    <img src="./star.png" alt="rating" />
+                    <img src="./star.png" alt="rating" />
+                    <img src="./star.png" alt="rating" />
+                    <img src="./star.png" alt="rating" />
+                  </div>
+                  <div className="slider-btn d-flex gap-5 justify-content-center align-items-center mt-2 ">
+                    <button className=" btn btn-primary slide">
+                      <img src="./Arrow left.png" alt="" />
+                    </button>
+                    <button className=" btn btn-primary slide">
+                      <img src="./Arrow right.png" alt="" />
+                    </button>
                   </div>
                 </div>
               </div>

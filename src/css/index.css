@@ -181,9 +181,12 @@ li {
   backdrop-filter: blur(8px);
 }
 
-.row {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+.loan_container,
+.insaurance {
+  .row > * {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }
 
 /***** End Sidebar Section *****/
@@ -249,7 +252,6 @@ li {
 /***** insaurance Container Section *****/
 
 .insaurance {
-  width: 100% !important;
   background: var(--bg-light-gray);
 
   & .image_container {

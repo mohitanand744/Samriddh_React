@@ -67,8 +67,8 @@ const Home = () => {
 
       <section className="section_3 mt-3">
         <div className="container-fluid insaurance py-7">
-          <div className="row justify-content-md-center justify-content-center align-items-center">
-            <div className="  col-xl-5 col-lg-6 col-md-10 col-sm-10  order-lg-last  order-md-last order-last">
+          <div className="row justify-content-md-center justify-content-center">
+            <div className="  col-xl-5 col-lg-6 col-md-10 col-sm-10 col-10  order-lg-last  order-md-last order-last">
               <div className="text_container text-white d-flex flex-column justify-content-center align-items-start round ">
                 <p className="fs-36">Insaurance</p>
                 <p className="font-inter fs-24">
@@ -116,7 +116,7 @@ const Home = () => {
             </div>
             <div className="col-xl-6 col-lg-6 col-md-12 col-12">
               <div className="image_container text-xl-end text-center mt-md-5 mt-5">
-                <img className="img-fluid" src="./Mobile.webp" alt="" />
+                <img className="img-fluid mobile" src="./Mobile.webp" alt="" />
               </div>
             </div>
           </div>

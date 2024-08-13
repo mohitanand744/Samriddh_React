@@ -15,7 +15,7 @@ const Card = ({ title, description, steps, image }) => {
 
           <div className="steps-container text-center d-flex flex-column align-items-center">
             <p className="fs-2 fw-bold font-inter">STEP</p>
-            <p className="steps">{steps}</p>
+            <div className="steps fw-semibold">{steps}</div>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ const Nav = () => {
       <nav className="navbar bg-body-tertiary fixed-top nav b-shadow">
         <div className="container-fluid font-poppins">
           <NavLink className={"navbar-brand"}>
-            <img src="./Samriddh.webp" alt="" />
+            <h1 className="fs-30 fw-bold newsreader">Samriddh</h1>
           </NavLink>
           <ul className="navLinks">
             <li className="nav-item ">
@@ -42,15 +42,15 @@ const Nav = () => {
                 Become Our Partner
               </NavLink>
             </li>
-            <button className="btn btn-outline-dark fs-2 px-4 border-none">
-              Login
-            </button>
+            <li className="nav-item">
+              <a className="btn btn-outline-dark px-4 py-1 hover">Login</a>
+            </li>
           </ul>
 
           <div className="d-lg-none d-flex align-items-center gap-5">
-            <button className="btn btn-outline-dark fs-2 px-4 sign_in border-none">
-              Sign in
-            </button>
+            <li className="nav-item">
+              <a className="btn btn-outline-dark px-4 ">Sign Up</a>
+            </li>
             <button
               className="navbar-toggler"
               type="button"

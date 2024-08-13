@@ -66,7 +66,7 @@ const Home = () => {
       {/* ----------------------------------------------------- */}
 
       <section className="section_3 mt-3">
-        <div className="container-fluid insaurance py-7">
+        <div className="container-fluid insaurance">
           <div className="row justify-content-md-center justify-content-center">
             <div className="  col-xl-5 col-lg-6 col-md-10 col-sm-10 col-10  order-lg-last  order-md-last order-last">
               <div className="text_container text-white d-flex flex-column justify-content-center align-items-start round ">
@@ -82,7 +82,7 @@ const Home = () => {
               </div>
             </div>
             <div className="  col-xl-7 col-lg-6 col-md-12 col-sm-12 order-lg-last order-md-first order-first">
-              <div className="image_container d-flex flex-column align-items-center p-5 ">
+              <div className="image_container d-flex flex-column align-items-center p-5  ">
                 <img
                   className="img-fluid insaurance1"
                   src="./Insaurance2.webp"
@@ -139,7 +139,7 @@ const Home = () => {
             establishing the Samriddh Sathi for effective implementation.
           </p>
         </header>
-        <div className="container-fluid my-10">
+        <div className="container-fluid my-5">
           <div className="container">
             <div className="card-slider">
               <Card
@@ -342,8 +342,8 @@ const Home = () => {
           />
         </header>
 
-        <div className="partners-Customers container-fluid">
-          <div className="container">
+        <div className="partners-Customers py-5 container-fluid">
+          <div className="container py-5">
             <div className="d-flex justify-content-lg-between align-items-center flex-lg-row flex-md-column flex-column justify-content-md-center">
               <div className="ratings-container col-xl-3 col-lg-4 col-md-12 col-12  mb-md-5 mb-5 d-flex justify-content-center ">
                 <div className=" text-center rating-card d-flex flex-column align-items-center ">
@@ -423,6 +423,52 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
+                  <div className="col-lg-4 col-md-6 col-6  bg-white review-card rounded-4">
+                    <div className="top-container">
+                      <div className="img">
+                        <img src="./empty-img.webp" alt="" />
+                      </div>
+                      <h2 className="title-font text-dark fw-bold mx-4">
+                        All necessary integrations were available.
+                      </h2>
+                    </div>
+                    <div className="profile-footer d-flex align-items-center">
+                      <img
+                        className="img-fluid avatar mr-4"
+                        src="./avtar.png"
+                        alt=""
+                      />
+                      <div className="d-flex flex-column gap-2">
+                        <p className="fs-2 font-poppins fw-semibold ">
+                          Apoorva
+                        </p>
+                        <p className="fs-4 font-poppins">Porter</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-6  bg-white review-card rounded-4">
+                    <div className="top-container">
+                      <div className="img">
+                        <img src="./empty-img.webp" alt="" />
+                      </div>
+                      <h2 className="title-font text-dark fw-bold mx-4">
+                        All necessary integrations were available.
+                      </h2>
+                    </div>
+                    <div className="profile-footer d-flex align-items-center">
+                      <img
+                        className="img-fluid avatar mr-4"
+                        src="./avtar.png"
+                        alt=""
+                      />
+                      <div className="d-flex flex-column gap-2">
+                        <p className="fs-2 font-poppins fw-semibold ">
+                          Apoorva
+                        </p>
+                        <p className="fs-4 font-poppins">Porter</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -441,8 +487,8 @@ const Home = () => {
           />
         </header>
 
-        <div className="partners-Customers container-fluid">
-          <div className="container">
+        <div className="partners-Customers py-5 container-fluid">
+          <div className="container py-5">
             <div className="d-flex justify-content-xl-start justify-content-lg-between align-items-center flex-lg-row flex-md-column flex-column justify-content-md-center">
               <div className=" reviews-container col-xl-9 col-lg-8 col-md-12 col-12 order-md-last order-last">
                 <div className="reviews">
@@ -457,6 +503,52 @@ const Home = () => {
                         detail the team brings with pro-activeness in
                         understanding the nuances of business is exemplary. 
                       </p>
+                    </div>
+                    <div className="profile-footer d-flex align-items-center">
+                      <img
+                        className="img-fluid avatar mr-4"
+                        src="./avtar.png"
+                        alt=""
+                      />
+                      <div className="d-flex flex-column gap-2">
+                        <p className="fs-2 font-poppins fw-semibold ">
+                          Apoorva
+                        </p>
+                        <p className="fs-4 font-poppins">Porter</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-6  bg-white review-card rounded-4">
+                    <div className="top-container">
+                      <div className="img">
+                        <img src="./empty-img.webp" alt="" />
+                      </div>
+                      <h2 className="title-font text-dark fw-bold mx-4">
+                        All necessary integrations were available.
+                      </h2>
+                    </div>
+                    <div className="profile-footer d-flex align-items-center">
+                      <img
+                        className="img-fluid avatar mr-4"
+                        src="./avtar.png"
+                        alt=""
+                      />
+                      <div className="d-flex flex-column gap-2">
+                        <p className="fs-2 font-poppins fw-semibold ">
+                          Apoorva
+                        </p>
+                        <p className="fs-4 font-poppins">Porter</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-6  bg-white review-card rounded-4">
+                    <div className="top-container">
+                      <div className="img">
+                        <img src="./empty-img.webp" alt="" />
+                      </div>
+                      <h2 className="title-font text-dark fw-bold mx-4">
+                        All necessary integrations were available.
+                      </h2>
                     </div>
                     <div className="profile-footer d-flex align-items-center">
                       <img

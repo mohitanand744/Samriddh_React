@@ -481,6 +481,17 @@ li {
     justify-content: center;
     align-items: center;
 
+    & .ratings-container {
+      gap: 4rem;
+      overflow-y: hidden;
+      overflow-x: scroll;
+      width: 28rem;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
     & .img-container {
       width: 18rem;
       height: 18rem;

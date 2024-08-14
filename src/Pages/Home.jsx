@@ -2,6 +2,9 @@ import React from "react";
 import Title from "../components/Titles/Title";
 import Button from "../components/Buttons/Button";
 import Card from "../components/Cards/Card";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 
 const Home = () => {
   return (
@@ -345,32 +348,67 @@ const Home = () => {
         <div className="partners-Customers py-5 container-fluid">
           <div className="container py-5">
             <div className="d-flex justify-content-lg-between align-items-center flex-lg-row flex-md-column flex-column justify-content-md-center">
-              <div className="ratings-container col-xl-3 col-lg-4 col-md-12 col-12  mb-md-5 mb-5 d-flex justify-content-lg-start justify-content-md-center justify-content-center ">
-                <div className=" text-center rating-card d-flex flex-column align-items-center ">
-                  <div className="img-container">
-                    <img src="ratings.webp" alt="" />
-                  </div>
-                  <p className="fs-3 text-white font-poppins mt-4">
-                    Our Partners
-                  </p>
+              <div className="ratings-container  col-xl-3 col-lg-4 col-md-12 col-12  mb-md-5 mb-5 d-flex flex-column justify-content-lg-start justify-content-md-center justify-content-center ">
+                <OwlCarousel
+                  className="owl-carousel owl-theme"
+                  items={1}
+                  loop={true}
+                  dots={false}
+                  autoplay={true}
+                  nav={true}
+                >
+                  <div className=" text-center rating-card d-flex flex-column align-items-center item ">
+                    <div className="img-container">
+                      <img src="ratings.webp" alt="" />
+                    </div>
+                    <p className="fs-3 text-white font-poppins mt-4">
+                      Our Partners
+                    </p>
 
-                  <div className=" ratings mb-5">
-                    <span className="text-war fs-3 mx-1">5.0</span>{" "}
-                    <img src="./star.png" alt="rating" />
-                    <img src="./star.png" alt="rating" />
-                    <img src="./star.png" alt="rating" />
-                    <img src="./star.png" alt="rating" />
-                    <img src="./star.png" alt="rating" />
+                    <div className=" ratings mb-5">
+                      <span className="text-war fs-3 mx-1">5.0</span>{" "}
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                    </div>
                   </div>
-                  <div className="slider-btn d-flex gap-5 justify-content-center align-items-center mt-2 ">
-                    <button className=" btn btn-primary slide">
-                      <img src="./Arrow left.png" alt="" />
-                    </button>
-                    <button className=" btn btn-primary slide">
-                      <img src="./Arrow right.png" alt="" />
-                    </button>
+                  <div className=" text-center rating-card d-flex flex-column align-items-center item ">
+                    <div className="img-container">
+                      <img src="ratings.webp" alt="" />
+                    </div>
+                    <p className="fs-3 text-white font-poppins mt-4">
+                      Our Partners
+                    </p>
+
+                    <div className=" ratings mb-5">
+                      <span className="text-war fs-3 mx-1">5.0</span>{" "}
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                    </div>
                   </div>
-                </div>
+                  <div className=" text-center rating-card d-flex flex-column align-items-center item ">
+                    <div className="img-container">
+                      <img src="ratings.webp" alt="" />
+                    </div>
+                    <p className="fs-3 text-white font-poppins mt-4">
+                      Our Partners
+                    </p>
+
+                    <div className=" ratings mb-5">
+                      <span className="text-war fs-3 mx-1">5.0</span>{" "}
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                    </div>
+                  </div>
+                </OwlCarousel>
               </div>
               <div className=" reviews-container col-xl-9 col-lg-8 col-md-12 col-12 ">
                 <div className="reviews">
@@ -588,35 +626,78 @@ const Home = () => {
                 </div>
               </div>
               <div className="ratings-container col-xl-3 col-lg-4 col-md-12 col-12  mb-md-5 mb-5 d-flex justify-content-lg-end justify-content-md-center justify-content-center order-lg-last order-md-first order-first">
-                <div className=" text-center rating-card d-flex flex-column align-items-center ">
-                  <div className="img-container">
-                    <img
-                      className="img-fluid avatar"
-                      src="avatar-img.webp"
-                      alt=""
-                    />
-                  </div>
-                  <p className="fs-3 text-white font-poppins mt-4">
-                    Our Partners
-                  </p>
+                <OwlCarousel
+                  className="owl-carousel owl-theme"
+                  items={1}
+                  loop={true}
+                  dots={false}
+                  autoplay={true}
+                  nav={true}
+                >
+                  <div className=" text-center rating-card d-flex flex-column align-items-center ">
+                    <div className="img-container">
+                      <img
+                        className="img-fluid avatar"
+                        src="avatar-img.webp"
+                        alt=""
+                      />
+                    </div>
+                    <p className="fs-3 text-white font-poppins mt-4">
+                      Our Partners
+                    </p>
 
-                  <div className=" ratings mb-5">
-                    <span className="text-war fs-3 mx-1">5.0</span>{" "}
-                    <img src="./star.png" alt="rating" />
-                    <img src="./star.png" alt="rating" />
-                    <img src="./star.png" alt="rating" />
-                    <img src="./star.png" alt="rating" />
-                    <img src="./star.png" alt="rating" />
+                    <div className=" ratings mb-5">
+                      <span className="text-war fs-3 mx-1">5.0</span>{" "}
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                    </div>
                   </div>
-                  <div className="slider-btn d-flex gap-5 justify-content-center align-items-center mt-2 ">
-                    <button className=" btn btn-primary slide">
-                      <img src="./Arrow left.png" alt="" />
-                    </button>
-                    <button className=" btn btn-primary slide">
-                      <img src="./Arrow right.png" alt="" />
-                    </button>
+                  <div className=" text-center rating-card d-flex flex-column align-items-center ">
+                    <div className="img-container">
+                      <img
+                        className="img-fluid avatar"
+                        src="avatar-img.webp"
+                        alt=""
+                      />
+                    </div>
+                    <p className="fs-3 text-white font-poppins mt-4">
+                      Our Partners
+                    </p>
+
+                    <div className=" ratings mb-5">
+                      <span className="text-war fs-3 mx-1">5.0</span>{" "}
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                    </div>
                   </div>
-                </div>
+                  <div className=" text-center rating-card d-flex flex-column align-items-center ">
+                    <div className="img-container">
+                      <img
+                        className="img-fluid avatar"
+                        src="avatar-img.webp"
+                        alt=""
+                      />
+                    </div>
+                    <p className="fs-3 text-white font-poppins mt-4">
+                      Our Partners
+                    </p>
+
+                    <div className=" ratings mb-5">
+                      <span className="text-war fs-3 mx-1">5.0</span>{" "}
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                      <img src="./star.png" alt="rating" />
+                    </div>
+                  </div>
+                </OwlCarousel>
               </div>
             </div>
           </div>

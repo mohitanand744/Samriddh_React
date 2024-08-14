@@ -625,7 +625,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="ratings-container col-xl-3 col-lg-4 col-md-12 col-12  mb-md-5 mb-5 d-flex justify-content-lg-end justify-content-md-center justify-content-center order-lg-last order-md-first order-first">
+              <div className="ratings-container col-xl-3 col-lg-4 col-md-12 col-12  mb-md-5 mb-5 d-flex justify-content-lg-end justify-content-md-center justify-content-center order-lg-last order-md-first order-first mx-lg-5 mx-2">
                 <OwlCarousel
                   className="owl-carousel owl-theme"
                   items={1}
@@ -643,7 +643,7 @@ const Home = () => {
                       />
                     </div>
                     <p className="fs-3 text-white font-poppins mt-4">
-                      Our Partners
+                      Our Partner
                     </p>
 
                     <div className=" ratings mb-5">

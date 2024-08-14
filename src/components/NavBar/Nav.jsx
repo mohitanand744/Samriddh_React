@@ -7,7 +7,7 @@ const Nav = () => {
       <nav className="navbar bg-body-tertiary fixed-top nav b-shadow">
         <div className="container-fluid align-items-center  font-poppins">
           <NavLink className={"navbar-brand"}>
-            <h1 className="fs-30 fw-bolder mt-2 newsreader">Samriddh</h1>
+            <h1 className="fs-30 fw-bolder mt-3 newsreader">Samriddh</h1>
           </NavLink>
           <ul className="navLinks">
             <li className="nav-item ">

@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <>
       <nav className="navbar bg-body-tertiary fixed-top nav b-shadow">
-        <div className="container-fluid align-items-center  font-poppins">
+        <div className="container align-items-center  font-poppins">
           <NavLink className={"navbar-brand"}>
             <h1 className="fs-30 fw-bolder mt-3 newsreader">Samriddh</h1>
           </NavLink>

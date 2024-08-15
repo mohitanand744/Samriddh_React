@@ -173,6 +173,7 @@ li {
   align-items: center;
   gap: 3rem;
   justify-content: center;
+  padding-top: 3rem;
 
   & .owl-prev,
   .owl-next {
@@ -188,6 +189,12 @@ li {
     background: var(--btn-bg) !important;
   }
 }
+
+.owl-item {
+  display: flex;
+  justify-content: center;
+}
+
 /***** End Global Css *****/
 
 /* ---------------------------------------------------- */
@@ -502,17 +509,6 @@ li {
     justify-content: center;
     align-items: center;
 
-    & .ratings-container {
-      gap: 4rem;
-      overflow-y: hidden;
-      overflow-x: scroll;
-      width: 28rem;
-
-      &::-webkit-scrollbar {
-        display: none;
-      }
-    }
-
     & .img-container {
       width: 18rem;
       height: 18rem;
@@ -541,6 +537,7 @@ li {
       align-items: center;
       justify-content: center;
       gap: 0.5rem;
+      position: relative;
 
       img {
         width: 4rem;
@@ -554,40 +551,9 @@ li {
       }
     }
 
-    & .slide {
-      width: 5.5rem;
-      height: 5.5rem;
-      border-radius: 50%;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      -o-border-radius: 50%;
-
-      & img {
-        width: 2.7rem;
-      }
-
-      &:hover img {
-        animation: moveRight 0.4s linear infinite alternate;
-        -webkit-animation: moveRight 0.4s linear infinite alternate;
-      }
-
-      &:nth-child(1) {
-        &:hover img {
-          animation: moveLeft 0.4s linear infinite alternate;
-          -webkit-animation: moveLeft 0.4s linear infinite alternate;
-        }
-      }
-    }
-
     & .reviews-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
       & .reviews {
         display: flex;
-        gap: 4rem;
         align-items: center;
         overflow-y: hidden;
         overflow-x: scroll;
@@ -599,8 +565,8 @@ li {
     }
 
     & .review-card {
-      width: 34rem;
-      height: 44rem;
+      width: 35rem;
+      height: 45rem;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -820,10 +786,6 @@ li {
         z-index: 2;
       }
     }
-  }
-
-  .owl-nav {
-    display: none;
   }
 }
 /***** End Responsiveness Section *****/

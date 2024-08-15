@@ -42,10 +42,10 @@ const Nav = () => {
                 Become Our Partner
               </NavLink>
             </li>
-            <li className="nav-item">
-              <a className="btn btn-outline-dark px-4 py-1 hover">Login</a>
-            </li>
           </ul>
+          <li className="nav-item d-lg-block d-md-none d-none">
+            <a className="btn btn-outline-dark px-4 py-1 hover">Login</a>
+          </li>
 
           <div className="d-lg-none d-flex align-items-center gap-5">
             <li className="nav-item">

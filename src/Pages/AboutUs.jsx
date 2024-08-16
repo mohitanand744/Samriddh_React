@@ -70,11 +70,11 @@ const AboutUs = () => {
               </div>
             </div>
             <div
-              className={`visionMissionPurposeContainer d-lg-none d-md-none d-sm-none d-flex order-last `}
+              className={`visionMissionPurposeContainer d-lg-none d-md-none d-sm-none d-flex order-last position-relative`}
             >
               <OwlCarousel className="owl-carousel owl-theme" {...options}>
-                <div className="item ">
-                  <div className={`visionContainer position-relative`}>
+                <div className="item">
+                  <div className={`visionContainer `}>
                     <h2 className={`font-inter fs-1 fw-semibold commonTitle`}>
                       VISION
                     </h2>

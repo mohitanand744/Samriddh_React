@@ -655,12 +655,14 @@ li {
     .visionContainer {
       width: 50rem;
       background: #e7e8ff;
+      border: 2px solid #bec1ff;
       border-radius: 2.6rem;
       -webkit-border-radius: 2.6rem;
       -moz-border-radius: 2.6rem;
       -ms-border-radius: 2.6rem;
       -o-border-radius: 2.6rem;
       padding: 3.6rem;
+      box-shadow: #e7e8ff 0px 0px 20px;
 
       .commonTitle {
         color: #5200ff;
@@ -668,6 +670,8 @@ li {
 
       &:nth-child(2) {
         background: #e0f0f1;
+        box-shadow: #e0f0f1 0px 0px 20px;
+        border: none;
 
         .commonTitle {
           color: #008484;
@@ -675,6 +679,8 @@ li {
       }
       &:nth-child(3) {
         background: #f7f0e6;
+        box-shadow: #f7f0e6 0px 0px 20px;
+        border: none;
 
         .commonTitle {
           color: #bb7107;
@@ -718,6 +724,8 @@ li {
 
         .MISSION {
           background: #e0f0f1;
+          box-shadow: #e0f0f1 0px 0px 20px;
+          border: none;
 
           .commonTitle {
             color: #008484;
@@ -726,6 +734,8 @@ li {
 
         .PURPOSE {
           background: #f7f0e6;
+          box-shadow: #f7f0e6 0px 0px 20px;
+          border: none;
 
           .commonTitle {
             color: #bb7107;
@@ -733,6 +743,16 @@ li {
         }
       }
     }
+  }
+}
+
+.about_section_3 {
+  .storyContainer {
+    height: 55rem;
+    background-image: url("./aboutUsImg3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 

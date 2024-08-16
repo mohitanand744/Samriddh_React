@@ -115,6 +115,12 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+
+      <div className="about_section_3 container">
+        <Title first_text={""} span_text={"Our Story?"} last_text={""} />
+
+        <div className="storyContainer"></div>
+      </div>
     </div>
   );
 };

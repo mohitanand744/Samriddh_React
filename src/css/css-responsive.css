@@ -70,12 +70,6 @@
   .fs-4 {
     font-size: calc(2.275rem + 0.3vw) !important;
   }
-
-  ._section_1_rn15j_1 {
-    .image-container {
-      margin-top: 8rem;
-    }
-  }
 }
 
 @media screen and (width < 888px) {
@@ -159,6 +153,10 @@
     & img {
       width: 60%;
     }
+  }
+
+  .about-hero-img {
+    margin-top: 7rem;
   }
 }
 /***** End Responsiveness Section *****/

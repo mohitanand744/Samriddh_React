@@ -159,4 +159,46 @@
     margin-top: 7rem;
   }
 }
+
+@media screen and (width < 510px) {
+  .about_section_2 {
+    & .visionMissionPurposeContainer {
+      & .owl-item {
+        & .item {
+          .visionContainer {
+            width: 55rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (width < 461px) {
+  .about_section_2 {
+    & .visionMissionPurposeContainer {
+      & .owl-item {
+        & .item {
+          .visionContainer {
+            width: 45rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (width < 380px) {
+  .about_section_2 {
+    & .visionMissionPurposeContainer {
+      & .owl-item {
+        & .item {
+          .visionContainer {
+            width: 40rem;
+          }
+        }
+      }
+    }
+  }
+}
 /***** End Responsiveness Section *****/

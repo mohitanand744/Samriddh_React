@@ -642,6 +642,83 @@ li {
 
 /***** End partnersCustomers Section *****/
 
+/***** About Page *****/
+
+.about_section_1 {
+  .image-container {
+    height: fit-content;
+  }
+}
+
+.about_section_2 {
+  .visionMissionPurposeContainer {
+    .visionContainer {
+      width: 50rem;
+      background: #e7e8ff;
+      border-radius: 2.6rem;
+      -webkit-border-radius: 2.6rem;
+      -moz-border-radius: 2.6rem;
+      -ms-border-radius: 2.6rem;
+      -o-border-radius: 2.6rem;
+      padding: 3.6rem;
+
+      .commonTitle {
+        color: #5200ff;
+      }
+
+      &:nth-child(2) {
+        background: #e0f0f1;
+
+        .commonTitle {
+          color: #008484;
+        }
+      }
+      &:nth-child(3) {
+        background: #f7f0e6;
+
+        .commonTitle {
+          color: #bb7107;
+        }
+      }
+    }
+    .owl-nav {
+      width: 100%;
+      position: absolute;
+      top: 3rem;
+
+      .owl-next,
+      .owl-prev {
+        width: 32px;
+        height: 32px;
+
+        img {
+          width: 50%;
+        }
+      }
+
+      .owl-next {
+        position: absolute;
+        right: 2%;
+      }
+
+      .owl-prev {
+        position: absolute;
+        left: 2%;
+      }
+    }
+
+    .owl-item {
+      .item {
+        .visionContainer {
+          width: 63rem;
+        }
+      }
+    }
+  }
+}
+
+/***** End About Page *****/
+
 /***** Footer Section *****/
 
 .footer {

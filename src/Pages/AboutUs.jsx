@@ -74,7 +74,7 @@ const AboutUs = () => {
             >
               <OwlCarousel className="owl-carousel owl-theme" {...options}>
                 <div className="item">
-                  <div className={`visionContainer `}>
+                  <div className={`visionContainer`}>
                     <h2 className={`font-inter fs-1 fw-semibold commonTitle`}>
                       VISION
                     </h2>
@@ -85,7 +85,7 @@ const AboutUs = () => {
                   </div>
                 </div>
                 <div className="item">
-                  <div className={`visionContainer `}>
+                  <div className={`visionContainer MISSION`}>
                     <h2 className={`font-inter fs-1 fw-semibold commonTitle`}>
                       MISSION
                     </h2>
@@ -95,7 +95,7 @@ const AboutUs = () => {
                   </div>
                 </div>
                 <div className="item">
-                  <div className={`visionContainer `}>
+                  <div className={`visionContainer PURPOSE`}>
                     <h2 className={`font-inter fs-1 fw-semibold commonTitle`}>
                       PURPOSE
                     </h2>

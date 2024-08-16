@@ -712,6 +712,25 @@ li {
         .visionContainer {
           width: 63rem;
         }
+        .commonTitle {
+          color: #5200ff;
+        }
+
+        .MISSION {
+          background: #e0f0f1;
+
+          .commonTitle {
+            color: #008484;
+          }
+        }
+
+        .PURPOSE {
+          background: #f7f0e6;
+
+          .commonTitle {
+            color: #bb7107;
+          }
+        }
       }
     }
   }

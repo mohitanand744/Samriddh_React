@@ -5,6 +5,8 @@ import { createRoot } from "react-dom/client";
 
 import "./css/fonts.css";
 import "./css/index.css";
+import "./css/css-responsive.css";
+import "./css/animations.css";
 
 /* Importing Bootstrap */
 

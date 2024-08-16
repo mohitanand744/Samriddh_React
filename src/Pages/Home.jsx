@@ -388,12 +388,14 @@ const Home = () => {
                     <img className="img-fluid" src="ratings.webp" alt="" />
                   </div>
                   <div className="d-flex flex-column align-items-lg-center align-items-md-start align-items-start">
-                    <p className="fs-3 text-white font-poppins mt-4">
+                    <p className="fs-lg-3 fs-md-2 fs-1 text-white font-poppins mt-4">
                       Our Partners
                     </p>
 
                     <div className=" ratings mb-5">
-                      <span className="text-war fs-3 mx-1">5.0</span>{" "}
+                      <span className="text-war fs-lg-3 fs-md-2 fs-1 mx-1">
+                        5.0
+                      </span>{" "}
                       <img
                         className="d-md-block  d-none"
                         src="./star.png"
@@ -432,7 +434,7 @@ const Home = () => {
                           <h2 className="title-font text-dark fs-1 fw-bold">
                             Top notch team, top notch product
                           </h2>
-                          <p className="font-inter fs-4 text-gray mt-5">
+                          <p className="font-inter fs-lg-4 fs-md-3 fs-sm-2 fs-7 text-gray mt-5">
                             Metaforms has been a gamechanger in our journey of
                             optimising our user funnels. The level of attention
                             to detail the team brings with pro-activeness in
@@ -485,7 +487,7 @@ const Home = () => {
                           <h2 className="title-font text-dark fs-1 fw-bold">
                             Top notch team, top notch product
                           </h2>
-                          <p className="font-inter fs-4 text-gray mt-5">
+                          <p className="font-inter fs-lg-4 fs-md-3 fs-sm-2 fs-7  text-gray mt-5">
                             Metaforms has been a gamechanger in our journey of
                             optimising our user funnels. The level of attention
                             to detail the team brings with pro-activeness in
@@ -553,7 +555,7 @@ const Home = () => {
                           <h2 className="title-font text-dark fs-1 fw-bold">
                             Top notch team, top notch product
                           </h2>
-                          <p className="font-inter fs-4 text-gray mt-5">
+                          <p className="font-inter fs-lg-4 fs-md-3 fs-sm-2 fs-7 text-gray mt-5">
                             Metaforms has been a gamechanger in our journey of
                             optimising our user funnels. The level of attention
                             to detail the team brings with pro-activeness in
@@ -606,7 +608,7 @@ const Home = () => {
                           <h2 className="title-font text-dark fs-1 fw-bold">
                             Top notch team, top notch product
                           </h2>
-                          <p className="font-inter fs-4 text-gray mt-5">
+                          <p className="font-inter  fs-lg-2 fs-md-3 fs-sm-2 fs-7 text-gray mt-5">
                             Metaforms has been a gamechanger in our journey of
                             optimising our user funnels. The level of attention
                             to detail the team brings with pro-activeness in
@@ -666,12 +668,14 @@ const Home = () => {
                     <img className="avatar" src="avatar-img.webp" alt="" />
                   </div>
                   <div className="d-flex flex-column align-items-lg-center align-items-md-start align-items-start">
-                    <p className="fs-3 text-white font-poppins mt-4">
+                    <p className="fs-lg-3 fs-md-2 fs-1 text-white font-poppins mt-4">
                       Our Partners
                     </p>
 
                     <div className=" ratings mb-5">
-                      <span className="text-war fs-3 mx-1">5.0</span>{" "}
+                      <span className="text-war fs-lg-3 fs-md-2 fs-1 mx-1">
+                        5.0
+                      </span>{" "}
                       <img
                         className="d-md-block  d-none"
                         src="./star.png"

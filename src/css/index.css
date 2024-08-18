@@ -870,6 +870,25 @@ li {
   }
 }
 
+.about_section_4 {
+  .coreValue {
+    height: 30rem;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(37, 3, 64, 0) 60%,
+        #00225d 100%
+      ),
+      url("../../public/coreValueBg.png");
+    background-color: var(--dark-blue);
+    background-size: contain;
+
+    span {
+      font-size: 4rem;
+      color: var(--white);
+    }
+  }
+}
+
 /***** End About Page *****/
 
 /***** Footer Section *****/

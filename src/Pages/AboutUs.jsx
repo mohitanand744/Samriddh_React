@@ -117,9 +117,8 @@ const AboutUs = () => {
       </div>
 
       <div className="about_section_3 container-fluid">
-        <div className="container">
-          <Title first_text={""} span_text={"Our Story?"} last_text={""} />
-        </div>
+        <Title first_text={""} span_text={"Our Story?"} last_text={""} />
+
         <div className="container">
           <div className="box-container mt-lg-0 mt-md-5 mt-7">
             <div className="box">
@@ -222,12 +221,28 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="about_section_4 container-fluid">
+      <div className="about_section_4">
         <div className="container">
           <Title first_text={"Our core values"} span_text={""} last_text={""} />
-          <hr />
-          <h1 className="text-danger fw-bold">working on this section...</h1>
         </div>
+
+        <div className="coreValue container-fluid">
+          <div className="d-flex h-100 font-inter align-items-center justify-content-center p-5">
+            <p className="fw-semibold fs-28 text-medium-gray">
+              <span>S</span>ustainale <span>A</span>ccess to <span>M</span>arket
+              and <span>R</span>ural <span>I</span>nitiatives for <span>D</span>
+              riving <span>D</span>evelopment and <span>H</span>olistic growth
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="about_section_5">
+        <Title
+          first_text={"The Team Behind Samriddh Kendra"}
+          span_text={""}
+          last_text={""}
+        />
       </div>
     </div>
   );

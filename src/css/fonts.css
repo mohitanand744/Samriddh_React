@@ -58,12 +58,20 @@
 .fs-20 {
   font-size: 2rem;
 }
+.fs-28 {
+  font-size: 2.8rem;
+}
+
 /***** End Font size Section *****/
 
 /***** font-color Section *****/
 
 .text-war {
   color: #ffd900 !important;
+}
+
+.text-medium-gray {
+  color: #7f8ba1;
 }
 
 /***** End font-color Section *****/

@@ -919,6 +919,10 @@ li {
       -o-border-radius: 50%;
       padding: 1.6rem;
       border: 5px solid #e6e4e4;
+
+.profile {
+width:10rem;
+}
     }
 
     .card-body {

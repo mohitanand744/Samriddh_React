@@ -204,10 +204,6 @@
       }
     }
   }
-
-  html {
-    font-size: 37%;
-  }
 }
 
 @media screen and (width < 380px) {

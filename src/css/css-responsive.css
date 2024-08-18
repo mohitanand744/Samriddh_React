@@ -179,6 +179,11 @@
   .about_section_3 {
     & .box-container {
       & .box {
+        &:nth-child(odd) {
+          ul {
+            padding: 2rem 4.5rem 2rem 2rem;
+          }
+        }
         ul {
           padding: 2rem 1rem 2rem 4.5rem;
         }

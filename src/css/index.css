@@ -30,6 +30,10 @@ html {
   margin-top: 15rem;
 }
 
+.me-6 {
+  margin-right: 6rem;
+}
+
 .m-7 {
   margin: 8rem;
 }
@@ -63,6 +67,17 @@ html {
 }
 .mb-55 {
   margin-bottom: 55rem;
+}
+
+.ms-10 {
+  margin-left: 10rem;
+}
+.ms-6 {
+  margin-left: 6rem;
+}
+
+.me-7 {
+  margin-right: 13rem;
 }
 
 .gap-8 {
@@ -747,12 +762,111 @@ li {
 }
 
 .about_section_3 {
-  .storyContainer {
-    height: 55rem;
-    background-image: url("./aboutUsImg3.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  height: fit-content;
+  background-image: url("./aboutUsImg3.png");
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  .box-container {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 1.5rem;
+      height: 100%;
+      left: 50%;
+      right: 50%;
+      transform: translateX(-50%, -50%);
+      top: 0;
+      background: #e8e8e8;
+      -webkit-transform: translateX(-50%, -50%);
+      -moz-transform: translateX(-50%, -50%);
+      -ms-transform: translateX(-50%, -50%);
+      -o-transform: translateX(-50%, -50%);
+      border-radius: 5rem;
+      -webkit-border-radius: 5rem;
+      -moz-border-radius: 5rem;
+      -ms-border-radius: 5rem;
+      -o-border-radius: 5rem;
+    }
+
+    .box {
+      width: 50%;
+      height: 100%;
+      position: relative;
+      top: -3.5rem;
+
+      .title-content {
+        margin-left: 4rem;
+        p {
+          color: #0038ff;
+        }
+
+        img {
+          width: 11rem;
+        }
+      }
+
+      &:nth-child(odd) {
+        right: -3rem;
+        &::after {
+          content: "";
+          position: absolute;
+          width: 1.5rem;
+          height: 1.5rem;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          -o-border-radius: 50%;
+          background: #8ab2ff;
+          right: 1.5rem;
+          top: 3.5rem;
+          z-index: 1;
+        }
+      }
+
+      &:nth-child(even) {
+        right: -50%;
+
+        .title-content {
+          width: 20rem;
+          img {
+            order: 2;
+          }
+
+          p {
+            color: #0038ff;
+            order: 1;
+          }
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          width: 1.5rem;
+          height: 1.5rem;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          -o-border-radius: 50%;
+          background: #8ab2ff;
+          left: 0rem;
+          top: 3.5rem;
+          z-index: 1;
+        }
+      }
+
+      ul {
+        padding: 2rem 5rem;
+
+        li {
+          list-style: disc;
+        }
+      }
+    }
   }
 }
 

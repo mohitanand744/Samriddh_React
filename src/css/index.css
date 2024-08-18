@@ -83,6 +83,7 @@ html {
 .gap-8 {
   gap: 8rem;
 }
+
 /***** End Margin & padding Section *****/
 
 /* ---------------------------------------------------- */
@@ -105,6 +106,10 @@ a {
 
 .offcanvas-backdrop.show {
   opacity: 0 !important;
+}
+
+.light-gray-bg {
+  background-color: #f7f7f7;
 }
 
 li {
@@ -889,6 +894,38 @@ li {
   }
 }
 
+.about_section_5 {
+  .card {
+    width: 40rem;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    border: 5px solid var(--bg-light-gray);
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    overflow: hidden;
+
+    .profile-container {
+      margin-bottom: -6.5rem;
+      z-index: 1;
+      background: var(--white);
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      padding: 1.6rem;
+      border: 5px solid #e6e4e4;
+    }
+
+    .card-body {
+      padding: 8rem 4rem 2rem 4rem;
+    }
+  }
+}
 /***** End About Page *****/
 
 /***** Footer Section *****/

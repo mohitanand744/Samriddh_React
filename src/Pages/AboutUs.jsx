@@ -243,6 +243,127 @@ const AboutUs = () => {
           span_text={""}
           last_text={""}
         />
+        <div className="container">
+          <div className="row gap-5 flex-wrap justify-content-center ">
+            <div className="card text-center font-inter">
+              <div className="profile-container mt-5">
+                <img
+                  src="./Suman Saurav.png"
+                  className="img-fluid profile"
+                  alt="..."
+                />
+              </div>
+              <div className="light-gray-bg mt-4">
+                <div className="card-body">
+                  <h5 className="card-title fs-26 fw-semibold text-dark-blue">
+                    Suman Saurav
+                  </h5>
+                  <p className="text-light-blue fs-26">Founder and CEO</p>
+                  <p className="card-text fs-18 text-light-gray">
+                    Hello, Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="card text-center font-inter">
+              <div className="profile-container mt-5">
+                <img
+                  src="./Bipul Kumar.png"
+                  className="img-fluid profile"
+                  alt="..."
+                />
+              </div>
+              <div className="light-gray-bg mt-4">
+                <div className="card-body">
+                  <h5 className="card-title fs-26 fw-semibold text-dark-blue">
+                    Bipul Kumar
+                  </h5>
+                  <p className="text-light-blue fs-26">ounder and CE</p>
+                  <p className="card-text fs-18 text-light-gray">
+                    Hello, Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="card text-center font-inter">
+              <div className="profile-container mt-5">
+                <img
+                  src="./Rajesh Mishra.png"
+                  className="img-fluid profile"
+                  alt="..."
+                />
+              </div>
+              <div className="light-gray-bg mt-4">
+                <div className="card-body">
+                  <h5 className="card-title fs-26 fw-semibold text-dark-blue">
+                    Rajesh Mishra
+                  </h5>
+                  <p className="text-light-blue fs-26">
+                    CBO- Distribution Head
+                  </p>
+                  <p className="card-text fs-18 text-light-gray">
+                    Hello, Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="card text-center font-inter">
+              <div className="profile-container mt-5">
+                <img
+                  src="./Yashwardhan Parwal.png"
+                  className="img-fluid profile"
+                  alt="..."
+                />
+              </div>
+              <div className="light-gray-bg mt-4">
+                <div className="card-body">
+                  <h5 className="card-title fs-26 fw-semibold text-dark-blue">
+                    Yashwardhan Parwal
+                  </h5>
+                  <p className="text-light-blue fs-26">
+                    Strategy and Product -head
+                  </p>
+                  <p className="card-text fs-18 text-light-gray">
+                    Hello, Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="card text-center font-inter">
+              <div className="profile-container mt-5">
+                <img
+                  src="./Vishal Chopra.png"
+                  className="img-fluid profile"
+                  alt="..."
+                />
+              </div>
+              <div className="light-gray-bg mt-4">
+                <div className="card-body">
+                  <h5 className="card-title fs-26 fw-semibold text-dark-blue">
+                    Vishal Chopra
+                  </h5>
+                  <p className="text-light-blue fs-26">
+                    Strategy and Product -head
+                  </p>
+                  <p className="card-text fs-18 text-light-gray">
+                    Hello, Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="about_section_6">
+        <Title
+          first_text={"Want to create an Impact?"}
+          span_text={"Join Samriddh Kendra for building a Samriddh Bharat"}
+          last_text={""}
+        />
+        <h2 className="container text-danger fs-1 fw-bold">
+          Working on this section...
+        </h2>
       </div>
     </div>
   );

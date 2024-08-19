@@ -386,7 +386,7 @@ const AboutUs = () => {
                     </ul>
                   </div>
 
-                  <button className="btn btn-outline-light p-4 fs-2">
+                  <button className="btn btn-outline-light p-4 fs-2 rounded-4">
                     Join
                   </button>
                 </div>
@@ -413,9 +413,71 @@ const AboutUs = () => {
                     </ul>
                   </div>
 
-                  <button className="btn btn-outline-light p-4 fs-2">
+                  <button className="btn btn-outline-light p-4 fs-2 rounded-4">
                     Join
                   </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="about_section_7">
+        <Title first_text="" span_text="Contact Us" last_text="" />
+
+        <div className="container">
+          <div className="form-container rounded-4">
+            <header className="col-12">
+              <h1 className="text-white font-inter">Get in Touch</h1>
+              <p className="mt-3 fs-3 text-medium-gray font-inter">
+                Please call or text us, and our team will get in touch with you
+                as soon as possible to assist you.
+              </p>
+            </header>
+
+            <div className="d-flex">
+              <form className=" col-lg-6 col-md-6 col-12">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">
+                    Email address
+                  </label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">
+                    Example textarea
+                  </label>
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+              </form>
+
+              <div className="imageContainer d-lg-flex d-md-flex flex-column align-items-center d-sm-none d-none">
+                <img className="img-fluid" src="./ContactImg.png" alt="" />
+
+                <div className="number">
+                  <p className="fs-2 text-medium-gray font-inter">
+                    CONTACT INFO
+                  </p>
+                  <div className="d-flex align-items-center gap-3">
+                    <img
+                      style={{ width: "20px" }}
+                      src="./callIcon.png"
+                      alt=""
+                    />
+                    <p className="text-white fw-semibold fs-20 font-inter">
+                      +91 8758493204
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

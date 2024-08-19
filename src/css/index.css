@@ -1007,6 +1007,14 @@ li {
     }
   }
 }
+
+.about_section_7 {
+  .form-container {
+    height: fit-content;
+    background: var(--dark-blue);
+    padding: 5rem;
+  }
+}
 /***** End About Page *****/
 
 /***** Footer Section *****/

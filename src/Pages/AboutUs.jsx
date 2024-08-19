@@ -246,7 +246,7 @@ const AboutUs = () => {
         <div className="container">
           <div className="row gap-5 justify-content-lg-center justify-content-md-center justify-content-start flex-lg-wrap flex-md-wrap flex-sm-nowrap flex-nowrap justify-content-start profiles-sliders">
             <div className="card text-center font-inter">
-              <div className="profile-container mt-5">
+              <div className="profile-container ">
                 <img
                   src="./Suman Saurav.png"
                   className="img-fluid profile"
@@ -266,7 +266,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="card text-center font-inter">
-              <div className="profile-container mt-5">
+              <div className="profile-container ">
                 <img
                   src="./Bipul Kumar.png"
                   className="img-fluid profile"
@@ -286,7 +286,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="card text-center font-inter">
-              <div className="profile-container mt-5">
+              <div className="profile-container ">
                 <img
                   src="./Rajesh Mishra.png"
                   className="img-fluid profile"
@@ -308,7 +308,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="card text-center font-inter">
-              <div className="profile-container mt-5">
+              <div className="profile-container ">
                 <img
                   src="./Yashwardhan Parwal.png"
                   className="img-fluid profile"
@@ -330,7 +330,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="card text-center font-inter">
-              <div className="profile-container mt-5">
+              <div className="profile-container ">
                 <img
                   src="./Vishal Chopra.png"
                   className="img-fluid profile"

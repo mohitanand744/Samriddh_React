@@ -90,6 +90,11 @@ html {
 
 /***** Global Css *****/
 
+[data-headlessui-focus-visible] {
+  outline: none !important;
+  border: none !important;
+}
+
 .Active {
   color: var(--dark-blue) !important;
   text-shadow: 1px 1px 1px var(--dark-blue);
@@ -897,9 +902,11 @@ li {
 .about_section_5 {
   .profiles-sliders {
     width: 100%;
+    margin: 0 auto;
     padding: 2.1rem;
     overflow-x: scroll;
     overflow-y: hidden;
+    border: none;
 
     &::-webkit-scrollbar {
       display: none;
@@ -923,6 +930,7 @@ li {
 
     .card {
       width: 40rem;
+      height: 47rem !important;
       height: fit-content;
       display: flex;
       justify-content: space-between;
@@ -935,7 +943,6 @@ li {
       overflow: hidden;
 
       .profile-container {
-        margin-bottom: -8rem;
         z-index: 1;
         background: var(--white);
         border-radius: 50%;
@@ -945,14 +952,21 @@ li {
         -o-border-radius: 50%;
         padding: 1.2rem;
         border: 5px solid #e6e4e4;
-
+        margin-top: 5rem;
+        width: fit-content;
+        height: fit-content;
         & .profile {
           width: 15rem;
         }
       }
 
       .card-body {
-        padding: 13rem 4rem 2rem 4rem;
+        height: 50rem;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 9rem;
       }
     }
   }

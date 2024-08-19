@@ -895,14 +895,30 @@ li {
 }
 
 .about_section_5 {
-  .profiles-slider {
+  .profiles-sliders {
     width: 100%;
-    padding: 2rem;
+    padding: 2.1rem;
     overflow-x: scroll;
     overflow-y: hidden;
 
     &::-webkit-scrollbar {
       display: none;
+    }
+    .profile-container {
+      margin-bottom: -6.5rem;
+      z-index: 1;
+      background: var(--white);
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      padding: 1.6rem;
+      border: 5px solid #e6e4e4;
+
+      .profile {
+        width: 15rem;
+      }
     }
 
     .card {

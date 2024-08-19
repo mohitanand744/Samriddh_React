@@ -244,7 +244,7 @@ const AboutUs = () => {
           last_text={""}
         />
         <div className="container">
-          <div className="row gap-5 flex-wrap justify-content-center ">
+          <div className="row gap-5 justify-content-lg-center justify-content-md-center justify-content-start flex-lg-wrap flex-md-wrap flex-sm-nowrap flex-nowrap justify-content-start profiles-slider">
             <div className="card text-center font-inter">
               <div className="profile-container mt-5">
                 <img

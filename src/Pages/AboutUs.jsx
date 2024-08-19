@@ -361,9 +361,66 @@ const AboutUs = () => {
           span_text={"Join Samriddh Kendra for building a Samriddh Bharat"}
           last_text={""}
         />
-        <h2 className="container text-danger fs-1 fw-bold">
-          Working on this section...
-        </h2>
+
+        <div className="container">
+          <div className="row font-inter">
+            <div className="col-lg-6 col-md-12 col-12">
+              <div className="benefits-card rounded-4">
+                <div className="img-container">
+                  <img
+                    className="img-fluid benefits"
+                    src="./benefitsImg2.png"
+                    alt=""
+                  />
+                </div>
+                <div className="text-container">
+                  <h2 className="fs-24 text-white text-center">As Employee</h2>
+
+                  <div className="Benifits-list text-white">
+                    <p className="fs-18 text-war">Benefits</p>
+                    <ul className="fs-18">
+                      <li>Competitive salary</li>
+                      <li>Work friendly environment</li>
+                      <li>Learning exposure</li>
+                      <li>Work with founders </li>
+                    </ul>
+                  </div>
+
+                  <button className="btn btn-outline-light p-4 fs-2">
+                    Join
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-12 col-12">
+              <div className="benefits-card rounded-4">
+                <div className="img-container">
+                  <img
+                    className="img-fluid benefits"
+                    src="./benefitsImg1.png"
+                    alt=""
+                  />
+                </div>
+                <div className="text-container">
+                  <h2 className="fs-24 text-white text-center">As Partner</h2>
+
+                  <div className="Benifits-list text-white">
+                    <p className="fs-18 text-war">Benefits</p>
+                    <ul className="fs-18">
+                      <li>0 investment</li>
+                      <li>Earn upto 1.5 lacks per months extra</li>
+                      <li>Work at your convenience</li>
+                    </ul>
+                  </div>
+
+                  <button className="btn btn-outline-light p-4 fs-2">
+                    Join
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

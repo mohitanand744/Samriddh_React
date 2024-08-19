@@ -218,5 +218,14 @@
       }
     }
   }
+
+  .about_section_6 {
+    & .benefits-card {
+      .img-container {
+        width: 25rem !important;
+        height: 30rem !important;
+      }
+    }
+  }
 }
 /***** End Responsiveness Section *****/

@@ -1101,7 +1101,7 @@ li {
 .product_section_1 {
   height: 148vh;
   width: 100%;
-  background-image: url("./product bg.webp");
+  background-image: url("/product bg.webp");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top;
@@ -1117,7 +1117,7 @@ li {
 
 .product_section_2 {
   .header {
-    margin-top: -6rem;
+    margin-top: -15rem;
   }
 
   .productCards {

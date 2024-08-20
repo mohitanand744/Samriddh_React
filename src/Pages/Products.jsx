@@ -1,4 +1,5 @@
 import React from "react";
+import ProductCard from "../components/Cards/ProductCard";
 
 const Products = () => {
   return (
@@ -35,6 +36,105 @@ const Products = () => {
         <div className="container">
           <div className="header">
             <h1 className="font-inter fw-bold fs-68 text-dark-blue">Loans</h1>
+          </div>
+
+          <header className="my-5">
+            <p className="fs-26 font-inter fw-semibold ">Secured Loans</p>
+          </header>
+
+          <div className="row  justify-content-center align-items-center">
+            <div className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+              <ProductCard
+                image="./loanHome.png"
+                cardTitle="Home Loans"
+                btnContent="Apply for loan"
+              />
+            </div>
+            <div className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+              <ProductCard
+                image="./lapLoan.png"
+                cardTitle="LAP Loans"
+                btnContent="Apply for loan"
+              />
+            </div>
+          </div>
+          <header className="my-5">
+            <p className="fs-26 font-inter fw-semibold ">Unsecured Loans</p>
+          </header>
+
+          <div className="row  justify-content-center align-items-center">
+            <div className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+              <ProductCard
+                image="./loanAvatar.png"
+                cardTitle="Personal Loan"
+                btnContent="Apply for loan"
+              />
+            </div>
+            <div className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+              <ProductCard
+                image="./Business Loan.png"
+                cardTitle="Business Loan"
+                btnContent="Apply for loan"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="container mt-15 pb-5">
+          <div className="header">
+            <h1 className="font-inter fw-bold fs-68 text-dark-blue">
+              Insurance
+            </h1>
+          </div>
+
+          <div className="row mb-4 justify-content-center align-items-center">
+            <div className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+              <ProductCard
+                image="./Health insurance.png"
+                cardTitle="Health insurance"
+                btnContent="Apply for loan"
+              />
+            </div>
+            <div className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+              <ProductCard
+                image="./Life Insurance.png"
+                cardTitle="Life Insurance"
+                btnContent="Apply for loan"
+              />
+            </div>
+          </div>
+
+          <div className="row mb-4  justify-content-center align-items-center">
+            <div className=" col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+              <ProductCard
+                image="./Shop insurance.png"
+                cardTitle="Shop insurance"
+                btnContent="Apply for loan"
+              />
+            </div>
+            <div className=" col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+              <ProductCard
+                image="./Motor insurance.png"
+                cardTitle="Motor insurance"
+                btnContent="Apply for loan"
+              />
+            </div>
+          </div>
+          <div className="row mb-4  justify-content-center align-items-center">
+            <div className=" col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+              <ProductCard
+                image="./Crop insurance.png"
+                cardTitle="Crop insurance"
+                btnContent="Apply for loan"
+              />
+            </div>
+            <div className=" col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+              <ProductCard
+                image="./Crop insurance2.png"
+                cardTitle="Crop insurance"
+                btnContent="Apply for loan"
+              />
+            </div>
           </div>
         </div>
       </div>

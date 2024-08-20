@@ -84,6 +84,7 @@
   }
 
   .product_section_1 {
+    height: 130rem;
     background-image: url("./product bg mobile view.jpg");
     background-size: contain;
   }

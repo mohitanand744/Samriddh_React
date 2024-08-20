@@ -470,7 +470,7 @@ const AboutUs = () => {
                     placeholder="Enquiry"
                   ></textarea>
                 </div>
-                <button className="btn btn-outline-light w-100 fs-2 font-inter mt-4">
+                <button className="btn btn-outline-light w-100 fs-2 fw-semibold font-inter mt-4">
                   Submit
                 </button>
               </form>

@@ -246,6 +246,22 @@ li {
   position: inherit !important;
 }
 
+.custom-btn {
+  width: 25rem;
+  height: 6rem;
+  background: #0040e6 !important;
+  box-shadow: #030081 0px 0px 55px inset;
+  border-radius: 5rem !important;
+  -webkit-border-radius: 5rem !important;
+  -moz-border-radius: 5rem !important;
+  -ms-border-radius: 5rem !important;
+  -o-border-radius: 5rem !important;
+
+  &:nth-child(2) {
+    margin-left: 25rem;
+  }
+}
+
 /***** End Global Css *****/
 
 /* ---------------------------------------------------- */
@@ -987,6 +1003,11 @@ li {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
       }
     }
     .text-container {
@@ -1022,6 +1043,22 @@ li {
   }
 }
 /***** End About Page *****/
+
+/***** Product Page Section *****/
+
+.product_section_1 {
+  height: 100%;
+
+  & .image_Container {
+    width: 35rem;
+
+    & img {
+      width: 100%;
+    }
+  }
+}
+
+/***** End Product Page Section *****/
 
 /***** Footer Section *****/
 

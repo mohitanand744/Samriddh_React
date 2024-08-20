@@ -78,6 +78,17 @@
   }
 }
 
+@media screen and (width < 768px) {
+  .product-main-text-container {
+    margin-top: 45rem;
+  }
+
+  .product_section_1 {
+    background-image: url("./product bg mobile view.jpg");
+    background-size: contain;
+  }
+}
+
 @media screen and (width < 748px) {
   html {
     font-size: 44%;

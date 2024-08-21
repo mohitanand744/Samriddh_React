@@ -74,6 +74,10 @@
   font-size: 6rem;
 }
 
+.fs-16 {
+  font-size: 1.6rem !important;
+}
+
 /***** End Font size Section *****/
 
 /***** font-color Section *****/

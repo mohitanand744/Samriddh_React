@@ -4,15 +4,15 @@ import ProductsTitles from "../components/Titles/ProductsTitles";
 const ProductDetailedPage = () => {
   return (
     <div className="product_detailed_page">
-      <div className="container-fluid resources-container mt-7">
+      <section className="container-fluid resources-container mt-7">
         <div className="text">
           <h1 className="fs-55 text-white">
             Our Resources <br /> & tools
           </h1>
         </div>
-      </div>
+      </section>
 
-      <div className="productDetailedSection_2 mt-11">
+      <section className="productDetailedSection_2 mt-11">
         <div className="container">
           <ProductsTitles text={"EMI calculator"} />
           <p className="mt-11 fs-20 font-inter">
@@ -22,7 +22,39 @@ const ProductDetailedPage = () => {
             or EMI Calculator.
           </p>
         </div>
-      </div>
+      </section>
+
+      <section className="productDetailedSection_3 mt-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6">
+              <h2 className="fs-20 font-inter fw-bold">How To Use</h2>
+              <ul className="fs-20 font-inter fw-medium mt-5">
+                <li>Enter the loan amount you wish to avail (In rupees)</li>
+                <li>Enter the term of your loan (In months or years)</li>
+                <li>Enter the rate of interest (In percentage)</li>
+              </ul>
+            </div>
+            <div className="col-lg-6 mt-lg-0 mt-md-5 mt-5">
+              <h2 className="fs-20 font-inter fw-bold">
+                How To Use EMI Calculator Video
+              </h2>
+
+              <div className="video-container mt-5">
+                <iframe
+                  className="img-fluid"
+                  src="https://www.youtube.com/embed/HiFzEFQOUfM?si=gn4MGjwY8RzGeNP0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

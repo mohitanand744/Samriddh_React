@@ -208,6 +208,11 @@
       }
     }
   }
+  .product_detailed_page {
+    .container {
+      padding: 0 5rem !important;
+    }
+  }
 }
 
 @media screen and (width < 461px) {

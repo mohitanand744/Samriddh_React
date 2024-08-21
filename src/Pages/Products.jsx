@@ -1,5 +1,6 @@
 import React from "react";
 import ProductCard from "../components/Cards/ProductCard";
+import ProductsTitles from "../components/Titles/ProductsTitles";
 
 const Products = () => {
   return (
@@ -34,9 +35,7 @@ const Products = () => {
 
       <div className="container-fluid product_section_2">
         <div className="container">
-          <div className="header">
-            <h1 className="font-inter fw-bold fs-68 text-dark-blue">Loans</h1>
-          </div>
+          <ProductsTitles text={"Loans"} />
 
           <header className="my-5">
             <p className="fs-26 font-inter fw-semibold ">Secured Loans</p>
@@ -81,11 +80,7 @@ const Products = () => {
         </div>
 
         <div className="container mt-20 pb-5">
-          <div className="header">
-            <h1 className="font-inter fw-bold fs-68 text-dark-blue">
-              Insurance
-            </h1>
-          </div>
+          <ProductsTitles text={"Insurance"} />
 
           <div className="row mb-4 justify-content-center align-items-center">
             <div className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">

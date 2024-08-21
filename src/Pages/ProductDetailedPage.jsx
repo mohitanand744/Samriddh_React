@@ -1,25 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import ProductsTitles from "../components/Titles/ProductsTitles";
+import LoanAmountCalculator from "../components/Cards/LoanAmountCalculator";
 
 const ProductDetailedPage = () => {
-  const [loanAmountRange, setLoanAmountRange] = useState(100000);
-
-  const selectRange = (e) => {
-    const value = e.target.value;
-    setLoanAmountRange(value);
-  };
-
-  const calculateGradientPercentage = () => {
-    const min = 100000;
-    const max = 10000000;
-    const percentage = ((loanAmountRange - min) / (max - min)) * 100;
-    return percentage;
-  };
-
-  const gradientStyle = {
-    background: `linear-gradient(90deg, #3d4cd8 ${calculateGradientPercentage()}%, transparent ${calculateGradientPercentage()}%)`,
-  };
-
   return (
     <div className="product_detailed_page">
       <section className="container-fluid resources-container mt-7">
@@ -79,40 +62,41 @@ const ProductDetailedPage = () => {
             Calculate EMI, Interest amount
           </h2>
 
-          <div className="row mt-7">
+          <div className="row mt-5">
             <div className="col-lg-7">
-              <div className="loanCalculator rounded-4">
-                <div className="top-container d-flex justify-content-between">
-                  <p className="fs-20 fw-semibold text-light-gray font-inter">
-                    Loan Amount
-                  </p>
-                  <input
-                    type="text"
-                    value={loanAmountRange}
-                    placeholder="₹ 100000"
-                    onChange={(e) => selectRange(e)}
-                    className="inputAmount font-inter fs-20 fw-medium rounded-4"
-                  />
-                </div>
-                <div className="bottom-container mt-5 px-4">
-                  <input
-                    type="range"
-                    className="w-100 rangeInput"
-                    onChange={(e) => selectRange(e)}
-                    value={loanAmountRange}
-                    min="100000"
-                    max="10000000"
-                    style={gradientStyle}
-                  />
-                  <div className="d-flex justify-content-between font-inter fs-16 fw-medium px-2 mt-2 text-light-gray">
-                    <p>1L</p>
-                    <p>25L</p>
-                    <p>50L</p>
-                    <p>75L</p>
-                    <p>1cr</p>
-                  </div>
-                </div>
-              </div>
+              <LoanAmountCalculator
+                text={"Loan Amount"}
+                value1={"1L"}
+                value2={"25L"}
+                value3={"50L"}
+                value4={"75L"}
+                value5={"1cr"}
+                min={100000}
+                max={10000000}
+                unit={"₹"}
+              />
+              <LoanAmountCalculator
+                text={"Interest Rate"}
+                value1={"4%"}
+                value2={"8%"}
+                value3={"12%"}
+                value4={"16%"}
+                value5={"20%"}
+                min={4}
+                max={20}
+                unit={"%"}
+              />
+              <LoanAmountCalculator
+                text={"Loan Tenure"}
+                value1={"5Y"}
+                value2={"10Y"}
+                value3={"15Y"}
+                value4={"20Y"}
+                value5={"25Y"}
+                min={5}
+                max={25}
+                unit={"Yrs"}
+              />
             </div>
             <div className="col-lg-5"></div>
           </div>

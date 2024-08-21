@@ -1187,7 +1187,7 @@ li {
 
 .productDetailedSection_4 {
   .emiCalculator {
-    background-color: var(--dark-blue);
+    background: linear-gradient(0deg, #000725 0%, var(--dark-blue) 70%);
     padding: 4rem !important;
     .loanCalculator {
       background: var(--white);
@@ -1214,6 +1214,7 @@ li {
           appearance: none;
           height: 7px;
           width: 100% !important;
+          background-color: #e4e8ff !important;
           border-radius: 4rem;
           -webkit-border-radius: 4rem;
           -moz-border-radius: 4rem;

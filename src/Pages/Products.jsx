@@ -80,7 +80,7 @@ const Products = () => {
           </div>
         </div>
 
-        <div className="container mt-15 pb-5">
+        <div className="container mt-20 pb-5">
           <div className="header">
             <h1 className="font-inter fw-bold fs-68 text-dark-blue">
               Insurance

@@ -12,6 +12,7 @@ import AboutUs from "../Pages/AboutUs";
 import Products from "../Pages/Products";
 import ContactUs from "../Pages/ContactUs";
 import BecomeOurPartner from "../Pages/BecomeOurPartner";
+import ProductDetailedPage from "../Pages/ProductDetailedPage";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,12 +20,13 @@ export const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="about" element={<AboutUs />} />
       <Route path="products" element={<Products />} />
+      <Route path="product_detailed_page" element={<ProductDetailedPage />} />
       <Route path="contact" element={<ContactUs />} />
       <Route path="become_our_partner" element={<BecomeOurPartner />} />
       <Route
         path="*"
         element={
-          <center className="mt-9">
+          <center className="mt-15">
             <h1>Page Not Found!!</h1>
           </center>
         }

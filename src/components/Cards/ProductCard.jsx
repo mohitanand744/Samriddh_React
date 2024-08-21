@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./../Buttons/Button";
+import { Link } from "react-router-dom";
 
 const ProductCard = ({ image, cardTitle, btnContent }) => {
   return (
@@ -14,10 +15,12 @@ const ProductCard = ({ image, cardTitle, btnContent }) => {
 
         <div className="d-flex flex-column gap-5">
           <div className="btn-containers">
-            <button className="btn fs-3 text-white fw-bold cus-btn-transparent font-poppins">
-              Know more
-              <img className="move-right" src="./Arrow white.png" alt="" />
-            </button>
+            <Link to={"/product_detailed_page"}>
+              <button className="btn fs-3 text-white fw-bold cus-btn-transparent font-poppins">
+                Know more
+                <img className="move-right" src="./Arrow white.png" alt="" />
+              </button>
+            </Link>
           </div>
           <div className="btn-container">
             <Button content={btnContent} />

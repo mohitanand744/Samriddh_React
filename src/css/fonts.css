@@ -36,6 +36,10 @@
 .fs-50 {
   font-size: 5rem;
 }
+
+.fs-40 {
+  font-size: 4rem !important;
+}
 .fs-36 {
   font-size: 3.6rem !important;
 }

@@ -181,6 +181,10 @@
       left: 1rem;
     }
   }
+
+  .p-5-mv {
+    padding: 3rem !important;
+  }
 }
 
 @media screen and (width < 510px) {

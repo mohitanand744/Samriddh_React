@@ -5,7 +5,15 @@ const Button = ({ content }) => {
     <button className="btn fs-3 fw-bold text-dark cus-btn font-poppins">
       {content}
       <span className="mx-3 ">
-        <img className="move-right" src="./Arrow.png" alt="" />
+        <img
+          className="move-right"
+          src={`${
+            content === "Download application"
+              ? "./download.png"
+              : "./Arrow.png"
+          }`}
+          alt=""
+        />
       </span>
     </button>
   );

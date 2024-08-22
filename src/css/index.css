@@ -35,7 +35,7 @@ html {
 }
 
 .mt-11 {
-  margin-top: 7.5rem;
+  margin-top: 7.5rem !important;
 }
 
 .mt-20 {
@@ -155,6 +155,10 @@ li {
 
 .border-none {
   border: none !important;
+}
+
+.bg-dark-blue {
+  background-color: var(--dark-blue) !important;
 }
 
 .sign_in {
@@ -1189,9 +1193,11 @@ li {
   .emiCalculator {
     background: linear-gradient(0deg, #000725 0%, var(--dark-blue) 70%);
     padding: 4rem !important;
+    height: fit-content;
     .loanCalculator {
       background: var(--white);
       padding: 2rem;
+      height: 18.5rem;
 
       .top-container {
         .inputAmount {
@@ -1236,6 +1242,51 @@ li {
         }
       }
     }
+
+    .calculation-container {
+      background: var(--white);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1.5rem 0;
+      color: #ffff !important;
+      height: 25rem;
+    }
+  }
+}
+
+.productDetailedSection_5 {
+  ul li {
+    list-style: number;
+  }
+
+  .month-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .month-dropdown {
+    padding: 1rem;
+    width: 123px;
+    height: 43px;
+    border: none;
+    background-color: #414972;
+    z-index: 2;
+    appearance: none;
+    background-image: url("/dropdown arrow.png");
+    background-repeat: no-repeat;
+    background-position: 90px 20px;
+  }
+
+  .month-input {
+    padding: 0.8rem;
+    width: 7rem;
+    text-align: center;
+    margin-left: -1rem;
+    border: none;
+    background-color: #e4e8ff;
+    z-index: 1;
+    color: #0040e6;
   }
 }
 

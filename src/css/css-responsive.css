@@ -111,6 +111,13 @@
   .pera {
     display: none;
   }
+  .BecomeOurPartner_section_2 {
+    .agent-card-slider {
+      .agent-card {
+        padding: 2rem;
+      }
+    }
+  }
 }
 
 @media screen and (width < 548px) {

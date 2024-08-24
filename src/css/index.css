@@ -78,7 +78,7 @@ html {
   padding: 7rem !important;
 }
 .py-6 {
-  padding: 4rem 0;
+  padding: 3rem 0;
 }
 
 .p-8 {
@@ -1321,6 +1321,7 @@ li {
     .agent-card {
       width: 25rem;
       height: 23rem;
+      padding: 2rem;
       border: 2px solid #e7e7e7dd;
       border-radius: 4rem;
       -webkit-border-radius: 4rem;
@@ -1328,12 +1329,8 @@ li {
       -ms-border-radius: 4rem;
       -o-border-radius: 4rem;
 
-      .img-container {
-        height: 5rem;
-      }
-
       p {
-        height: 5rem;
+        height: 6rem;
       }
     }
   }

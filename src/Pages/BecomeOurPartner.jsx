@@ -35,13 +35,13 @@ const BecomeOurPartner = () => {
         />
         <div className="container">
           <div className="row justify-content-lg-center justify-content-md-center justify-content-start flex-lg-wrap flex-md-wrap flex-sm-nowrap flex-nowrap justify-content-start agent-card-slider gap-4">
-            <div className="agent-card d-flex justify-content-between py-6 align-items-center flex-column bg-light-gray text-center">
+            <div className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center">
               <div className="img-container">
                 <img className="img-fluid" src="Loan Agents.png" alt="" />
               </div>
               <p className="font-inter fs-24 fw-semibold ">Loan Agents</p>
             </div>
-            <div className="agent-card d-flex justify-content-between py-6 align-items-center flex-column bg-light-gray text-center">
+            <div className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center">
               <div className="img-container">
                 <img
                   className="img-fluid"
@@ -53,20 +53,20 @@ const BecomeOurPartner = () => {
                 Former bank employees
               </p>
             </div>
-            <div className="agent-card d-flex justify-content-between py-6 align-items-center flex-column bg-light-gray text-center">
+            <div className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center">
               <div className="img-container">
                 <img className="img-fluid" src="Insurance agents.png" alt="" />
               </div>
               <p className="font-inter fs-24 fw-semibold ">Insurance agents</p>
             </div>
 
-            <div className="agent-card d-flex justify-content-between py-6 align-items-center flex-column bg-light-gray text-center">
+            <div className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center">
               <div className="img-container">
                 <img className="img-fluid" src="Wealth Advisors.png" alt="" />
               </div>
               <p className="font-inter fs-24 fw-semibold ">Wealth Advisors</p>
             </div>
-            <div className="agent-card d-flex justify-content-between py-6 align-items-center flex-column bg-light-gray text-center">
+            <div className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center">
               <div className="img-container">
                 <img
                   className="img-fluid"

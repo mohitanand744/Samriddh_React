@@ -1,6 +1,10 @@
 import React from "react";
 import Button from "../components/Buttons/Button";
 import Title from "../components/Titles/Title";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+import options from "../components/Carousel/carouselOptions";
 
 const BecomeOurPartner = () => {
   return (
@@ -77,6 +81,108 @@ const BecomeOurPartner = () => {
               <p className="font-inter fs-24 fw-semibold ">
                 BFSI Professionals
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="BecomeOurPartner_section_3">
+        <Title
+          first_text={"4 easy steps to"}
+          span_text={"start Earning"}
+          last_text={""}
+        />
+
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-5 col-md-12 col-12 order-lg-first order-md-last order-last">
+              <div
+                className={`startEarning text-white d-lg-flex d-md-flex d-sm-flex d-none justify-content-center align-items-lg-start align-items-md-center align-items-center flex-column gap-4 `}
+              >
+                <div className={`startEarningCard  step1`}>
+                  <h2 className={`font-inter fs-1 fw-semibold `}>Sign up</h2>
+                  <p className="font-inter fs-4 fw-medium">
+                    Click on Signup Button and create an account
+                  </p>
+                  <p className="steps fw-semibold font-zilla">1</p>
+                </div>
+                <div className={`startEarningCard step2`}>
+                  <h2 className={`font-inter fs-1 fw-semibold `}>
+                    Complete KYC{" "}
+                  </h2>
+                  <p className="font-inter fs-4 fw-medium">
+                    Complete your pan and Aadhar verification
+                  </p>
+                  <p className="steps fw-semibold font-zilla">2</p>
+                </div>
+                <div className={`startEarningCard step3`}>
+                  <h2 className={`font-inter fs-1 fw-semibold `}>
+                    Complete Your product training{" "}
+                  </h2>
+                  <p className="font-inter fs-4 fw-medium">
+                    Complete your pan and Aadhar verification
+                  </p>
+                  <p className="steps fw-semibold font-zilla">3</p>
+                </div>
+                <div className={`startEarningCard step4`}>
+                  <h2 className={`font-inter fs-1 fw-semibold `}>
+                    Start selling & earning
+                  </h2>
+                  <p className="font-inter fs-4 fw-medium">
+                    Get payout on lead conversion
+                  </p>
+                  <p className="steps fw-semibold font-zilla">4</p>
+                </div>
+              </div>
+            </div>
+            <div
+              className={` d-lg-none d-md-none d-sm-none d-flex order-last position-relative bg-dark-blue`}
+            >
+              <OwlCarousel className="owl-carousel owl-theme" {...options}>
+                <div className="item">
+                  <div className={`startEarningCard text-center  step1`}>
+                    <h2 className={`font-inter fs-1 fw-semibold `}>Sign up</h2>
+                    <p className="font-inter fs-4 fw-medium">
+                      Click on Signup Button and create an account
+                    </p>
+                  </div>
+                </div>
+                <div className="item">
+                  <div className={`startEarningCard text-center step2`}>
+                    <h2 className={`font-inter fs-1 fw-semibold `}>
+                      Complete KYC{" "}
+                    </h2>
+                    <p className="font-inter fs-4 fw-medium">
+                      Complete your pan and Aadhar verification
+                    </p>
+                  </div>
+                </div>
+                <div className="item">
+                  <div className={`startEarningCard text-center step3`}>
+                    <h2 className={`font-inter fs-1 fw-semibold `}>
+                      Complete Your product training{" "}
+                    </h2>
+                    <p className="font-inter fs-4 fw-medium">
+                      Complete your pan and Aadhar verification
+                    </p>
+                  </div>
+                </div>
+                <div className="item">
+                  <div className={`startEarningCard text-center step4`}>
+                    <h2 className={`font-inter fs-1 fw-semibold `}>
+                      Start selling & earning
+                    </h2>
+                    <p className="font-inter fs-4 fw-medium">
+                      Get payout on lead conversion
+                    </p>
+                  </div>
+                </div>
+              </OwlCarousel>
+            </div>
+            <div className="col-lg-7  col-md-12 col-12 order-lg-last order-md-first order-first">
+              <div className="image-container text-center mt-lg-0 mt-md-5 mt-5  p-5">
+                <img className="img-fluid" src="./start Earning.png" alt="" />
+              </div>
             </div>
           </div>
         </div>

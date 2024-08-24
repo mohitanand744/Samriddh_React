@@ -3,19 +3,7 @@ import Title from "./../components/Titles/Title";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-
-const options = {
-  margin: 30,
-  items: 1,
-  loop: true,
-  nav: true,
-  dots: false,
-  autoplay: true,
-  navText: [
-    '<img src="./Arrow left.png" alt="" />',
-    '<img src="./Arrow right.png" alt="" />',
-  ],
-};
+import options from "../components/Carousel/carouselOptions";
 
 const AboutUs = () => {
   return (

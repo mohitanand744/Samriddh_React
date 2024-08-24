@@ -5,36 +5,7 @@ import Card from "../components/Cards/Card";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-
-const options = {
-  margin: 30,
-  responsiveClass: true,
-  loop: true,
-  nav: true,
-  dots: false,
-  autoplay: true,
-  navText: [
-    '<img src="./Arrow left.png" alt="" />',
-    '<img src="./Arrow right.png" alt="" />',
-  ],
-  responsive: {
-    0: {
-      items: 1,
-    },
-    570: {
-      items: 1,
-    },
-    600: {
-      items: 2,
-    },
-    800: {
-      items: 2,
-    },
-    1500: {
-      items: 2,
-    },
-  },
-};
+import options from "../components/Carousel/carouselOptions";
 
 const Home = () => {
   return (

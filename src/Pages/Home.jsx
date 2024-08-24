@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import Title from "../components/Titles/Title";
 import Button from "../components/Buttons/Button";
 import Card from "../components/Cards/Card";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import options from "../components/Carousel/carouselOptions";
+import CreatingContext from "../context/ContexAPI";
 
 const Home = () => {
+  const { carouselOptions } = useContext(CreatingContext);
+
   return (
     <div className="Home">
       <section className="container-fluid mt-15 section_1">
@@ -398,7 +400,10 @@ const Home = () => {
               </div>
               <div className=" reviews-container col-xl-8 col-lg-8 col-md-12 col-12 order-md-last order-last">
                 <div className="reviews">
-                  <OwlCarousel className="owl-carousel owl-theme" {...options}>
+                  <OwlCarousel
+                    className="owl-carousel owl-theme"
+                    {...carouselOptions}
+                  >
                     <div className=" item">
                       <div className="bg-white review-card rounded-top-6 d-flex flex-column justify-content-between">
                         <div className="text">
@@ -519,7 +524,10 @@ const Home = () => {
             <div className="d-flex justify-content-xl-start justify-content-lg-between align-items-center flex-lg-row flex-md-column flex-column justify-content-md-center">
               <div className=" reviews-container col-xl-8 col-lg-8 col-md-12 col-12 order-md-last order-last">
                 <div className="reviews">
-                  <OwlCarousel className="owl-carousel owl-theme" {...options}>
+                  <OwlCarousel
+                    className="owl-carousel owl-theme"
+                    {...carouselOptions}
+                  >
                     <div className=" item">
                       <div className="bg-white review-card rounded-top-6 d-flex flex-column justify-content-between">
                         <div className="text">

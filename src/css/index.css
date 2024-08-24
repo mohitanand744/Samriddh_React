@@ -38,6 +38,10 @@ html {
   margin-top: 7.5rem !important;
 }
 
+.mt-12 {
+  margin-top: 10rem;
+}
+
 .mt-20 {
   margin-top: 25rem !important;
 }
@@ -1362,8 +1366,8 @@ li {
 
     & .steps {
       position: absolute;
-      left: -20px;
-      top: 35px;
+      left: -2rem;
+      top: 3.5rem;
       font-size: 2rem;
       background: var(--dark-blue);
       width: 4rem;
@@ -1406,6 +1410,48 @@ li {
   }
 }
 
+.BecomeOurPartner_section_4 {
+  .container-fluid {
+    padding-left: 0;
+  }
+
+  .productContainer {
+    background: var(--dark-blue);
+    padding: 4rem 0;
+
+    .productCard {
+      width: 29rem;
+      height: 28rem;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 4rem;
+      -webkit-border-radius: 4rem;
+      -moz-border-radius: 4rem;
+      -ms-border-radius: 4rem;
+      -o-border-radius: 4rem;
+      background: #00000093;
+
+      .img-container {
+        width: 17rem;
+        height: 14rem;
+        margin: 0 auto;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+
+      p {
+        height: 6rem;
+        margin-top: 1rem;
+      }
+    }
+  }
+}
 /***** End BecomeOurPartner_page Section *****/
 
 /***** Footer Section *****/

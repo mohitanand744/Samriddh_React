@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import Title from "./../components/Titles/Title";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import options from "../components/Carousel/carouselOptions";
+import CreatingContext from "../context/ContexAPI";
 
 const AboutUs = () => {
+  const { carouselOptions } = useContext(CreatingContext);
+
   return (
     <div className="aboutUs">
       <div className={`about_section_1`}>
@@ -60,7 +62,10 @@ const AboutUs = () => {
             <div
               className={`visionMissionPurposeContainer d-lg-none d-md-none d-sm-none d-flex order-last position-relative`}
             >
-              <OwlCarousel className="owl-carousel owl-theme" {...options}>
+              <OwlCarousel
+                className="owl-carousel owl-theme"
+                {...carouselOptions}
+              >
                 <div className="item">
                   <div className={`visionContainer`}>
                     <h2 className={`font-inter fs-1 fw-semibold commonTitle`}>

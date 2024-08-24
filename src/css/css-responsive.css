@@ -88,6 +88,12 @@
     background-image: url("/product bg mobile view.jpg");
     background-size: contain;
   }
+
+  .BecomeOurPartner_section_2 {
+    .agent-card-slider {
+      padding: 2rem;
+    }
+  }
 }
 
 @media screen and (width < 748px) {

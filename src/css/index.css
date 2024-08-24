@@ -77,6 +77,9 @@ html {
 .p-7 {
   padding: 7rem !important;
 }
+.py-6 {
+  padding: 4rem 0;
+}
 
 .p-8 {
   padding: 8rem !important;
@@ -1324,6 +1327,14 @@ li {
       -moz-border-radius: 4rem;
       -ms-border-radius: 4rem;
       -o-border-radius: 4rem;
+
+      .img-container {
+        height: 5rem;
+      }
+
+      p {
+        height: 5rem;
+      }
     }
   }
 }

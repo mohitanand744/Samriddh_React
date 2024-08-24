@@ -6,7 +6,9 @@ const Button = ({ content }) => {
       {content}
       <span className="mx-3 ">
         <img
-          className="move-right"
+          className={`${
+            content === "Download application" ? "move-bottom" : "move-right"
+          }`}
           src={`${
             content === "Download application"
               ? "./download.png"

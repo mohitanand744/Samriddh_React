@@ -136,6 +136,9 @@ a {
   text-decoration: none !important;
   font-size: 2rem;
 }
+.bg-light-gray {
+  background-color: var(--bg-light-gray);
+}
 
 .offcanvas-backdrop.show {
   opacity: 0 !important;
@@ -188,6 +191,11 @@ li {
     &:hover .move-right {
       animation: moveRight 0.4s linear infinite alternate;
       -webkit-animation: moveRight 0.4s linear infinite alternate;
+    }
+
+    &:hover .move-bottom {
+      animation: movebottom 0.4s linear infinite alternate;
+      -webkit-animation: movebottom 0.4s linear infinite alternate;
     }
   }
 
@@ -1295,6 +1303,29 @@ li {
 /***** BecomeOurPartner_page Section *****/
 
 .BecomeOurPartner_section_1 {
+  padding-left: 0 !important;
+}
+
+.BecomeOurPartner_section_2 {
+  .agent-card-slider {
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .agent-card {
+      width: 25rem;
+      height: 23rem;
+      border: 2px solid #e7e7e7dd;
+      border-radius: 4rem;
+      -webkit-border-radius: 4rem;
+      -moz-border-radius: 4rem;
+      -ms-border-radius: 4rem;
+      -o-border-radius: 4rem;
+    }
+  }
 }
 
 /***** End BecomeOurPartner_page Section *****/

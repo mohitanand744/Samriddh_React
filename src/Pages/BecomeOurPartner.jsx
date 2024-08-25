@@ -527,7 +527,7 @@ const BecomeOurPartner = () => {
         />
 
         <div className="container">
-          <div className="d-flex align-content-center mx-lg-0 mx-md-0 mx-5">
+          <div className="d-flex align-content-center mx-lg-0 mx-md-0 mx-4">
             <div className="inputContainer flex-grow-1 position-relative">
               <input
                 type="text"
@@ -541,7 +541,7 @@ const BecomeOurPartner = () => {
                 alt=""
               />
             </div>
-            <button className="btn bg-dark-blue py-4 px-5 font-inter fs-2 text-white rounded-4">
+            <button className="btn bg-dark-blue py-4 px-6 font-inter fs-2 text-white rounded-4">
               Search
             </button>
           </div>

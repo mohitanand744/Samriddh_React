@@ -1623,7 +1623,7 @@ li {
   }
 
   .faqContainer {
-    height: 55rem;
+    height: fit-content;
 
     .accordion-button {
       background: #eeeeee;

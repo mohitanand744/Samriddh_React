@@ -1,6 +1,8 @@
-import React, { createContext } from "react";
+import React, { createContext, useState } from "react";
 
 const CreatingContext = createContext();
+
+/* carouselOptions */
 
 const carouselOptions = {
   margin: 30,
@@ -39,10 +41,19 @@ const productsCarouselOptions = {
   },
 };
 
+/* End carouselOptions */
+
 export const ContextProvider = ({ children }) => {
+  /* FAQ */
+
+  /* End FAQ */
+
   return (
     <CreatingContext.Provider
-      value={{ carouselOptions, productsCarouselOptions }}
+      value={{
+        carouselOptions,
+        productsCarouselOptions,
+      }}
     >
       {children}
     </CreatingContext.Provider>

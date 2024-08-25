@@ -9,6 +9,7 @@ import CreatingContext from "../context/ContexAPI";
 const BecomeOurPartner = () => {
   const { carouselOptions, productsCarouselOptions } =
     useContext(CreatingContext);
+
   return (
     <div className="BecomeOurPartner">
       <section className="container-fluid mt-15 BecomeOurPartner_section_1">

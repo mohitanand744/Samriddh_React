@@ -545,6 +545,110 @@ const BecomeOurPartner = () => {
               Search
             </button>
           </div>
+
+          <div className="faqContainer row position-relative mt-7">
+            <div className="col-lg-6 col-md-12 col-12">
+              <div className="accordion " id="accordionPanelsStayOpenExample">
+                <div className="accordion-item mt-3 rounded-4">
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed fs-20 font-inter rounded-4 px-7 py-4"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="false"
+                      aria-controls="collapseOne"
+                    >
+                      Who we are?
+                    </button>
+                  </h2>
+                  <div className="d-lg-none d-md-block d-block">
+                    <div
+                      id="collapseOne"
+                      className="accordion-collapse collapse rounded-5 answerContainer "
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div className="accordion-body fs-20 font-inter p-5">
+                        <h2 className="fs-26 fw-semibold my-4">Answer</h2>
+                        Samriddh Kendra, a venture by Creditbucket Technologies
+                        Private Limited, is dedicated to enhancing financial
+                        literacy and inclusion in rural India. Incubated at STPI
+                        Chennai and supported by the Government of Bihar, we
+                        provide accessible financial services and education to
+                        empower underserved communities.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item mt-3 rounded-4">
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed fs-20 font-inter rounded-4 px-7 py-4"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Why we are?
+                    </button>
+                  </h2>
+                  <div className="d-lg-none d-md-block d-block">
+                    <div
+                      id="collapseTwo"
+                      className="accordion-collapse collapse rounded-5 answerContainer "
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div className="accordion-body fs-20 font-inter p-5">
+                        <h2 className="fs-26 fw-semibold my-4">Answer</h2>
+                        Samriddh Kendra, a venture by Creditbucket Technologies
+                        Private Limited, is dedicated to enhancing financial
+                        literacy and inclusion in rural India. Incubated at STPI
+                        Chennai and supported by the Government of Bihar, we
+                        provide accessible financial services and education to
+                        empower underserved communities.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-12 col-12 ">
+              <div className="ansList mt-lg-0 mt-md-4 mt-5 d-lg-flex d-md-none d-none">
+                <div
+                  id="collapseOne"
+                  className="accordion-collapse collapse rounded-5 answerContainer "
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body fs-20 font-inter p-5">
+                    <h2 className="fs-26 fw-semibold my-4">Answer</h2>
+                    Samriddh Kendra, a venture by Creditbucket Technologies
+                    Private Limited, is dedicated to enhancing financial
+                    literacy and inclusion in rural India. Incubated at STPI
+                    Chennai and supported by the Government of Bihar, we provide
+                    accessible financial services and education to empower
+                    underserved communities.
+                  </div>
+                </div>
+
+                <div
+                  id="collapseTwo"
+                  className="accordion-collapse collapse rounded-5 answerContainer "
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body fs-20 font-inter p-5">
+                    <h2 className="fs-26 fw-semibold my-4">Answer</h2>
+                    Samriddh Kendra, a venture by Creditbucket Technologies
+                    Private Limited, is dedicated to enhancing financial
+                    literacy and inclusion in rural India. Incubated at STPI
+                    Chennai and supported by the Government of Bihar, we provide
+                    accessible financial services and education to empower
+                    underserved communities.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>

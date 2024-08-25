@@ -34,6 +34,10 @@ html {
   margin: 15rem 0 !important;
 }
 
+.mt-6 {
+  margin-top: 6rem;
+}
+
 .mb-7 {
   margin-bottom: 7rem;
 }
@@ -356,6 +360,27 @@ li {
   }
 }
 
+.accordion-button:not(.collapsed) {
+  color: var(--white) !important;
+  background-color: var(--dark-blue) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8'/%3E%3C/svg%3E") !important;
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4'/%3E%3C/svg%3E") !important;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  background-size: 100% !important;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
 /***** End Global Css *****/
 
 /* ---------------------------------------------------- */
@@ -1594,6 +1619,34 @@ li {
     img {
       left: 1.9rem;
       top: 11px;
+    }
+  }
+
+  .faqContainer {
+    height: 55rem;
+
+    .accordion-button {
+      background: #eeeeee;
+    }
+
+    .ansList {
+      height: 40rem;
+      overflow-y: scroll;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      padding: 2rem;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      .answerContainer {
+        background: #d9e8ff;
+        border: 2px solid #000;
+        border-right: 4px solid #000;
+        border-bottom: 4px solid #000;
+      }
     }
   }
 }

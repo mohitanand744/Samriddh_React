@@ -1584,16 +1584,15 @@ li {
 
 .BecomeOurPartner_section_7 {
   .inputContainer {
-    height: 60px;
+    height: 55px;
     input {
       &::placeholder {
         color: #a7a7a7;
-        font-size: 16px;
       }
     }
 
     img {
-      left: 22px;
+      left: 19px;
       top: 11px;
     }
   }

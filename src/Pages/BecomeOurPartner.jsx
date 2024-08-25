@@ -532,7 +532,7 @@ const BecomeOurPartner = () => {
               <input
                 type="text"
                 placeholder="Describe your issue"
-                className="w-100 h-100 border-none fs-2 font-inter outline-none bg-medium-gray rounded-4 px-11 fw-medium"
+                className="w-100 h-100 border-none fs-24 font-inter outline-none bg-medium-gray rounded-4 px-11 fw-medium"
               />
               <img
                 className="img-fluid position-absolute"
@@ -541,7 +541,7 @@ const BecomeOurPartner = () => {
                 alt=""
               />
             </div>
-            <button className="btn bg-dark-blue py-4 px-6 font-inter fs-2 text-white rounded-4">
+            <button className="btn bg-dark-blue px-6 font-inter fs-24 text-white rounded-4">
               Search
             </button>
           </div>

@@ -8,6 +8,14 @@ const MonthDropdown = ({ title }) => {
     setSelectedMonthNumber(monthNumber);
   };
 
+  const handleInputChange = (event) => {
+    const inputNumber = event.target.value;
+
+    if (inputNumber === "" || (inputNumber >= 1 && inputNumber <= 12)) {
+      setSelectedMonthNumber(inputNumber);
+    }
+  };
+
   return (
     <>
       <div className="d-flex justify-content-between align-items-center p-4 bg-white mt-3 px-5 rounded-4">
@@ -34,8 +42,9 @@ const MonthDropdown = ({ title }) => {
           </select>
           <input
             type="text"
-            className="month-input fs-20 fw-semibold font-inter rounded-5"
+            className="month-input fs-20 fw-semibold font-inter "
             value={selectedMonthNumber}
+            onChange={handleInputChange}
           />
         </div>
       </div>

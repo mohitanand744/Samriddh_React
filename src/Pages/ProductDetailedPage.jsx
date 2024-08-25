@@ -66,7 +66,7 @@ const ProductDetailedPage = () => {
           </h2>
 
           <div className="row mt-5">
-            <div className="col-lg-8">
+            <div className="col-lg-7">
               <LoanAmountCalculator
                 text={"Loan Amount"}
                 value1={"1L"}
@@ -101,7 +101,7 @@ const ProductDetailedPage = () => {
                 unit={"Yrs"}
               />
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-5">
               <DonutChart
                 label1={"Principle amount"}
                 label2={"Interest amount"}

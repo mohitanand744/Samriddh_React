@@ -34,6 +34,10 @@ html {
   margin: 15rem 0 !important;
 }
 
+.mb-7 {
+  margin-bottom: 7rem;
+}
+
 .mt-11 {
   margin-top: 7.5rem !important;
 }
@@ -83,6 +87,10 @@ html {
 }
 .py-6 {
   padding: 3rem 0;
+}
+
+.px-11 {
+  padding: 0 8rem;
 }
 
 .p-8 {
@@ -145,6 +153,10 @@ a {
 }
 .bg-light-gray {
   background-color: var(--bg-light-gray);
+}
+
+.bg-medium-gray {
+  background-color: #efefef;
 }
 
 .offcanvas-backdrop.show {
@@ -1294,7 +1306,8 @@ li {
   }
 
   .month-input {
-    padding: 0.8rem;
+    width: 123px;
+    height: 43px;
     width: 7rem;
     text-align: center;
     margin-left: -1rem;
@@ -1302,6 +1315,8 @@ li {
     background-color: #e4e8ff;
     z-index: 1;
     color: #0040e6;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
   }
 }
 
@@ -1452,6 +1467,138 @@ li {
     }
   }
 }
+
+.BecomeOurPartner_section_6 {
+  & .partners-Customers {
+    background: var(--dark-blue);
+    height: fit-content;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .ratings-container {
+      & .rating-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+      }
+    }
+
+    & .img-container {
+      width: 18rem;
+      height: 18rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #0000008a;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+
+      & img {
+        width: 15rem;
+      }
+
+      & .avatar {
+        width: 10.6rem;
+      }
+    }
+
+    & .ratings {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      position: relative;
+
+      img {
+        width: 4rem;
+        background: #0000007a;
+        padding: 1rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }
+    }
+
+    & .reviews-container {
+      & .reviews {
+        display: flex;
+        align-items: center;
+        overflow-y: hidden;
+        overflow-x: scroll;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+    }
+
+    & .review-card {
+      height: 56.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      & .top-container {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        & .img {
+          & img {
+            width: 100%;
+            border-radius: 1rem;
+            -webkit-border-radius: 1rem;
+            -moz-border-radius: 1rem;
+            -ms-border-radius: 1rem;
+            -o-border-radius: 1rem;
+          }
+        }
+      }
+
+      & .text {
+        padding: 4rem;
+      }
+
+      & .profile-footer {
+        width: 100%;
+        height: 10rem;
+        background: var(--bg-light-gray);
+      }
+
+      & .avatar {
+        width: 10rem;
+      }
+    }
+  }
+}
+
+.BecomeOurPartner_section_7 {
+  .inputContainer {
+    height: 70px;
+    input {
+      &::placeholder {
+        color: #a7a7a7;
+        font-size: 18px;
+      }
+    }
+
+    img {
+      left: 22px;
+      top: 16px;
+    }
+  }
+}
+
 /***** End BecomeOurPartner_page Section *****/
 
 /***** Footer Section *****/

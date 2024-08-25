@@ -267,12 +267,12 @@ const BecomeOurPartner = () => {
           </div>
           <div className="productContainer mt-5">
             <div className="row">
-              <div className="col-lg-2 col-md-2 col-sm-3 col-3 px-5">
+              <div className="col-lg-2 col-md-2 col-sm-3 col-4 px-5">
                 <p className="fs-36 fw-medium text-white title-font text-lg-center text-md-center text-sm-start text-start mt-12">
                   Insaurance
                 </p>
               </div>
-              <div className="col-lg-10 col-md-10 col-sm-9 col-9">
+              <div className="col-lg-10 col-md-10 col-sm-9 col-8">
                 <OwlCarousel
                   className="owl-carousel owl-theme"
                   {...productsCarouselOptions}
@@ -336,6 +336,214 @@ const BecomeOurPartner = () => {
                 </OwlCarousel>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="BecomeOurPartner_section_6">
+        <header className="container mb-5">
+          <Title
+            first_text="What our"
+            span_text="Partners"
+            last_text="say about us?"
+          />
+        </header>
+
+        <div className="partners-Customers py-5 container-fluid">
+          <div className="container py-5 position-relative positions1">
+            <div className="d-flex justify-content-xl-start justify-content-lg-between align-items-center flex-lg-row flex-md-column flex-column justify-content-md-center">
+              <div
+                className="
+              ratings-container col-xl-4 col-lg-4 col-md-12 col-12  mb-md-5 mb-5 d-flex justify-content-xl-center justify-content-lg-center justify-content-md-start justify-content-start order-lg-last order-md-first order-first
+               "
+              >
+                <div className="  rating-card">
+                  <div className="img-container">
+                    <img className="img-fluid" src="ratings.webp" alt="" />
+                  </div>
+                  <div className="d-flex flex-column align-items-lg-center align-items-md-start align-items-start">
+                    <p className="fs-lg-3 fs-md-2 fs-1 text-white font-poppins mt-4">
+                      Our Partners
+                    </p>
+
+                    <div className=" ratings mb-7">
+                      <span className="text-war fs-lg-3 fs-md-2 fs-1 mx-1">
+                        5.0
+                      </span>{" "}
+                      <img
+                        className="d-md-block  d-none"
+                        src="./star.png"
+                        alt="rating"
+                      />
+                      <img
+                        className="d-md-block  d-none"
+                        src="./star.png"
+                        alt="rating"
+                      />
+                      <img
+                        className="d-md-block  d-none"
+                        src="./star.png"
+                        alt="rating"
+                      />
+                      <img
+                        className="d-md-block  d-none"
+                        src="./star.png"
+                        alt="rating"
+                      />
+                      <img
+                        className="d-md-block  d-none"
+                        src="./star.png"
+                        alt="rating"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className=" reviews-container col-xl-8 col-lg-8 col-md-12 col-12 order-md-last order-last">
+                <div className="reviews">
+                  <OwlCarousel
+                    className="owl-carousel owl-theme"
+                    {...carouselOptions}
+                  >
+                    <div className=" item">
+                      <div className="bg-white review-card rounded-top-6 d-flex flex-column justify-content-between">
+                        <div className="text">
+                          <h2 className="title-font text-dark fs-1 fw-bold">
+                            Top notch team, top notch product
+                          </h2>
+                          <p className="font-inter fs-lg-4 fs-md-3 fs-sm-2 fs-7 text-gray mt-5">
+                            Metaforms has been a gamechanger in our journey of
+                            optimising our user funnels. The level of attention
+                            to detail the team brings with pro-activeness in
+                            understanding the nuances of business is exemplary. 
+                          </p>
+                        </div>
+                        <div className="profile-footer d-flex align-items-center">
+                          <img
+                            className="img-fluid avatar mr-4"
+                            src="./avtar.png"
+                            alt=""
+                          />
+                          <div className="d-flex flex-column gap-2">
+                            <p className="fs-2 font-poppins fw-semibold ">
+                              Apoorva
+                            </p>
+                            <p className="fs-4 font-poppins">Porter</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="  item">
+                      <div className="bg-white review-card rounded-4">
+                        <div className="top-container">
+                          <div className="img">
+                            <img src="./empty-img.webp" alt="" />
+                          </div>
+                          <h2 className="title-font fs-1 text-dark fw-bold mx-4">
+                            All necessary integrations were available.
+                          </h2>
+                        </div>
+                        <div className="profile-footer d-flex align-items-center">
+                          <img
+                            className="img-fluid avatar mr-4"
+                            src="./avtar.png"
+                            alt=""
+                          />
+                          <div className="d-flex flex-column gap-2">
+                            <p className="fs-2 font-poppins fw-semibold ">
+                              Apoorva
+                            </p>
+                            <p className="fs-4 font-poppins">Porter</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className=" item">
+                      <div className="bg-white review-card rounded-top-6 d-flex flex-column justify-content-between">
+                        <div className="text">
+                          <h2 className="title-font text-dark fs-1 fw-bold">
+                            Top notch team, top notch product
+                          </h2>
+                          <p className="font-inter fs-lg-4 fs-md-3 fs-sm-2 fs-7  text-gray mt-5">
+                            Metaforms has been a gamechanger in our journey of
+                            optimising our user funnels. The level of attention
+                            to detail the team brings with pro-activeness in
+                            understanding the nuances of business is exemplary. 
+                          </p>
+                        </div>
+                        <div className="profile-footer d-flex align-items-center">
+                          <img
+                            className="img-fluid avatar mr-4"
+                            src="./avtar.png"
+                            alt=""
+                          />
+                          <div className="d-flex flex-column gap-2">
+                            <p className="fs-2 font-poppins fw-semibold ">
+                              Apoorva
+                            </p>
+                            <p className="fs-4 font-poppins">Porter</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="  item">
+                      <div className="bg-white review-card rounded-4">
+                        <div className="top-container">
+                          <div className="img">
+                            <img src="./empty-img.webp" alt="" />
+                          </div>
+                          <h2 className="title-font fs-1 text-dark fw-bold mx-4">
+                            All necessary integrations were available.
+                          </h2>
+                        </div>
+                        <div className="profile-footer d-flex align-items-center">
+                          <img
+                            className="img-fluid avatar mr-4"
+                            src="./avtar.png"
+                            alt=""
+                          />
+                          <div className="d-flex flex-column gap-2">
+                            <p className="fs-2 font-poppins fw-semibold ">
+                              Apoorva
+                            </p>
+                            <p className="fs-4 font-poppins">Porter</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </OwlCarousel>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="BecomeOurPartner_section_7">
+        <Title
+          first_text="Frequently Asked "
+          span_text="Questions"
+          last_text=""
+        />
+
+        <div className="container">
+          <div className="d-flex align-content-center mx-lg-0 mx-md-0 mx-5">
+            <div className="inputContainer flex-grow-1 position-relative">
+              <input
+                type="text"
+                placeholder="Describe your issue"
+                className="w-100 h-100 border-none fs-2 font-inter outline-none bg-medium-gray rounded-4 px-11 fw-medium"
+              />
+              <img
+                className="img-fluid position-absolute"
+                width={38}
+                src="./search.png"
+                alt=""
+              />
+            </div>
+            <button className="btn bg-dark-blue py-4 px-5 font-inter fs-2 text-white rounded-4">
+              Search
+            </button>
           </div>
         </div>
       </section>

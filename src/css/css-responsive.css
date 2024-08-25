@@ -70,6 +70,16 @@
   .fs-4 {
     font-size: calc(2.275rem + 0.3vw) !important;
   }
+
+  .BecomeOurPartner_section_6 {
+    & .partners-Customers {
+      & .ratings-container {
+        & .rating-card {
+          flex-direction: row;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (width < 888px) {

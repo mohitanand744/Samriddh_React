@@ -1,5 +1,15 @@
 /***** Responsiveness Section *****/
 
+@media screen and (width < 1200px) {
+  .BecomeOurPartner_section_7 {
+    & .faqContainer {
+      .answerContainer {
+        width: 48%;
+      }
+    }
+  }
+}
+
 @media screen and (width < 1240px) {
   html {
     font-size: 53%;
@@ -77,6 +87,14 @@
         & .rating-card {
           flex-direction: row;
         }
+      }
+    }
+  }
+  .BecomeOurPartner_section_7 {
+    & .faqContainer {
+      .answerContainer {
+        position: relative;
+        width: 100%;
       }
     }
   }

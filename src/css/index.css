@@ -1624,29 +1624,27 @@ li {
 
   .faqContainer {
     height: fit-content;
+    padding: 2rem;
 
     .accordion-button {
       background: #eeeeee;
+      height: 6.2rem;
     }
-
-    .ansList {
-      height: 40rem;
-      overflow-y: scroll;
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      padding: 2rem;
-
-      &::-webkit-scrollbar {
-        display: none;
-      }
-
-      .answerContainer {
-        background: #d9e8ff;
-        border: 2px solid #000;
-        border-right: 4px solid #000;
-        border-bottom: 4px solid #000;
-      }
+    .answerContainer {
+      border-radius: 2rem;
+      background: #d9e8ff;
+      border: 2px solid #000;
+      border-right: 4px solid #000;
+      border-bottom: 4px solid #000;
+      -webkit-border-radius: 2rem;
+      -moz-border-radius: 2rem;
+      -ms-border-radius: 2rem;
+      -o-border-radius: 2rem;
+      margin: 1rem 0;
+      position: absolute;
+      width: 40%;
+      right: 0;
+      top: 0;
     }
   }
 }

@@ -572,7 +572,7 @@ const BecomeOurPartner = () => {
                         id={data.questionNum}
                         class={`accordion-collapse ${
                           index === 0 ? "collapse show" : "collapse"
-                        }  answerContainer mb-lg-0 mb-md-5 mb-5`}
+                        }  answerContainer my-lg-0 my-md-2 my-2`}
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body fs-20 font-inter p-5">

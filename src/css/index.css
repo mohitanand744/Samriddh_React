@@ -1628,7 +1628,7 @@ li {
 
     .accordion-button {
       background: #eeeeee;
-      height: 8rem;
+      height: 6.2rem;
     }
     .answerContainer {
       border-radius: 2rem;
@@ -1639,10 +1639,8 @@ li {
       -moz-border-radius: 2rem;
       -ms-border-radius: 2rem;
       -o-border-radius: 2rem;
-      margin: 1rem 0;
       position: absolute;
       width: 40%;
-      height: 89%;
       right: 0;
       top: 2rem;
     }

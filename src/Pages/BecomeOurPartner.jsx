@@ -557,7 +557,7 @@ const BecomeOurPartner = () => {
                         <button
                           class={`accordion-button ${
                             index === 0 ? "" : "collapsed"
-                          } fs-20 font-inter rounded-4 px-7 py-4`}
+                          } fs-20 font-inter rounded-4 px-5 py-4`}
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target={`#${data.questionNum}`}
@@ -572,7 +572,7 @@ const BecomeOurPartner = () => {
                         id={data.questionNum}
                         class={`accordion-collapse ${
                           index === 0 ? "collapse show" : "collapse"
-                        }  answerContainer`}
+                        }  answerContainer mb-lg-0 mb-md-5 mb-5`}
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body fs-20 font-inter p-5">

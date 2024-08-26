@@ -7,7 +7,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import CreatingContext from "../context/ContexAPI";
 
 const BecomeOurPartner = () => {
-  const { carouselOptions, productsCarouselOptions } =
+  const { carouselOptions, productsCarouselOptions, faqData } =
     useContext(CreatingContext);
 
   return (
@@ -547,160 +547,42 @@ const BecomeOurPartner = () => {
             </button>
           </div>
 
-          <div className="faqContainer position-relative row mt-7">
+          <div className="faqContainer position-relative row mt-5">
             <div className="col-xl-7 col-lg-6 col-md-12 col-12">
-              <div class="accordion" id="accordionExample">
-                <div class="accordion-item mt-3 rounded-4">
-                  <h2 class="accordion-header ">
-                    <button
-                      class="accordion-button fs-20 font-inter rounded-4 px-7 py-4"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
-                      aria-expanded="false"
-                      aria-controls="collapseOne"
-                    >
-                      Who we are?
-                    </button>
-                  </h2>
+              <div className="accordion" id="accordionExample">
+                {faqData.map((data, index) => {
+                  return (
+                    <div key={index} className="accordion-item mt-3 rounded-4">
+                      <h2 class="accordion-header ">
+                        <button
+                          class={`accordion-button ${
+                            index === 0 ? "" : "collapsed"
+                          } fs-20 font-inter rounded-4 px-7 py-4`}
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target={`#${data.questionNum}`}
+                          aria-expanded="false"
+                          aria-controls={data.questionNum}
+                        >
+                          {data.question}
+                        </button>
+                      </h2>
 
-                  <div
-                    id="collapseOne"
-                    class="accordion-collapse collapse show answerContainer"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div className="accordion-body fs-20 font-inter p-5">
-                      <h2 className="fs-26 fw-semibold my-4">Answer</h2>
-                      Samriddh Kendra, a venture by Creditbucket Technologies
-                      Private Limited, is dedicated to enhancing financial
-                      literacy and inclusion in rural India. Incubated at STPI
-                      Chennai and supported by the Government of Bihar, we
-                      provide accessible financial services and education to
-                      empower underserved communities.
+                      <div
+                        id={data.questionNum}
+                        class={`accordion-collapse ${
+                          index === 0 ? "collapse show" : "collapse"
+                        }  answerContainer`}
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div className="accordion-body fs-20 font-inter p-5">
+                          <h2 className="fs-26 fw-semibold my-4">Answer</h2>
+                          {data.answer}
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-                <div class="accordion-item mt-3 rounded-4">
-                  <h2 class="accordion-header">
-                    <button
-                      class="accordion-button collapsed fs-20 font-inter rounded-4 px-7 py-4"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="collapseTwo"
-                    >
-                      Why we are?
-                    </button>
-                  </h2>
-
-                  <div
-                    id="collapseTwo"
-                    class="accordion-collapse collapse answerContainer"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div className="accordion-body fs-20 font-inter p-5">
-                      <h2 className="fs-26 fw-semibold my-4">Answer</h2>
-                      Samriddh Kendra, a venture by Creditbucket Technologies
-                      Private Limited, is dedicated to enhancing financial
-                      literacy and inclusion in rural India. Incubated at STPI
-                      Chennai and supported by the Government of Bihar, we
-                      provide accessible financial services and education to
-                      empower underserved communities.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item mt-3 rounded-4">
-                  <h2 class="accordion-header">
-                    <button
-                      class="accordion-button collapsed fs-20 font-inter rounded-4 px-7 py-4"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree"
-                      aria-expanded="false"
-                      aria-controls="collapseThree"
-                    >
-                      What is the eligibility criteria to become a Samriddh
-                      Kendra
-                    </button>
-                  </h2>
-
-                  <div
-                    id="collapseThree"
-                    class="accordion-collapse collapse answerContainer"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div className="accordion-body fs-20 font-inter p-5">
-                      <h2 className="fs-26 fw-semibold my-4">Answer</h2>
-                      Samriddh Kendra, a venture by Creditbucket Technologies
-                      Private Limited, is dedicated to enhancing financial
-                      literacy and inclusion in rural India. Incubated at STPI
-                      Chennai and supported by the Government of Bihar, we
-                      provide accessible financial services and education to
-                      empower underserved communities.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item mt-3 rounded-4">
-                  <h2 class="accordion-header">
-                    <button
-                      class="accordion-button collapsed fs-20 font-inter rounded-4 px-7 py-4"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseFour"
-                      aria-expanded="false"
-                      aria-controls="collapseFour"
-                    >
-                      What documents do I need to register on Samriddh Kendra
-                    </button>
-                  </h2>
-
-                  <div
-                    id="collapseFour"
-                    class="accordion-collapse collapse answerContainer"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div className="accordion-body fs-20 font-inter p-5">
-                      <h2 className="fs-26 fw-semibold my-4">Answer</h2>
-                      Samriddh Kendra, a venture by Creditbucket Technologies
-                      Private Limited, is dedicated to enhancing financial
-                      literacy and inclusion in rural India. Incubated at STPI
-                      Chennai and supported by the Government of Bihar, we
-                      provide accessible financial services and education to
-                      empower underserved communities.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item mt-3 rounded-4">
-                  <h2 class="accordion-header">
-                    <button
-                      class="accordion-button collapsed fs-20 font-inter rounded-4 px-7 py-4"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseFive"
-                      aria-expanded="false"
-                      aria-controls="collapseFive"
-                    >
-                      How will I earn via Samriddh Kendra
-                    </button>
-                  </h2>
-
-                  <div
-                    id="collapseFive"
-                    class="accordion-collapse collapse answerContainer"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div className="accordion-body fs-20 font-inter p-5">
-                      <h2 className="fs-26 fw-semibold my-4">Answer</h2>
-                      Samriddh Kendra, a venture by Creditbucket Technologies
-                      Private Limited, is dedicated to enhancing financial
-                      literacy and inclusion in rural India. Incubated at STPI
-                      Chennai and supported by the Government of Bihar, we
-                      provide accessible financial services and education to
-                      empower underserved communities.
-                    </div>
-                  </div>
-                </div>
+                  );
+                })}
               </div>
             </div>
             <div className="col-xl-5 col-lg-6 col-md-12 col-12"></div>

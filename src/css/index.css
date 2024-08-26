@@ -1628,14 +1628,13 @@ li {
 
     .accordion-button {
       background: #eeeeee;
-      height: 6.2rem;
+      height: 8rem;
     }
     .answerContainer {
       border-radius: 2rem;
       background: #d9e8ff;
       border: 2px solid #000;
-      border-right: 4px solid #000;
-      border-bottom: 4px solid #000;
+      box-shadow: rgb(51, 51, 51) 3px 3px 0px -1px;
       -webkit-border-radius: 2rem;
       -moz-border-radius: 2rem;
       -ms-border-radius: 2rem;
@@ -1643,8 +1642,9 @@ li {
       margin: 1rem 0;
       position: absolute;
       width: 40%;
+      height: 89%;
       right: 0;
-      top: 0;
+      top: 2rem;
     }
   }
 }

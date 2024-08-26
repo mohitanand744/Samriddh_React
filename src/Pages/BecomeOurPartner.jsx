@@ -605,8 +605,59 @@ const BecomeOurPartner = () => {
         </div>
       </section>
 
-      <section className="BecomeOurPartner_section_9">
+      <section className="BecomeOurPartner_section_9 ">
         <Title first_text="" span_text="Merchants near you" last_text="" />
+
+        <div className="container">
+          <div className="row mapContainer py-4 px-3 ">
+            <div className="col-lg-9 col-md-7 col-12 ">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224036.74191885843!2d77.09712574317457!3d28.672468696115956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1724671222604!5m2!1sen!2sin"
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-100 h-100 rounded-5"
+              ></iframe>
+            </div>
+            <div className="col-lg-3 col-md-5 col-12">
+              <div className="row flex-column justify-content-center align-items-center mt-lg-0 mt-md-0 mt-5">
+                <h1 className="text-center fs-26 fw-semibold font-inter color-light-blue">
+                  Merchant Details
+                </h1>
+
+                <div className="d-flex flex-column mt-4 p-4 rounded-5 pinCodeContainer">
+                  <div className="d-flex gap-3">
+                    <div className="location-icon mt-1">
+                      <img
+                        className="img-fluid location"
+                        src="location 1.png"
+                        alt=""
+                      />
+                    </div>
+                    <div>
+                      <p className="text-white fs-20 font-inter">
+                        ENTER PIN CODE
+                      </p>
+                      <p className="color-light-blue fs-16 font-inter">
+                        Enter pin code details to find merchants near that
+                        specific pin code
+                      </p>
+                    </div>
+                  </div>
+                  <input
+                    type="number"
+                    placeholder="X X X X X X X X X"
+                    className="text-center w-100 p-3 font-inter rounded-4 fs-28 pinCodeInput text-white border-none"
+                  />
+                </div>
+
+                <p className="font-inter fs-20 color-light-blue my-5 text-center">
+                  2 PEOPLE FOUND
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );

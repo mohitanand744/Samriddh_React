@@ -1673,6 +1673,37 @@ li {
   background-color: var(--dark-blue);
 }
 
+.BecomeOurPartner_section_9 {
+  height: fit-content;
+
+  .mapContainer {
+    background: var(--dark-blue);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+  }
+
+  .location {
+    width: 6rem !important;
+  }
+
+  .pinCodeContainer {
+    background: #0000003e;
+    border: 1px solid #adadaddd;
+
+    .pinCodeInput {
+      background-color: #354468;
+      color: #fff;
+
+      &::placeholder {
+        color: #fff;
+      }
+    }
+  }
+}
+
 /***** End BecomeOurPartner_page Section *****/
 
 /***** Footer Section *****/

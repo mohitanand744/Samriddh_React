@@ -122,6 +122,15 @@
       padding: 2rem;
     }
   }
+
+  .BecomeOurPartner_section_9 {
+    iframe {
+      height: 50rem !important;
+    }
+    .pinCodeContainer {
+      width: 45rem;
+    }
+  }
 }
 
 @media screen and (width < 748px) {
@@ -151,6 +160,15 @@
 @media screen and (width < 548px) {
   .footer {
     background: linear-gradient(200deg, #000000 0%, #003c79 100%);
+  }
+  .BecomeOurPartner_section_9 {
+    .mapContainer {
+      border-radius: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0;
+    }
   }
 
   .insaurance {

@@ -572,7 +572,7 @@ const BecomeOurPartner = () => {
                         id={data.questionNum}
                         class={`accordion-collapse ${
                           index === 0 ? "collapse show" : "collapse"
-                        }  answerContainer my-lg-0 my-md-2 my-2`}
+                        }  answerContainer my-lg-3 my-md-2 my-2`}
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body fs-20 font-inter p-5">
@@ -588,6 +588,25 @@ const BecomeOurPartner = () => {
             <div className="col-xl-5 col-lg-6 col-md-12 col-12"></div>
           </div>
         </div>
+      </section>
+
+      <section className="BecomeOurPartner_section_8 p-5 my-10 text-white">
+        <div className="container p-lg-5 p-md-3 p-1">
+          <div className="row flex-columna align-items-center  justify-content-center gap-5 text-center p-lg-5 p-md-3 p-1">
+            <p className="title-font fs-36 fw-medium">
+              Unlock your path to financial freedom, join Samriddh Kendra In few
+              easy steps and work at your convenience.
+            </p>
+
+            <button className="btn mt-4 joinbtn text-white font-inter fs-26 fw-semibold">
+              JOIN SAMRIDDH
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section className="BecomeOurPartner_section_9">
+        <Title first_text="" span_text="Merchants near you" last_text="" />
       </section>
     </div>
   );

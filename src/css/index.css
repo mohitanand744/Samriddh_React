@@ -385,6 +385,24 @@ li {
 .accordion-item {
   border: none !important;
 }
+
+.joinbtn {
+  background: linear-gradient(90deg, #846f00, #d5b031);
+  width: 42rem !important;
+  height: 9rem !important;
+  border: 2px solid #fff !important;
+}
+
+.btn {
+  transition: 0.5s !important;
+  -webkit-transition: 0.5s !important;
+  -moz-transition: 0.5s !important;
+  -ms-transition: 0.5s !important;
+  -o-transition: 0.5s !important;
+  &:active {
+    scale: 0.85;
+  }
+}
 /***** End Global Css *****/
 
 /* ---------------------------------------------------- */
@@ -1632,7 +1650,7 @@ li {
 
     .accordion-button {
       background: #eeeeee;
-      height: 6.2rem;
+      height: 7.2rem;
     }
     .answerContainer {
       border-radius: 2rem;
@@ -1649,6 +1667,10 @@ li {
       top: 2rem;
     }
   }
+}
+
+.BecomeOurPartner_section_8 {
+  background-color: var(--dark-blue);
 }
 
 /***** End BecomeOurPartner_page Section *****/

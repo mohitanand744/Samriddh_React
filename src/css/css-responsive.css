@@ -348,6 +348,11 @@
       }
     }
   }
+  .BecomeOurPartner_section_5 {
+    .samriddh-kendra {
+      padding: 4rem;
+    }
+  }
 }
 
 @media screen and (width < 380px) {
@@ -374,11 +379,6 @@
         width: 25rem !important;
         height: 30rem !important;
       }
-    }
-  }
-  .BecomeOurPartner_section_5 {
-    .samriddh-kendra {
-      padding: 4rem;
     }
   }
 }

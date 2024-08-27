@@ -345,8 +345,8 @@ const BecomeOurPartner = () => {
         <Title first_text={"Why work with us?"} span_text={""} last_text={""} />
 
         <div className="container-fluid h-100">
-          <div class="samriddh-kendra position-relative h-100">
-            <div class="center-avatar text-center">
+          <div className="samriddh-kendra position-relative h-100">
+            <div className="center-avatar text-center">
               <img
                 src="Sammrridh Kendra.png"
                 className="img-fluid"
@@ -359,7 +359,7 @@ const BecomeOurPartner = () => {
             <div className="row justify-content-center align-items-center h-100 pt-lg-0 pt-md-0 pt-25">
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="leftSideCards d-flex justify-content-center flex-column align-items-center gap-lg-5 gap-md-5 gap-3 mb-3">
-                  <div class="card rounded-5 p-5 bg-white ">
+                  <div className="card rounded-5 p-5 bg-white ">
                     <h2 className="font-inter fs-16 fw-semibold">
                       Wide Ranges of Products
                     </h2>
@@ -368,7 +368,7 @@ const BecomeOurPartner = () => {
                       your customers.
                     </p>
                   </div>
-                  <div class="card rounded-5 p-5 bg-white ">
+                  <div className="card rounded-5 p-5 bg-white ">
                     <h2 className="font-inter fs-16 fw-semibold">
                       Easy Digital Process
                     </h2>
@@ -377,7 +377,7 @@ const BecomeOurPartner = () => {
                       time.
                     </p>
                   </div>
-                  <div class="card rounded-5 p-5 bg-white ">
+                  <div className="card rounded-5 p-5 bg-white ">
                     <h2 className="font-inter fs-16 fw-semibold">
                       Smallest Payout Cycle
                     </h2>
@@ -390,7 +390,7 @@ const BecomeOurPartner = () => {
               </div>
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="rightSideCards d-flex justify-content-center flex-column align-items-center gap-lg-5 gap-md-5 gap-3">
-                  <div class="card rounded-5 p-5 bg-white ">
+                  <div className="card rounded-5 p-5 bg-white ">
                     <h2 className="font-inter fs-16 fw-semibold">
                       Free Education and Training
                     </h2>
@@ -399,7 +399,7 @@ const BecomeOurPartner = () => {
                       assistance at every step to achieve your goals.
                     </p>
                   </div>
-                  <div class="card rounded-5 p-5 bg-white ">
+                  <div className="card rounded-5 p-5 bg-white ">
                     <h2 className="font-inter fs-16 fw-semibold">
                       Instant Support
                     </h2>
@@ -408,7 +408,7 @@ const BecomeOurPartner = () => {
                       with you as soon as possible to assist you.
                     </p>
                   </div>
-                  <div class="card rounded-5 p-5 bg-white ">
+                  <div className="card rounded-5 p-5 bg-white ">
                     <h2 className="font-inter fs-16 fw-semibold">
                       Best in Class Commission
                     </h2>
@@ -636,9 +636,9 @@ const BecomeOurPartner = () => {
                 {faqData.map((data, index) => {
                   return (
                     <div key={index} className="accordion-item mt-3 rounded-4">
-                      <h2 class="accordion-header ">
+                      <h2 className="accordion-header ">
                         <button
-                          class={`accordion-button ${
+                          className={`accordion-button ${
                             index === 0 ? "" : "collapsed"
                           } fs-20 font-inter rounded-4 px-5 py-4`}
                           type="button"
@@ -653,7 +653,7 @@ const BecomeOurPartner = () => {
 
                       <div
                         id={data.questionNum}
-                        class={`accordion-collapse ${
+                        className={`accordion-collapse ${
                           index === 0 ? "collapse show" : "collapse"
                         }  answerContainer my-lg-3 my-md-2 my-2`}
                         data-bs-parent="#accordionExample"

@@ -98,11 +98,26 @@
       }
     }
   }
+  .BecomeOurPartner_section_5 {
+    .samriddh-kendra {
+      padding: 8rem;
+    }
+  }
 }
 
 @media screen and (width < 888px) {
   html {
     font-size: 49%;
+  }
+}
+
+@media screen and (width < 833px) {
+  .BecomeOurPartner_section_5 {
+    & .rightSideCards {
+      .card:nth-child(3) {
+        margin-right: 4rem !important;
+      }
+    }
   }
 }
 
@@ -129,6 +144,42 @@
     }
     .pinCodeContainer {
       width: 45rem;
+    }
+    .profile_Card {
+      width: 45rem;
+    }
+  }
+
+  .BecomeOurPartner_section_5 {
+    .center-avatar {
+      top: 15rem;
+    }
+    .card {
+      width: 100%;
+    }
+
+    .rightSideCards {
+      .card:nth-child(1) {
+        margin-left: 0rem !important;
+      }
+      .card:nth-child(2) {
+        margin-left: 0rem !important;
+      }
+      .card:nth-child(3) {
+        margin-right: 0rem !important;
+        margin-top: 0 !important;
+      }
+    }
+    .leftSideCards {
+      .card:nth-child(1) {
+        margin-top: 0rem !important;
+      }
+      .card:nth-child(2) {
+        margin-left: 0rem !important;
+      }
+      .card:nth-child(3) {
+        margin-top: 0rem !important;
+      }
     }
   }
 }
@@ -312,6 +363,11 @@
         width: 25rem !important;
         height: 30rem !important;
       }
+    }
+  }
+  .BecomeOurPartner_section_5 {
+    .samriddh-kendra {
+      padding: 4rem;
     }
   }
 }

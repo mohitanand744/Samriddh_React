@@ -102,7 +102,7 @@ const BecomeOurPartner = () => {
               <div
                 className={`startEarning text-white d-lg-flex d-md-flex d-sm-flex d-none justify-content-center align-items-lg-start align-items-md-center align-items-center flex-column gap-4 `}
               >
-                <div className={`startEarningCard  step1`}>
+                <div className={`startEarningCard active  step1`}>
                   <h2 className={`font-inter fs-1 fw-semibold `}>Sign up</h2>
                   <p className="font-inter fs-4 fw-medium">
                     Click on Signup Button and create an account
@@ -341,6 +341,89 @@ const BecomeOurPartner = () => {
         </div>
       </section>
 
+      <section className="BecomeOurPartner_section_5 mb-7">
+        <Title first_text={"Why work with us?"} span_text={""} last_text={""} />
+
+        <div className="container-fluid h-100">
+          <div class="samriddh-kendra position-relative h-100">
+            <div class="center-avatar text-center">
+              <img
+                src="Sammrridh Kendra.png"
+                className="img-fluid"
+                alt="Avatar"
+              />
+              <h2 className="fs-26 fw-semibold font-inter text-white">
+                Samriddh Kendra
+              </h2>
+            </div>
+            <div className="row justify-content-center align-items-center h-100 pt-lg-0 pt-md-0 pt-25">
+              <div className="col-lg-6 col-md-6 col-12">
+                <div className="leftSideCards d-flex justify-content-center flex-column align-items-center gap-lg-5 gap-md-5 gap-3 mb-3">
+                  <div class="card rounded-5 p-5 bg-white ">
+                    <h2 className="font-inter fs-16 fw-semibold">
+                      Wide Ranges of Products
+                    </h2>
+                    <p className="font-inter fs-16 text-light-gray mt-1">
+                      Understand and sell an array of financial questions to
+                      your customers.
+                    </p>
+                  </div>
+                  <div class="card rounded-5 p-5 bg-white ">
+                    <h2 className="font-inter fs-16 fw-semibold">
+                      Easy Digital Process
+                    </h2>
+                    <p className="font-inter fs-16 text-light-gray mt-1">
+                      Get your payout credited in your account under minimum
+                      time.
+                    </p>
+                  </div>
+                  <div class="card rounded-5 p-5 bg-white ">
+                    <h2 className="font-inter fs-16 fw-semibold">
+                      Smallest Payout Cycle
+                    </h2>
+                    <p className="font-inter fs-16 text-light-gray mt-1">
+                      Get your payout credited in your account under minimum
+                      time.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 col-md-6 col-12">
+                <div className="rightSideCards d-flex justify-content-center flex-column align-items-center gap-lg-5 gap-md-5 gap-3">
+                  <div class="card rounded-5 p-5 bg-white ">
+                    <h2 className="font-inter fs-16 fw-semibold">
+                      Free Education and Training
+                    </h2>
+                    <p className="font-inter fs-16 text-light-gray mt-1">
+                      Our dedicated training and sales team will provide
+                      assistance at every step to achieve your goals.
+                    </p>
+                  </div>
+                  <div class="card rounded-5 p-5 bg-white ">
+                    <h2 className="font-inter fs-16 fw-semibold">
+                      Instant Support
+                    </h2>
+                    <p className="font-inter fs-16 text-light-gray mt-1">
+                      Please call or text us, and our team will get in touch
+                      with you as soon as possible to assist you.
+                    </p>
+                  </div>
+                  <div class="card rounded-5 p-5 bg-white ">
+                    <h2 className="font-inter fs-16 fw-semibold">
+                      Best in Class Commission
+                    </h2>
+                    <p className="font-inter fs-16 text-light-gray mt-1">
+                      Earn an attractive amount of money on each financial
+                      product you sell.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="BecomeOurPartner_section_6">
         <header className="container mb-5">
           <Title
@@ -548,7 +631,7 @@ const BecomeOurPartner = () => {
           </div>
 
           <div className="faqContainer position-relative row mt-5">
-            <div className="col-xl-7 col-lg-6 col-md-12 col-12">
+            <div className="col-xl-7 col-lg-6 col-md-6 col-12 col-md-12 col-12">
               <div className="accordion" id="accordionExample">
                 {faqData.map((data, index) => {
                   return (
@@ -654,6 +737,63 @@ const BecomeOurPartner = () => {
                 <p className="font-inter fs-20 color-light-blue my-5 text-center">
                   2 PEOPLE FOUND
                 </p>
+
+                <div className="profile_Card mb-5">
+                  <div className="topContainer rounded-top-4 d-flex justify-content-between align-items-center bg-white p-4">
+                    <div className="userDetailsContainer d-flex align-items-center gap-4">
+                      <img
+                        width={51}
+                        height={51}
+                        className="img-fluid"
+                        src="./ProfileImg.png"
+                        alt=""
+                      />
+                      <div className="txt">
+                        <h2 className="font-inter fs-20 fw-medium">
+                          Raju Mahajan
+                        </h2>
+                        <p className="font-inter fs-14 text-light-gray">
+                          Joined 26 May, 2009
+                        </p>
+                      </div>
+                    </div>
+                    <div className="locationIcon">
+                      <img src="./redIconLocation.png" alt="" />
+                    </div>
+                  </div>
+                  <div className="bottomContainer rounded-bottom-4 bg-dark-gray p-4">
+                    <p className="text-dark-blue fs-16 fw-medium font-inter ">
+                      Samiddh kendra has helped me to generate extra income.
+                    </p>
+                    <div className="d-flex bg-dark rounded-4">
+                      <img
+                        className="img-fluid rounded-4"
+                        src="./moneyImg.png"
+                        alt=""
+                      />
+
+                      <div className="txt p-4 ">
+                        <h2 className="fw-semibold fs-12 font-inter text-white">
+                          Golden Opportunity for Everyone earn Upto 1 Lakh.
+                        </h2>
+                        <a
+                          className="text-light-gray fs-8 font-inter fw-medium"
+                          href="https://www.youtube.com/watch?v=M4PEcv7kc3o"
+                        >
+                          https://www.youtube.com/watch?v=M4PEcv7kc3o
+                        </a>
+                      </div>
+                    </div>
+                    <button className="requestContact text-center btn bg-white w-100 mt-4 p-4 fs-18 font-inter fw-medium text-light-blue rounded-3">
+                      <img
+                        src="./bluePhoneIcon.png"
+                        className="img-fluid me-3"
+                        alt=""
+                      />
+                      Request Contact
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

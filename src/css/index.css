@@ -74,6 +74,10 @@ html {
   margin-bottom: 8rem !important;
 }
 
+.pt-25 {
+  padding-top: 22rem !important;
+}
+
 .mt-7 {
   margin-top: 7rem !important;
 }
@@ -103,6 +107,9 @@ html {
 .mb-55 {
   margin-bottom: 55rem;
 }
+.mb-20 {
+  margin-bottom: 20rem;
+}
 
 .ms-10 {
   margin-left: 10rem;
@@ -117,6 +124,9 @@ html {
 
 .gap-8 {
   gap: 8rem;
+}
+.gap-6 {
+  gap: 6rem;
 }
 
 .w-40 {
@@ -277,6 +287,10 @@ li {
   -o-border-radius: 3rem !important;
 }
 
+.bg-dark-gray {
+  background: #c0c5d0 !important;
+}
+
 .sidebar-li {
   & a {
     font-size: 3rem;
@@ -402,6 +416,11 @@ li {
   &:active {
     scale: 0.85;
   }
+}
+.requestContact {
+  border: 2px solid var(--btn-bg) !important;
+
+  box-shadow: var(--btn-bg) 3px 3px 0px -1px;
 }
 /***** End Global Css *****/
 
@@ -1417,23 +1436,34 @@ li {
   .startEarningCard {
     position: relative;
     width: 100%;
-    background: var(--dark-blue);
+    background: #dededecc;
+    border: 3px solid #dfdfdf;
     border-radius: 2.6rem;
     -webkit-border-radius: 2.6rem;
     -moz-border-radius: 2.6rem;
     -ms-border-radius: 2.6rem;
     -o-border-radius: 2.6rem;
     padding: 2.5rem 6rem;
-    color: #fff;
+    color: #000;
+
+    &.active {
+      background: var(--dark-blue);
+      color: #fff;
+
+      .steps {
+        background: var(--dark-blue);
+      }
+    }
 
     & .steps {
       position: absolute;
       left: -2rem;
       top: 3.5rem;
       font-size: 2rem;
-      background: var(--dark-blue);
+      background: var(--bg-md-gray);
       width: 4rem;
       height: 4rem;
+      color: #fff;
       display: flex;
       justify-content: center;
       border-radius: 50%;
@@ -1511,6 +1541,70 @@ li {
         height: 6rem;
         margin-top: 1rem;
       }
+    }
+  }
+}
+
+.BecomeOurPartner_section_5 {
+  height: fit-content;
+
+  .container-fluid {
+    padding-left: 0 !important;
+  }
+
+  .samriddh-kendra {
+    background: radial-gradient(
+      circle at center,
+      #4d91ff 0%,
+      #0d69fc 55%,
+      #000c5a4f 70%,
+      #d8dcff 100%
+    );
+    padding: 14rem;
+  }
+
+  .center-avatar {
+    width: 13rem;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+
+  .card {
+    width: 35rem;
+    height: 15rem;
+    border-width: 3px 6px 3px 6px;
+    border-style: solid;
+    border-color: #f3f2f2;
+  }
+
+  .rightSideCards {
+    .card:nth-child(1) {
+      margin-left: -8rem !important;
+    }
+    .card:nth-child(2) {
+      margin-left: 15rem !important;
+    }
+    .card:nth-child(3) {
+      margin-right: 15rem !important;
+      margin-top: 1rem;
+    }
+  }
+  .leftSideCards {
+    .card:nth-child(1) {
+      margin-top: -3rem !important;
+    }
+    .card:nth-child(2) {
+      margin-left: -20rem !important;
+    }
+    .card:nth-child(3) {
+      margin-top: 1rem !important;
     }
   }
 }
@@ -1677,7 +1771,8 @@ li {
   height: fit-content;
 
   .mapContainer {
-    background: var(--dark-blue);
+    background-color: var(--dark-blue);
+    background: linear-gradient(0deg, #000725 0%, var(--dark-blue) 70%);
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
     -moz-border-radius: 2rem;

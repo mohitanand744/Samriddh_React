@@ -1482,8 +1482,10 @@ li {
 
     .owl-next,
     .owl-prev {
+      position: absolute;
       width: 32px;
       height: 32px;
+      top: 1.6rem;
 
       img {
         width: 50%;
@@ -1491,12 +1493,10 @@ li {
     }
 
     .owl-next {
-      position: absolute;
       right: 2%;
     }
 
     .owl-prev {
-      position: absolute;
       left: 2%;
     }
   }

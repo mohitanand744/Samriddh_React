@@ -208,6 +208,17 @@
   }
 }
 
+@media screen and (width < 576px) {
+  .BecomeOurPartner_section_3 {
+    .startEarningCard {
+      background: transparent;
+      border: none;
+      color: #fff;
+      padding: 4rem;
+    }
+  }
+}
+
 @media screen and (width < 548px) {
   .footer {
     background: linear-gradient(200deg, #000000 0%, #003c79 100%);

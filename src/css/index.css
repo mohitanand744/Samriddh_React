@@ -1871,6 +1871,16 @@ li {
     -o-border-radius: 1rem;
   }
 }
+
+.EducationLoanSection_4 {
+  background-color: #e7e8ff;
+  height: 44rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 /***** End education_loan page Section *****/
 
 /***** Footer Section *****/

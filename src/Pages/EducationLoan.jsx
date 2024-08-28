@@ -123,10 +123,12 @@ const EducationLoan = () => {
 
       <section className="EducationLoanSection_3">
         <EducationLoanTitle
+          title={"What We Offer"}
           color="black"
           fontSize="fs-30"
           ratings={true}
           pera="Average Customer Rating"
+          pera2={""}
         />
 
         <div className="container">
@@ -184,6 +186,41 @@ const EducationLoan = () => {
 
                 <p className=" fs-20 fw-bold font-inter mt-4">Dental Loan</p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="EducationLoanSection_4 mt-11">
+        <EducationLoanTitle
+          title={"Who is this for?"}
+          color="black"
+          fontSize="fs-40"
+          ratings={false}
+          pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no  specific meaning and is used as temporary filler content when the actual text is not available or finalized."
+          pera2={
+            "Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no  specific meaning and is used as temporary filler content when the actual text is not available or finalized. Lorem ipsum can help  designers and developers visualize the layout, typography, and overall design of a project without being distracted by the actual  content."
+          }
+        />
+      </section>
+
+      <section className="EducationLoanSection_5">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-8 col-md-12 col-12">
+              <EducationLoanTitle
+                title={"We’ve got you even more exclusive benefits."}
+                color="black"
+                fontSize="fs-28"
+                ratings={false}
+                pera="We are making it fast and easy for you to pay for school with our graduate student loans. Samriddh with the unique benefits it offers:"
+                pera2={""}
+              />
+            </div>
+            <div className="col-lg-4 col-md-12 col-12">
+              <h2 className="text-danger fs-30 font-inter fw-bold">
+                Still Working...
+              </h2>
             </div>
           </div>
         </div>

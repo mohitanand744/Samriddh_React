@@ -81,12 +81,24 @@ const faqData = [
 /* End FAQ */
 
 export const ContextProvider = ({ children }) => {
+  /* Education Loan */
+
+  const [loanType, setLoanType] = useState("Undergraduate Loan");
+
+  const handleLoanChange = (event) => {
+    setLoanType(event.target.value);
+  };
+
+  /* Education Loan End */
+
   return (
     <CreatingContext.Provider
       value={{
         carouselOptions,
         productsCarouselOptions,
         faqData,
+        loanType,
+        handleLoanChange,
       }}
     >
       {children}

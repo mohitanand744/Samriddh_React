@@ -13,6 +13,7 @@ import Products from "../Pages/Products";
 import ContactUs from "../Pages/ContactUs";
 import BecomeOurPartner from "../Pages/BecomeOurPartner";
 import ProductDetailedPage from "../Pages/ProductDetailedPage";
+import EducationLoan from "../Pages/EducationLoan";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,6 +24,7 @@ export const router = createBrowserRouter(
       <Route path="product_detailed_page" element={<ProductDetailedPage />} />
       <Route path="contact" element={<ContactUs />} />
       <Route path="become_our_partner" element={<BecomeOurPartner />} />
+      <Route path="education_loan" element={<EducationLoan />} />
       <Route
         path="*"
         element={

@@ -97,6 +97,10 @@ html {
   padding: 3rem 0;
 }
 
+.p-6 {
+  padding: 5rem;
+}
+
 .px-11 {
   padding: 0 8rem;
 }
@@ -187,6 +191,10 @@ li {
 
 .text-light-gray {
   color: #a4a2a5;
+}
+
+.w-45 {
+  width: 45% !important;
 }
 
 .border-none {
@@ -1800,6 +1808,33 @@ li {
 }
 
 /***** End BecomeOurPartner_page Section *****/
+
+/***** education_loan page Section *****/
+
+.EducationLoanSection_1 {
+  height: 51rem;
+  background-image: url("/EducationLoanHeroImg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  & .textContainer {
+    top: 40%;
+    left: 10%;
+
+    .loan-application {
+      width: 80%;
+    }
+
+    .loan-dropdown {
+      border-bottom: 2px solid #000 !important;
+      outline: none;
+      padding: 0.4rem 1rem 1rem 0;
+    }
+  }
+}
+
+/***** End education_loan page Section *****/
 
 /***** Footer Section *****/
 

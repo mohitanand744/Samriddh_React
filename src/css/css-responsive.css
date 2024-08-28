@@ -182,6 +182,12 @@
       }
     }
   }
+  .fs-sm-55 {
+    font-size: 5rem !important;
+  }
+  .loan-application {
+    width: 80% !important;
+  }
 }
 
 @media screen and (width < 748px) {
@@ -352,6 +358,31 @@
     .samriddh-kendra {
       padding: 4rem;
     }
+  }
+
+  .productDetailedSection_4 {
+    .emiCalculator {
+      padding: 2rem !important;
+    }
+  }
+  .loan-application {
+    width: 100% !important;
+  }
+
+  .EducationLoanSection_1 {
+    height: 48rem;
+    background-image: url("/EducationLoanHeroImg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    & .textContainer {
+      top: 38%;
+      left: 2%;
+    }
+  }
+
+  .fs-xs-45 {
+    font-size: 4.5rem !important;
   }
 }
 

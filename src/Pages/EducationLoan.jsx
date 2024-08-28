@@ -166,37 +166,23 @@ const EducationLoan = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
-                <img
-                  className="img-fluid"
-                  src="./Undergraduate Loans.png"
-                  alt=""
-                />
+                <img className="img-fluid" src="./Parent Loans.png" alt="" />
 
-                <p className=" fs-20 fw-bold font-inter mt-4">
-                  Undergraduate Loans
-                </p>
+                <p className=" fs-20 fw-bold font-inter mt-4">Parent Loans</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
-                <img className="img-fluid" src="./Graduate Loans.png" alt="" />
+                <img className="img-fluid" src="./MBA Loans.png" alt="" />
 
-                <p className=" fs-20 fw-bold font-inter mt-4">
-                  Undergraduate Loans
-                </p>
+                <p className=" fs-20 fw-bold font-inter mt-4">MBA Loans</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
-                <img
-                  className="img-fluid"
-                  src="./Coaching Institute Loans.png"
-                  alt=""
-                />
+                <img className="img-fluid" src="./Dental Loan.png" alt="" />
 
-                <p className=" fs-20 fw-bold font-inter mt-4">
-                  Undergraduate Loans
-                </p>
+                <p className=" fs-20 fw-bold font-inter mt-4">Dental Loan</p>
               </div>
             </div>
           </div>

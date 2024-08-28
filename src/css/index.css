@@ -41,6 +41,9 @@ html {
 .mb-7 {
   margin-bottom: 7rem;
 }
+.my-7 {
+  margin: 7rem 0;
+}
 
 .mt-11 {
   margin-top: 7.5rem !important;
@@ -118,6 +121,7 @@ html {
 .ms-10 {
   margin-left: 10rem;
 }
+
 .ms-6 {
   margin-left: 6rem;
 }
@@ -1845,6 +1849,26 @@ li {
 
   & .owl-nav {
     display: none;
+  }
+}
+
+.EducationLoanSection_3 {
+  .b-shadow {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+      rgba(50, 50, 93, 0.363) 0px 20px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px !important;
+  }
+
+  .productCard {
+    padding: 3rem;
+    background: #cfe5ff;
+    margin: 1.6rem;
+    border: 1.5px solid #2f8cff;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
   }
 }
 /***** End education_loan page Section *****/

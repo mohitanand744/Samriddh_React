@@ -3,6 +3,7 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import CreatingContext from "../context/ContexAPI";
+import EducationLoanTitle from "../components/Titles/EducationLoanTitle";
 
 const EducationLoan = () => {
   const { loanType, handleLoanChange, aspirationsSliderCarouselOptions } =
@@ -27,7 +28,12 @@ const EducationLoan = () => {
               >
                 <option value="Undergraduate Loan">Undergraduate Loan</option>
                 <option value="Graduate Loan">Graduate Loan</option>
-                <option value="Other Loan">Other Loan</option>
+                <option value="Coaching Institute Loans">
+                  Coaching Institute Loans
+                </option>
+                <option value="Parent Loans">Parent Loans</option>
+                <option value="MBA Loans ">MBA Loans </option>
+                <option value="Dental Loan">Dental Loan</option>
               </select>
             </div>
             <button className="apply-button rounded-4 fs-18 fw-semibold py-2 px-4 font-inter text-white bg-dark-blue">
@@ -111,6 +117,88 @@ const EducationLoan = () => {
                 </div>
               </div>
             </OwlCarousel>
+          </div>
+        </div>
+      </section>
+
+      <section className="EducationLoanSection_3">
+        <EducationLoanTitle
+          color="black"
+          fontSize="fs-30"
+          ratings={true}
+          pera="Average Customer Rating"
+        />
+
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-4 col-md-6 col-12">
+              <div className="d-flex align-items-center gap-4 productCard bg-white border-none b-shadow">
+                <img
+                  className="img-fluid"
+                  src="./Undergraduate Loans.png"
+                  alt=""
+                />
+
+                <p className=" fs-20 fw-bold font-inter mt-4">
+                  Undergraduate Loans
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <div className="d-flex align-items-center gap-4 productCard">
+                <img className="img-fluid" src="./Graduate Loans.png" alt="" />
+
+                <p className=" fs-20 fw-bold font-inter mt-4">Graduate Loans</p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <div className="d-flex align-items-center gap-4 productCard">
+                <img
+                  className="img-fluid"
+                  src="./Coaching Institute Loans.png"
+                  alt=""
+                />
+
+                <p className=" fs-20 fw-bold font-inter mt-4">
+                  Coaching Institute Loans
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <div className="d-flex align-items-center gap-4 productCard">
+                <img
+                  className="img-fluid"
+                  src="./Undergraduate Loans.png"
+                  alt=""
+                />
+
+                <p className=" fs-20 fw-bold font-inter mt-4">
+                  Undergraduate Loans
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <div className="d-flex align-items-center gap-4 productCard">
+                <img className="img-fluid" src="./Graduate Loans.png" alt="" />
+
+                <p className=" fs-20 fw-bold font-inter mt-4">
+                  Undergraduate Loans
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <div className="d-flex align-items-center gap-4 productCard">
+                <img
+                  className="img-fluid"
+                  src="./Coaching Institute Loans.png"
+                  alt=""
+                />
+
+                <p className=" fs-20 fw-bold font-inter mt-4">
+                  Undergraduate Loans
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

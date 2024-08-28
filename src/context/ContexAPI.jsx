@@ -43,7 +43,6 @@ const productsCarouselOptions = {
 
 const aspirationsSliderCarouselOptions = {
   responsiveClass: true,
-  loop: true,
   nav: true,
   dots: false,
   autoplay: true,

@@ -1,8 +1,12 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 import CreatingContext from "../context/ContexAPI";
 
 const EducationLoan = () => {
-  const { loanType, handleLoanChange } = useContext(CreatingContext);
+  const { loanType, handleLoanChange, aspirationsSliderCarouselOptions } =
+    useContext(CreatingContext);
 
   return (
     <div className="EducationLoan mt-7">
@@ -29,6 +33,84 @@ const EducationLoan = () => {
             <button className="apply-button rounded-4 fs-18 fw-semibold py-2 px-4 font-inter text-white bg-dark-blue">
               <span className="me-2">Apply Now</span> &gt;
             </button>
+          </div>
+        </div>
+      </section>
+
+      <section className="EducationLoanSection_2 bg-dark-blue w-100 position-relative">
+        <div className="container py-5">
+          <div className="aspirationsSlider ">
+            <OwlCarousel
+              className="owl-carousel owl-theme"
+              {...aspirationsSliderCarouselOptions}
+            >
+              <div className="item">
+                <div className="d-flex align-items-start gap-4 aspirationsCard">
+                  <div className="d-flex flex-column gap-1 ">
+                    <h2 className="text-white fs-24 fw-bold font-inter">
+                      Aspirations
+                    </h2>
+                    <p className="color-light-blue fs-20 fw-bold font-inter">
+                      Achieved
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="item">
+                <div className="d-flex align-items-start gap-4 aspirationsCard">
+                  <img
+                    className="img-fluid"
+                    src="./Students Enrolled.png"
+                    alt=""
+                  />
+                  <div className="d-flex flex-column gap-1 ">
+                    <h2 className="color-light-blue fs-18 fw-bold font-inter">
+                      34,000+
+                    </h2>
+                    <p className="text-white fs-20 fw-medium font-inter">
+                      Students Enrolled
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="item">
+                <div className="d-flex align-items-start gap-4 aspirationsCard">
+                  <img
+                    className="img-fluid"
+                    src="./Colleges Listed.png"
+                    alt=""
+                  />
+                  <div className="d-flex flex-column gap-1 ">
+                    <h2 className="color-light-blue fs-18 fw-bold font-inter">
+                      22,000+
+                    </h2>
+                    <p className="text-white fs-20 fw-medium font-inter">
+                      Colleges Listed
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="item">
+                <div className="d-flex align-items-start gap-4 aspirationsCard">
+                  <img
+                    className="img-fluid"
+                    src="./Education Loans Provided.png"
+                    alt=""
+                  />
+                  <div className="d-flex flex-column gap-1 ">
+                    <h2 className="color-light-blue fs-18 fw-bold font-inter">
+                      18,000+
+                    </h2>
+                    <p className="text-white fs-20 fw-medium font-inter">
+                      Education Loans Provided
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </OwlCarousel>
           </div>
         </div>
       </section>

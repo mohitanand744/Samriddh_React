@@ -1834,6 +1834,19 @@ li {
   }
 }
 
+.EducationLoanSection_2 {
+  .aspirationsSlider {
+    .aspirationsCard {
+      & img {
+        width: 6rem;
+      }
+    }
+  }
+
+  & .owl-nav {
+    display: none;
+  }
+}
 /***** End education_loan page Section *****/
 
 /***** Footer Section *****/

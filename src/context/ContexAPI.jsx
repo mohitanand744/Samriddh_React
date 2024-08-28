@@ -41,6 +41,24 @@ const productsCarouselOptions = {
   },
 };
 
+const aspirationsSliderCarouselOptions = {
+  responsiveClass: true,
+  loop: true,
+  nav: true,
+  dots: false,
+  autoplay: true,
+  navText: [
+    '<img src="./Arrow left.png" alt="" />',
+    '<img src="./Arrow right.png" alt="" />',
+  ],
+  responsive: {
+    0: { items: 1 },
+    500: { items: 2 },
+    900: { items: 3 },
+    1500: { items: 4 },
+  },
+};
+
 /* End carouselOptions */
 
 /* FAQ */
@@ -99,6 +117,7 @@ export const ContextProvider = ({ children }) => {
         faqData,
         loanType,
         handleLoanChange,
+        aspirationsSliderCarouselOptions,
       }}
     >
       {children}

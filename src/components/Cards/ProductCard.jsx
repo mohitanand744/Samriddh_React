@@ -22,9 +22,11 @@ const ProductCard = ({ image, cardTitle, btnContent }) => {
               </button>
             </Link>
           </div>
-          <div className="btn-container">
-            <Button content={btnContent} />
-          </div>
+          <Link to="/education_loan">
+            <div className="btn-container">
+              <Button content={btnContent} />
+            </div>
+          </Link>
         </div>
       </div>
     </div>

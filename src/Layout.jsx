@@ -25,15 +25,15 @@ const Layout = () => {
   return (
     <>
       <ContextProvider>
-        {loading ? (
+        {/* {loading ? (
           <Loading />
-        ) : (
-          <>
-            <Nav />
-            <Outlet />
-            <Footer />
-          </>
-        )}
+        ) : ( */}
+        <>
+          <Nav />
+          <Outlet />
+          <Footer />
+        </>
+        {/*   )} */}
       </ContextProvider>
     </>
   );

@@ -22,7 +22,13 @@ const EducationLoanTitle = ({
           pera2 ? "flex-column" : ""
         } gap-4 mt-3`}
       >
-        <p className="fs-16 font-inter fw-medium mt-3">{pera}</p>{" "}
+        <p
+          className={`fs-16 font-inter ${
+            color === "black" ? "text-dark" : "text-white"
+          } fw-medium mt-3`}
+        >
+          {pera}
+        </p>{" "}
         <p className="fs-16 font-inter fw-medium mt-3">{pera2}</p>{" "}
         {ratings ? (
           <span className="fs-18 fw-bold text-dark font-inter">

@@ -4,6 +4,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import CreatingContext from "../context/ContexAPI";
 import EducationLoanTitle from "../components/Titles/EducationLoanTitle";
+import ApplyBtn from "../components/Buttons/ApplyBtn";
 
 const EducationLoan = () => {
   const { loanType, handleLoanChange, aspirationsSliderCarouselOptions } =
@@ -36,9 +37,12 @@ const EducationLoan = () => {
                 <option value="Dental Loan">Dental Loan</option>
               </select>
             </div>
-            <button className="apply-button rounded-4 fs-18 fw-semibold py-2 px-4 font-inter text-white bg-dark-blue">
-              <span className="me-2">Apply Now</span> &gt;
-            </button>
+            <ApplyBtn
+              textColor="text-white"
+              bgColor={"bg-dark-blue"}
+              text="Apply Now"
+              arrow={true}
+            />
           </div>
         </div>
       </section>
@@ -204,7 +208,7 @@ const EducationLoan = () => {
         />
       </section>
 
-      <section className="EducationLoanSection_5">
+      <section className="EducationLoanSection_5 my-10">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-8 col-md-12 col-12">
@@ -216,13 +220,133 @@ const EducationLoan = () => {
                 pera="We are making it fast and easy for you to pay for school with our graduate student loans. Samriddh with the unique benefits it offers:"
                 pera2={""}
               />
+
+              <div className="row align-items-center">
+                <div className="col-lg-6 col-md-6 col-12">
+                  <div className="d-flex m-3 align-items-center gap-4">
+                    <img src="covered.png" alt="" />
+                    <div className="txt">
+                      <h2 className="fw-bold fs-20 font-inter">100% covered</h2>
+                      <p className="fs-16 font-inter">
+                        Covers all school-certified costs. That’s right—we’re
+                        got you covered.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6 col-12">
+                  <div className="d-flex m-3 align-items-center gap-4">
+                    <img src="Zero Fees.png" alt="" />
+                    <div className="txt">
+                      <h2 className="fw-bold fs-20 font-inter">Zero Fees</h2>
+                      <p className="fs-16 font-inter">
+                        That means no application, origination, or late fees.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6 col-12">
+                  <div className="d-flex m-3 align-items-center gap-4">
+                    <img src="Easy Repayment Options.png" alt="" />
+                    <div className="txt">
+                      <h2 className="fw-bold fs-20 font-inter">
+                        Easy Repayment Options
+                      </h2>
+                      <p className="fs-16 font-inter">
+                        Choose from in-school or deferred repayment options, and
+                        there is never a penalty for prepayment.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6 col-12">
+                  <div className="d-flex m-3 align-items-center gap-4">
+                    <img src="Cosign with confidence.png" alt="" />
+                    <div className="txt">
+                      <h2 className="fw-bold fs-20 font-inter">
+                        Cosign with confidence
+                      </h2>
+                      <p className="fs-16 font-inter">
+                        We pride ourselves on providing unbiased loan reviews.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="col-lg-4 col-md-12 col-12">
-              <h2 className="text-danger fs-30 font-inter fw-bold">
-                Still Working...
-              </h2>
+              <div className=" mt-lg-0 mt-md-5 mt-5 p-lg-0 p-md-4 p-5">
+                <img src="./guy+cat 2.png" alt="" className="img-fluid" />
+              </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="EducationLoanSection_6 py-6 bg-dark-blue">
+        <EducationLoanTitle
+          title={"What Education Loans Cover?"}
+          color="white"
+          fontSize="fs-36"
+          ratings={false}
+          pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no specific meaning and is used as temporary filler content when the actual text is not available or finalized."
+          pera2={""}
+        />
+
+        <div className="container pb-7">
+          <div className="row mb-5 ">
+            <div className="col-lg-5 col-md-6 col-12">
+              <div className="my-4">
+                <h2 className="fw-bold fs-20 font-inter text-white">
+                  1. Tuition and fees
+                </h2>
+                <p className="fs-16 ms-4 fw-light font-inter text-white">
+                  This includes the cost of the course, exam fees, lab fees, and
+                  other academic-related expenses.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-5 col-md-6 col-12">
+              <div className="my-4">
+                <h2 className="fw-bold fs-20 font-inter text-white">
+                  2. Tuition and fees
+                </h2>
+                <p className="fs-16 ms-4 fw-light font-inter text-white">
+                  This includes the cost of the course, exam fees, lab fees, and
+                  other academic-related expenses.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-5 col-md-6 col-12">
+              <div className="my-4">
+                <h2 className="fw-bold fs-20 font-inter text-white">
+                  3. Tuition and fees
+                </h2>
+                <p className="fs-16 ms-4 fw-light font-inter text-white">
+                  This includes the cost of the course, exam fees, lab fees, and
+                  other academic-related expenses.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-5 col-md-6 col-12">
+              <div className="my-4">
+                <h2 className="fw-bold fs-20 font-inter text-white">
+                  4. Tuition and fees
+                </h2>
+                <p className="fs-16 ms-4 fw-light font-inter text-white">
+                  This includes the cost of the course, exam fees, lab fees, and
+                  other academic-related expenses.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <ApplyBtn
+            textColor="text-dark"
+            bgColor={"bg-white"}
+            text="Apply Now"
+            arrow={false}
+          />
         </div>
       </section>
     </div>

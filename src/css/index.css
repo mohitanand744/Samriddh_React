@@ -77,6 +77,10 @@ html {
   margin-bottom: 8rem !important;
 }
 
+.pb-7 {
+  padding-bottom: 7rem;
+}
+
 .pt-25 {
   padding-top: 22rem !important;
 }

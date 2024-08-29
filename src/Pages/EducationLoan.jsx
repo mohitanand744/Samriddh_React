@@ -524,6 +524,23 @@ const EducationLoan = () => {
           </div>
         </div>
       </section>
+
+      <section className="EducationLoanSection_10 my-10">
+        <EducationLoanTitle
+          title={"What are others saying about Samriddh?"}
+          color="black"
+          fontSize="fs-32"
+          ratings={false}
+          pera=""
+          pera2={""}
+        />
+
+        <div className="container">
+          <h1 className="fs-30 text-danger fw-bolder font-inter">
+            Still Working...
+          </h1>
+        </div>
+      </section>
     </div>
   );
 };

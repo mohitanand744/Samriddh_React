@@ -349,6 +349,81 @@ const EducationLoan = () => {
           />
         </div>
       </section>
+
+      <section className="EducationLoanSection_7 py-6">
+        <div className="container">
+          <div className="row justify-content-center align-items-center">
+            <div className="col-lg-4 col-md-6 col-12">
+              <EducationLoanTitle
+                title={"How to Buy?"}
+                color="black"
+                fontSize="fs-40"
+                ratings={false}
+                pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry."
+                pera2={""}
+              />
+
+              <div className="row flex-column gap-4">
+                <div className="col-12">
+                  <div className="d-flex align-items-start">
+                    <p className="py-3 px-45 bg-dark-blue text-white fw-semibold fs-18 font-inter me-4">
+                      1
+                    </p>
+                    <div className="txt">
+                      <h2 className="fw-medium fs-20 font-inter">
+                        Tell us about yourself
+                      </h2>
+                      <p className="fs-16 font-inter">
+                        We'll need some basic information from you (and your
+                        cosigner if you're applying with one) like your name,
+                        address, and date of birth, along with some details
+                        about your school.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12">
+                  <div className="d-flex align-items-start">
+                    <p className="py-3 px-45 bg-dark-blue text-white fw-semibold fs-18 font-inter me-4">
+                      2
+                    </p>
+                    <div className="txt">
+                      <h2 className="fw-medium fs-20 font-inter">
+                        Choose your loan option(s)
+                      </h2>
+                      <p className="fs-16 font-inter">
+                        Choose the best Plan and Add-ons for you, and confirm
+                        your details.
+                      </p>
+                    </div>
+                  </div>
+                </div>{" "}
+                <div className="col-12">
+                  <div className="d-flex align-items-start">
+                    <p className="py-3 px-45 bg-dark-blue text-white fw-semibold fs-18 font-inter me-4">
+                      3
+                    </p>
+                    <div className="txt">
+                      <h2 className="fw-medium fs-20 font-inter">
+                        Document upload & Get the policy
+                      </h2>
+                      <p className="fs-16 font-inter">
+                        Fill in your details, add your Nominee details and
+                        complete your KYC so that we can issue the policy.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-7 col-md-6 col-12">
+              <div className="mt-lg-0 mt-md-0 mt-6 text-center">
+                <img className="img-fluid" src="./How to Buy.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

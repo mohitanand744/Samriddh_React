@@ -112,6 +112,10 @@ html {
   padding: 0 8rem;
 }
 
+.py-11 {
+  padding: 10rem 0;
+}
+
 .p-8 {
   padding: 8rem !important;
 }
@@ -151,6 +155,9 @@ html {
 
 .px-6 {
   padding: 0 6rem !important;
+}
+.px-45 {
+  padding: 0 2rem;
 }
 
 /***** End Margin & padding Section *****/

@@ -537,7 +537,7 @@ const EducationLoan = () => {
 
         <div className="container">
           <h1 className="fs-30 text-danger fw-bolder font-inter">
-            Still Working...
+            Still Working....
           </h1>
         </div>
       </section>

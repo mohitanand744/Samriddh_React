@@ -11,29 +11,21 @@ const Layout = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const handleWindowLoad = () => {
-      setLoading(false);
-    };
-
-    window.addEventListener("load", handleWindowLoad);
-
-    return () => {
-      window.removeEventListener("load", handleWindowLoad);
-    };
+    window.addEventListener("load", setLoading(false));
   }, []);
 
   return (
     <>
       <ContextProvider>
-        {/* {loading ? (
+        {loading ? (
           <Loading />
-        ) : ( */}
-        <>
-          <Nav />
-          <Outlet />
-          <Footer />
-        </>
-        {/*   )} */}
+        ) : (
+          <>
+            <Nav />
+            <Outlet />
+            <Footer />
+          </>
+        )}
       </ContextProvider>
     </>
   );

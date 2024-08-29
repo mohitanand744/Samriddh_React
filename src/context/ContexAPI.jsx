@@ -95,6 +95,34 @@ const faqData = [
   },
 ];
 
+const educationLoan = [
+  {
+    questionNum: "collapseOne",
+    question:
+      "How does Samriddh differ from other financial assistance program or education?",
+    answer:
+      "1 Samriddh Kendra, a venture by Creditbucket Technologies Private Limited, is dedicated to enhancing financial literacy and inclusion in rural India. Incubated at STPI Chennai and supported by the Government of Bihar, we provide accessible financial services and education to empower underserved communities.",
+  },
+  {
+    questionNum: "collapseTwo",
+    question: "What are the minimum eligibility requirements to apply?",
+    answer:
+      "2 Samriddh Kendra, a venture by Creditbucket Technologies Private Limited, is dedicated to enhancing financial literacy and inclusion in rural India. Incubated at STPI Chennai and supported by the Government of Bihar, we provide accessible financial services and education to empower underserved communities.",
+  },
+  {
+    questionNum: "collapseThree",
+    question: "What are the application requirements?",
+    answer:
+      "3 Samriddh Kendra, a venture by Creditbucket Technologies Private Limited, is dedicated to enhancing financial literacy and inclusion in rural India. Incubated at STPI Chennai and supported by the Government of Bihar, we provide accessible financial services and education to empower underserved communities.",
+  },
+  {
+    questionNum: "collapseFour",
+    question: "When do I start repayment?",
+    answer:
+      "4 Samriddh Kendra, a venture by Creditbucket Technologies Private Limited, is dedicated to enhancing financial literacy and inclusion in rural India. Incubated at STPI Chennai and supported by the Government of Bihar, we provide accessible financial services and education to empower underserved communities.",
+  },
+];
+
 /* End FAQ */
 
 export const ContextProvider = ({ children }) => {
@@ -117,6 +145,7 @@ export const ContextProvider = ({ children }) => {
         loanType,
         handleLoanChange,
         aspirationsSliderCarouselOptions,
+        educationLoan,
       }}
     >
       {children}

@@ -673,7 +673,7 @@ const BecomeOurPartner = () => {
         </div>
       </section>
 
-      <section className="BecomeOurPartner_section_8 p-5 my-10 text-white">
+      <section className="BecomeOurPartner_section_8 p-6 my-10 text-white">
         <div className="container p-lg-5 p-md-3 p-1">
           <div className="row flex-columna align-items-center  justify-content-center gap-5 text-center p-lg-5 p-md-3 p-1">
             <p className="title-font fs-36 fw-medium">

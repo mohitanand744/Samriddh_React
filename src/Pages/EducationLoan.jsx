@@ -7,8 +7,12 @@ import EducationLoanTitle from "../components/Titles/EducationLoanTitle";
 import ApplyBtn from "../components/Buttons/ApplyBtn";
 
 const EducationLoan = () => {
-  const { loanType, handleLoanChange, aspirationsSliderCarouselOptions } =
-    useContext(CreatingContext);
+  const {
+    loanType,
+    handleLoanChange,
+    educationLoan,
+    aspirationsSliderCarouselOptions,
+  } = useContext(CreatingContext);
 
   return (
     <div className="EducationLoan mt-7">
@@ -419,6 +423,102 @@ const EducationLoan = () => {
             <div className="col-lg-7 col-md-6 col-12">
               <div className="mt-lg-0 mt-md-0 mt-6 text-center">
                 <img className="img-fluid" src="./How to Buy.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="EducationLoanSection_8 container-fluid my-10">
+        <div className="row">
+          <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+            <div className="right py-8">
+              <div className="rightBorder text-center">
+                <h1 className="fs-28 font-inter fw-bolder">
+                  Apply For Educational Loan
+                </h1>
+                <p className="fs-18 font-inter fw-normal mb-5">
+                  Lorem ipsum is a placeholder text commonly used in the design
+                  and typesetting industry.{" "}
+                </p>
+
+                <ApplyBtn
+                  textColor="text-white"
+                  bgColor={"bg-dark-blue"}
+                  text="Apply Now"
+                  arrow={false}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+            <div className="left py-8">
+              <div className="leftBorder text-center text-white">
+                <h1 className="fs-28 font-inter fw-bolder">
+                  Apply For Educational Loan
+                </h1>
+                <p className="fs-18 font-inter fw-normal mb-5">
+                  Lorem ipsum is a placeholder text commonly used in the design
+                  and typesetting industry.{" "}
+                </p>
+
+                <ApplyBtn
+                  textColor="text-dark"
+                  bgColor={"bg-white"}
+                  text="Apply Now"
+                  arrow={false}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="EducationLoanSection_9">
+        <EducationLoanTitle
+          title={"Frequently Asked Questions"}
+          color="black"
+          fontSize="fs-32"
+          ratings={false}
+          pera=""
+          pera2={""}
+        />
+
+        <div className="container">
+          <div className="faqContainer row ">
+            <div className=" col-lg-9 col-md-12 col-12">
+              <div className="accordion" id="accordionExample">
+                {educationLoan.map((data, index) => {
+                  return (
+                    <div key={index} className="accordion-item mt-3 rounded-4">
+                      <h2 className="accordion-header ">
+                        <button
+                          className={`accordion-button
+                            collapsed
+                           fs-20 font-inter rounded-4`}
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target={`#${data.questionNum}`}
+                          aria-expanded="false"
+                          aria-controls={data.questionNum}
+                        >
+                          {data.question}
+                        </button>
+                      </h2>
+
+                      <div
+                        id={data.questionNum}
+                        className={`accordion-collapse collapse answerContainer my-lg-3 my-md-2 my-2`}
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div className="accordion-body fs-20 font-inter p-5">
+                          <h2 className="fs-26 fw-semibold my-4">Answer</h2>
+                          {data.answer}
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>

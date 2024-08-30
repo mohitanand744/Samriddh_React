@@ -8,7 +8,7 @@ import { ContextProvider } from "./context/ContexAPI";
 import Loading from "./components/LoadingSpinners/Loading";
 
 const Layout = () => {
-  /*   const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -17,19 +17,19 @@ const Layout = () => {
 
     return () => clearTimeout(timer);
   }, []);
- */
+
   return (
     <>
       <ContextProvider>
-        {/*  {loading ? (
+        {loading ? (
           <Loading />
-        ) : ( */}
-        <>
-          <Nav />
-          <Outlet />
-          <Footer />
-        </>
-        {/*   )} */}
+        ) : (
+          <>
+            <Nav />
+            <Outlet />
+            <Footer />
+          </>
+        )}
       </ContextProvider>
     </>
   );

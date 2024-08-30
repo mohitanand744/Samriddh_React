@@ -47,6 +47,7 @@ const EducationLoan = () => {
               bgColor={"bg-dark-blue"}
               text="Apply Now"
               arrow={true}
+              arrowDark={false}
             />
           </div>
         </div>
@@ -433,8 +434,8 @@ const EducationLoan = () => {
       <section className="EducationLoanSection_8 container-fluid my-10">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-            <div className="right py-8">
-              <div className="rightBorder text-center">
+            <div className="right py-8 text-center">
+              <div className="rightBorder d-flex flex-column align-items-center  text-center">
                 <h1 className="fs-28 font-inter fw-bolder">
                   Apply For Educational Loan
                 </h1>
@@ -448,13 +449,14 @@ const EducationLoan = () => {
                   bgColor={"bg-dark-blue"}
                   text="Apply Now"
                   arrow={false}
+                  arrowDark={false}
                 />
               </div>
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-6 col-12">
             <div className="left py-8">
-              <div className="leftBorder text-center text-white">
+              <div className="leftBorder d-flex flex-column align-items-center text-center text-white">
                 <h1 className="fs-28 font-inter fw-bolder">
                   Apply For Educational Loan
                 </h1>
@@ -468,6 +470,7 @@ const EducationLoan = () => {
                   bgColor={"bg-white"}
                   text="Apply Now"
                   arrow={false}
+                  arrowDark={false}
                 />
               </div>
             </div>

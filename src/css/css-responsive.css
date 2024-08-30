@@ -1,5 +1,15 @@
 /***** Responsiveness Section *****/
 
+@media screen and (width < 1240px) {
+  html {
+    font-size: 53%;
+  }
+
+  .product_section_1 {
+    height: 125vh;
+  }
+}
+
 @media screen and (width < 1200px) {
   .BecomeOurPartner_section_7 {
     & .faqContainer {
@@ -10,15 +20,12 @@
   }
 }
 
-@media screen and (width < 1240px) {
-  html {
-    font-size: 53%;
-  }
-}
-
 @media screen and (width < 992px) {
   .navbar-toggler {
     display: block;
+  }
+  .product_section_1 {
+    height: 115vh;
   }
 
   .sign_in {
@@ -109,6 +116,13 @@
   html {
     font-size: 49%;
   }
+  .section_5 {
+    & .card-slider {
+      & .custom-card {
+        height: 34rem;
+      }
+    }
+  }
 }
 
 @media screen and (width < 833px) {
@@ -127,7 +141,7 @@
   }
 
   .product_section_1 {
-    height: 130rem;
+    height: 150rem;
     background-image: url("/product bg mobile view.jpg");
     background-size: contain;
   }
@@ -217,7 +231,13 @@
   html {
     font-size: 44%;
   }
-
+  .section_5 {
+    & .card-slider {
+      & .custom-card {
+        height: 36rem;
+      }
+    }
+  }
   .section_2 {
     & .loan_container {
       & .text_container {

@@ -57,6 +57,22 @@ const reviewCarouselOptions = {
   },
 };
 
+const loanPartnersCarouselOptions = {
+  margin: 30,
+  items: 6,
+  loop: true,
+  responsiveClass: true,
+  nav: true,
+  dots: false,
+  autoplay: true,
+  responsive: {
+    0: { items: 1 },
+    800: { items: 3 },
+    1100: { items: 4 },
+    1500: { items: 6 },
+  },
+};
+
 const aspirationsSliderCarouselOptions = {
   responsiveClass: true,
   nav: true,
@@ -163,6 +179,7 @@ export const ContextProvider = ({ children }) => {
         aspirationsSliderCarouselOptions,
         educationLoan,
         reviewCarouselOptions,
+        loanPartnersCarouselOptions,
       }}
     >
       {children}

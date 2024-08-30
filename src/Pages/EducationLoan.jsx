@@ -13,6 +13,7 @@ const EducationLoan = () => {
     educationLoan,
     aspirationsSliderCarouselOptions,
     reviewCarouselOptions,
+    loanPartnersCarouselOptions,
   } = useContext(CreatingContext);
 
   return (
@@ -730,6 +731,94 @@ const EducationLoan = () => {
                     />
                   </div>
                 </div>
+              </div>
+            </OwlCarousel>
+          </div>
+        </div>
+      </section>
+
+      <section className="EducationLoanSection_12">
+        <div className="container bg-dark-blue p-0">
+          <div className="row">
+            <div className="col-lg-6 col-md-6 col-12 ">
+              <img
+                className="img-fluid h-100 object-fit-cover"
+                src="./future.png"
+                alt=""
+              />
+            </div>
+
+            <div className="col-lg-6 col-md-6 col-12">
+              <div className="text p-lg-0 p-md-5 p-5">
+                <EducationLoanTitle
+                  title={
+                    "Take the next step: Secure a Education loan for the future."
+                  }
+                  color="white"
+                  fontSize="fs-30"
+                  ratings={false}
+                  pera="Lorem ipsum dolor sit amet. Rem quidem blanditis aut quia dolorem."
+                  pera2={""}
+                />
+
+                <ApplyBtn
+                  textColor="text-dark"
+                  bgColor={"bg-white"}
+                  text="Get started"
+                  arrow={false}
+                  arrowDark={false}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="EducationLoanSection_13 my-10">
+        <EducationLoanTitle
+          title={"Our Loan Partners"}
+          color="black"
+          fontSize="fs-36"
+          ratings={false}
+          pera=""
+          pera2={""}
+        />
+
+        <div className="container position-relative">
+          <div className="row align-items-center">
+            <OwlCarousel
+              className="owl-carousel owl-theme"
+              {...loanPartnersCarouselOptions}
+            >
+              <div className="item">
+                <img className="img-fluid" src="./Chola Logo.webp" alt="" />
+              </div>
+              <div className="item">
+                <img
+                  className="img-fluid"
+                  src="./Union Bank Logo.webp"
+                  alt=""
+                />
+              </div>
+              <div className="item">
+                <img
+                  className="img-fluid"
+                  src="./Bandhan Bank Logo.webp"
+                  alt=""
+                />
+              </div>
+              <div className="item">
+                <img className="img-fluid" src="./HDFC Bank Logo.webp" alt="" />
+              </div>
+              <div className="item">
+                <img className="img-fluid" src="./Yes Bank Logo.webp" alt="" />
+              </div>
+              <div className="item">
+                <img
+                  className="img-fluid"
+                  src="./Bajaj Finserve Logo.webp"
+                  alt=""
+                />
               </div>
             </OwlCarousel>
           </div>

@@ -693,7 +693,7 @@ const BecomeOurPartner = () => {
 
         <div className="container">
           <div className="row mapContainer py-4 px-3 ">
-            <div className="col-lg-9 col-md-7 col-12 ">
+            <div className="col-lg-9 col-md-7 col-12">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224036.74191885843!2d77.09712574317457!3d28.672468696115956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1724671222604!5m2!1sen!2sin"
                 allowFullScreen=""
@@ -729,16 +729,16 @@ const BecomeOurPartner = () => {
                   </div>
                   <input
                     type="number"
-                    placeholder="X X X X X X X X X"
-                    className="text-center w-100 p-3 font-inter rounded-4 fs-28 pinCodeInput text-white border-none"
+                    placeholder="X X X X X X X X"
+                    className="text-center w-100 p-1 font-inter rounded-4 fs-18 pinCodeInput text-white border-none"
                   />
                 </div>
 
-                <p className="font-inter fs-20 color-light-blue my-5 text-center">
+                <p className="font-inter fs-20 color-light-blue mt-5 text-center">
                   2 PEOPLE FOUND
                 </p>
 
-                <div className="profile_Card mb-5">
+                <div className="profile_Card">
                   <div className="topContainer rounded-top-4 d-flex justify-content-between align-items-center bg-white p-4">
                     <div className="userDetailsContainer d-flex align-items-center gap-4">
                       <img

@@ -690,6 +690,16 @@ const Home = () => {
       </section>
 
       {/* ----------------------------------------------------- */}
+
+      <section className="section_9">
+        <Title first_text="" span_text="Why Trust US?" last_text="" />
+
+        <div className="container">
+          <h2 className="fs-30 font-inter text-secondary">
+            ------------- In the press ? --------------
+          </h2>
+        </div>
+      </section>
     </div>
   );
 };

@@ -13,7 +13,7 @@ const EducationLoan = () => {
     educationLoan,
     aspirationsSliderCarouselOptions,
     reviewCarouselOptions,
-    loanPartnersCarouselOptions,
+    partnersCarouselOptions,
   } = useContext(CreatingContext);
 
   return (
@@ -737,8 +737,8 @@ const EducationLoan = () => {
         </div>
       </section>
 
-      <section className="EducationLoanSection_12">
-        <div className="container bg-dark-blue p-0">
+      <section className="EducationLoanSection_12 px-lg-0 px-md-0 px-4">
+        <div className="container bg-dark-blue rounded-4 overflow-hidden p-0">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-12 ">
               <img
@@ -774,7 +774,7 @@ const EducationLoan = () => {
         </div>
       </section>
 
-      <section className="EducationLoanSection_13 my-10">
+      <section className="EducationLoanSection_13 my-10 px-lg-0 px-md-0 px-4">
         <EducationLoanTitle
           title={"Our Loan Partners"}
           color="black"
@@ -788,7 +788,7 @@ const EducationLoan = () => {
           <div className="row align-items-center">
             <OwlCarousel
               className="owl-carousel owl-theme"
-              {...loanPartnersCarouselOptions}
+              {...partnersCarouselOptions}
             >
               <div className="item">
                 <img className="img-fluid" src="./Chola Logo.webp" alt="" />

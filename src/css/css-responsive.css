@@ -266,6 +266,11 @@
       padding: 4rem;
     }
   }
+  .EducationLoanSection_13 {
+    .owl-nav {
+      display: none !important;
+    }
+  }
 }
 
 @media screen and (width < 548px) {

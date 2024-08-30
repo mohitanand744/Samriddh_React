@@ -4,6 +4,7 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import CreatingContext from "../context/ContexAPI";
+import ApplyBtn from "../components/Buttons/ApplyBtn";
 
 const AboutUs = () => {
   const { carouselOptions } = useContext(CreatingContext);
@@ -463,9 +464,15 @@ const AboutUs = () => {
                     placeholder="Enquiry"
                   ></textarea>
                 </div>
-                <button className="btn btn-outline-light w-100 fs-2 fw-semibold font-inter mt-4">
-                  Submit
-                </button>
+
+                <ApplyBtn
+                  textColor="text-white"
+                  bgColor={"bg-primary"}
+                  text="Submit"
+                  width={"w-100"}
+                  arrow={false}
+                  arrowDark={false}
+                />
               </form>
 
               <div className="col-lg-7 col-md-6 col-12">

@@ -79,7 +79,7 @@ const Products = () => {
           </div>
         </div>
 
-        <div className="container mt-20 pb-5">
+        <div className="container mt-40 pb-5">
           <ProductsTitles text={"Insurance"} />
 
           <div className="row mb-4 justify-content-center align-items-center">

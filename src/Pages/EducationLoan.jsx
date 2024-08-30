@@ -12,6 +12,7 @@ const EducationLoan = () => {
     handleLoanChange,
     educationLoan,
     aspirationsSliderCarouselOptions,
+    reviewCarouselOptions,
   } = useContext(CreatingContext);
 
   return (
@@ -51,7 +52,7 @@ const EducationLoan = () => {
         </div>
       </section>
 
-      <section className="EducationLoanSection_2 bg-dark-blue w-100 position-relative">
+      <section className="EducationLoanSection_2 px-lg-0 px-md-0 px-4 bg-dark-blue w-100 position-relative">
         <div className="container py-5">
           <div className="aspirationsSlider ">
             <OwlCarousel
@@ -129,7 +130,7 @@ const EducationLoan = () => {
         </div>
       </section>
 
-      <section className="EducationLoanSection_3">
+      <section className="EducationLoanSection_3 px-lg-0 px-md-0 px-4">
         <EducationLoanTitle
           title={"What We Offer"}
           color="black"
@@ -199,7 +200,7 @@ const EducationLoan = () => {
         </div>
       </section>
 
-      <section className="EducationLoanSection_4 mt-11">
+      <section className="EducationLoanSection_4 px-lg-0 px-md-0 px-4 mt-11">
         <EducationLoanTitle
           title={"Who is this for?"}
           color="black"
@@ -212,7 +213,7 @@ const EducationLoan = () => {
         />
       </section>
 
-      <section className="EducationLoanSection_5 my-10">
+      <section className="EducationLoanSection_5 px-lg-0 px-md-0 px-4 my-10">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-8 col-md-12 col-12">
@@ -287,7 +288,7 @@ const EducationLoan = () => {
         </div>
       </section>
 
-      <section className="EducationLoanSection_6 py-6 bg-dark-blue">
+      <section className="EducationLoanSection_6 px-lg-0 px-md-0 px-4 py-6 bg-dark-blue">
         <EducationLoanTitle
           title={"What Education Loans Cover?"}
           color="white"
@@ -354,7 +355,7 @@ const EducationLoan = () => {
         </div>
       </section>
 
-      <section className="EducationLoanSection_7 py-6">
+      <section className="EducationLoanSection_7 px-lg-0 px-md-0 px-4 py-6">
         <div className="container">
           <div className="row justify-content-center align-items-center">
             <div className="col-lg-4 col-md-6 col-12">
@@ -474,7 +475,7 @@ const EducationLoan = () => {
         </div>
       </section>
 
-      <section className="EducationLoanSection_9">
+      <section className="EducationLoanSection_9 px-lg-0 px-md-0 px-4">
         <EducationLoanTitle
           title={"Frequently Asked Questions"}
           color="black"
@@ -525,7 +526,7 @@ const EducationLoan = () => {
         </div>
       </section>
 
-      <section className="EducationLoanSection_10 my-10">
+      <section className="EducationLoanSection_10 px-lg-0 px-md-0 px-4 my-10">
         <EducationLoanTitle
           title={"What are others saying about Samriddh?"}
           color="black"
@@ -536,9 +537,199 @@ const EducationLoan = () => {
         />
 
         <div className="container">
-          <h1 className="fs-30 text-danger fw-bolder font-inter">
-            Still Working....
-          </h1>
+          <div className=" row align-items-center justify-content-evenly position-relative">
+            <OwlCarousel
+              className="owl-carousel owl-theme"
+              {...reviewCarouselOptions}
+            >
+              <div className="item">
+                <div className="reviewCard d-flex flex-column justify-content-between p-5 rounded-4">
+                  <div className="top d-flex flex-column gap-4 align-items-start">
+                    <img
+                      src="./revier Avatar.png"
+                      className="img-fluid"
+                      alt=""
+                    />
+                    <p className="fs-18 font-inter">
+                      The best thing about Samriddh is the fact that they make
+                      the process easy. I was able to do everything online and
+                      the money was sent directly to my school.
+                    </p>
+                  </div>
+                  <div className="bottom d-flex flex-column align-items-end">
+                    <p className="fs-18 font-inter">Anjellica C..</p>
+                    <p className="fs-18 font-inter">XYZ University</p>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <div className="reviewCard d-flex flex-column justify-content-between p-5 rounded-4">
+                  <div className="top d-flex flex-column gap-4 align-items-start">
+                    <img
+                      src="./revier Avatar.png"
+                      className="img-fluid"
+                      alt=""
+                    />
+                    <p className="fs-18 font-inter">
+                      The best thing about Samriddh is the fact that they make
+                      the process easy. I was able to do everything online and
+                      the money was sent directly to my school.
+                    </p>
+                  </div>
+                  <div className="bottom d-flex flex-column align-items-end">
+                    <p className="fs-18 font-inter">Rnajee M..</p>
+                    <p className="fs-18 font-inter">XYZ University</p>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <div className="reviewCard d-flex flex-column justify-content-between p-5 rounded-4">
+                  <div className="top d-flex flex-column gap-4 align-items-start">
+                    <img
+                      src="./revier Avatar.png"
+                      className="img-fluid"
+                      alt=""
+                    />
+                    <p className="fs-18 font-inter">
+                      The best thing about Samriddh is the fact that they make
+                      the process easy. I was able to do everything online and
+                      the money was sent directly to my school.
+                    </p>
+                  </div>
+                  <div className="bottom d-flex flex-column align-items-end">
+                    <p className="fs-18 font-inter">Grace G.</p>
+                    <p className="fs-18 font-inter">XYZ University</p>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <div className="reviewCard d-flex flex-column justify-content-between p-5 rounded-4">
+                  <div className="top d-flex flex-column gap-4 align-items-start">
+                    <img
+                      src="./revier Avatar.png"
+                      className="img-fluid"
+                      alt=""
+                    />
+                    <p className="fs-18 font-inter">
+                      The best thing about Samriddh is the fact that they make
+                      the process easy. I was able to do everything online and
+                      the money was sent directly to my school.
+                    </p>
+                  </div>
+                  <div className="bottom d-flex flex-column align-items-end">
+                    <p className="fs-18 font-inter">Rnajee M..</p>
+                    <p className="fs-18 font-inter">XYZ University</p>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <div className="reviewCard d-flex flex-column justify-content-between p-5 rounded-4">
+                  <div className="top d-flex flex-column gap-4 align-items-start">
+                    <img
+                      src="./revier Avatar.png"
+                      className="img-fluid"
+                      alt=""
+                    />
+                    <p className="fs-18 font-inter">
+                      The best thing about Samriddh is the fact that they make
+                      the process easy. I was able to do everything online and
+                      the money was sent directly to my school.
+                    </p>
+                  </div>
+                  <div className="bottom d-flex flex-column align-items-end">
+                    <p className="fs-18 font-inter">Grace G.</p>
+                    <p className="fs-18 font-inter">XYZ University</p>
+                  </div>
+                </div>
+              </div>
+            </OwlCarousel>
+          </div>
+        </div>
+      </section>
+
+      <section className="EducationLoanSection_11 px-lg-0 px-md-0 px-4 my-10 bg-dark-blue">
+        <div className="text-center pt-1">
+          <EducationLoanTitle
+            title={"Articles & Blogs"}
+            color="white"
+            fontSize="fs-36"
+            ratings={false}
+            pera=""
+            pera2={""}
+          />
+        </div>
+
+        <div className="container">
+          <div className="row">
+            <OwlCarousel
+              className="owl-carousel owl-theme"
+              {...reviewCarouselOptions}
+            >
+              <div className="item">
+                <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
+                  <img src="./articlesImg1.png" className="img-fluid" alt="" />
+
+                  <div className="bottom mt-4 p-2 d-flex flex-column align-items-start">
+                    <p className="fs-14 font-inter ps-4">17 JUL 2024</p>
+                    <p className="fs-18 font-inter ps-4">
+                      What factors should students consider when comparing
+                      coaching loans?
+                    </p>
+
+                    <ApplyBtn
+                      textColor="text-dark"
+                      bgColor={""}
+                      text="Know More"
+                      arrow={true}
+                      arrowDark={true}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <div className="blogsCard p-0 overflow-hidden b-shadow bg-white d-flex flex-column justify-content-between rounded-3">
+                  <img src="./articlesImg2.png" className="img-fluid" alt="" />
+
+                  <div className="bottom mt-4 p-2 d-flex flex-column align-items-start">
+                    <p className="fs-14 font-inter ps-4">17 JUL 2024</p>
+                    <p className="fs-18 font-inter ps-4">
+                      What factors should students consider when comparing
+                      coaching loans?
+                    </p>
+
+                    <ApplyBtn
+                      textColor="text-dark"
+                      bgColor={""}
+                      text="Know More"
+                      arrow={true}
+                      arrowDark={true}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <div className="blogsCard p-0 overflow-hidden b-shadow bg-white d-flex flex-column justify-content-between rounded-3">
+                  <img src="./articlesImg3.png" className="img-fluid" alt="" />
+
+                  <div className="bottom mt-4 p-2 d-flex flex-column align-items-start">
+                    <p className="fs-14 font-inter ps-4">17 JUL 2024</p>
+                    <p className="fs-18 font-inter ps-4">
+                      What factors should students consider when comparing
+                      coaching loans?
+                    </p>
+
+                    <ApplyBtn
+                      textColor="text-dark"
+                      bgColor={""}
+                      text="Know More"
+                      arrow={true}
+                      arrowDark={true}
+                    />
+                  </div>
+                </div>
+              </div>
+            </OwlCarousel>
+          </div>
         </div>
       </section>
     </div>

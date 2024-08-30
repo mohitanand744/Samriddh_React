@@ -188,6 +188,29 @@
   .loan-application {
     width: 80% !important;
   }
+
+  .EducationLoanSection_10 {
+    .row {
+      .owl-dots {
+        width: 29rem !important;
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  .EducationLoanSection_11 {
+    .owl-carousel {
+      .owl-dots {
+        display: block !important;
+      }
+    }
+  }
 }
 
 @media screen and (width < 748px) {

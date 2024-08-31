@@ -119,13 +119,15 @@
     & .container {
       margin-top: -33rem;
       & .row {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
         & .card {
           padding: 7rem 3rem 2rem 12rem !important;
 
           .img-container {
-            width: 12rem;
-            height: 12rem;
-            left: 2.8rem;
+            width: 10rem;
+            height: 10rem;
+            left: 2.2rem;
             top: 50%;
             display: flex;
             justify-content: center;
@@ -271,7 +273,8 @@
     & .container {
       & .row {
         & .card {
-          padding: 3rem 1rem 3rem 11rem !important;
+          height: 22rem !important;
+          padding: 2rem 4rem 2rem 11rem !important;
         }
       }
     }

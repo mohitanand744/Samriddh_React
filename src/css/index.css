@@ -2147,9 +2147,15 @@ li {
     .row {
       .card {
         height: 29rem;
-        img {
+
+        h2 {
+          margin-top: 4rem !important;
+        }
+
+        .img-container {
+          position: absolute;
+          top: -0rem;
           width: 15rem;
-          top: 0rem;
           left: 50%;
           right: 50%;
           transform: translate(-50%, -50%);
@@ -2157,6 +2163,10 @@ li {
           -moz-transform: translate(-50%, -50%);
           -ms-transform: translate(-50%, -50%);
           -o-transform: translate(-50%, -50%);
+          img {
+            width: 100%;
+            object-fit: contain;
+          }
         }
       }
     }

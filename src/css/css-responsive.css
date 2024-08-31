@@ -117,32 +117,32 @@
 
   .career_section2 {
     & .container {
+      margin-top: -33rem;
       & .row {
         & .card {
-          padding: 7rem 1rem 2rem 12rem !important;
-          img {
+          padding: 7rem 3rem 2rem 12rem !important;
+
+          .img-container {
             width: 12rem;
             height: 12rem;
+            left: 2.8rem;
+            top: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
-            object-fit: contain;
-            left: 3rem;
-            top: 50%;
-            bottom: 50%;
-            transform: translateY(-50%, -50%);
-            -webkit-transform: translateY(-50%, -50%);
-            -moz-transform: translateY(-50%, -50%);
-            -ms-transform: translateY(-50%, -50%);
-            -o-transform: translateY(-50%, -50%);
             background: #00000075;
-            padding: 0.9rem 0.5rem 0.5rem 1.4rem;
             border-radius: 50%;
             -webkit-border-radius: 50%;
             -moz-border-radius: 50%;
             -ms-border-radius: 50%;
             -o-border-radius: 50%;
             border: 1px solid #fff;
+
+            img {
+              width: 80%;
+              height: 100%;
+              object-fit: contain;
+            }
           }
         }
       }

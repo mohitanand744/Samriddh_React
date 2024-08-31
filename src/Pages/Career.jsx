@@ -28,12 +28,14 @@ const Career = () => {
           <div className="row">
             <div className="col-lg-3 col-md-12 col-12">
               <div className="card bg-dark-blue position-relative m-lg-3 m-md-5 m-6  p-5 rounded-4">
-                <img
-                  src="./Competitive salaries and perks.png"
-                  alt=""
-                  className="img-fluid position-absolute ps-lg-0 ps-md-2 ps-2"
-                />
-                <h2 className="font-inter fw-semibold mt-lg-6 mt-md-5 mt-7 fs-20 text-white">
+                <div className="img-container">
+                  <img
+                    src="./Competitive salaries and perks.png"
+                    alt=""
+                    className="img-fluid"
+                  />
+                </div>
+                <h2 className="font-inter fw-semibold mt-lg-5 mt-md-5 mt-7 fs-20 text-white">
                   Competitive salaries and perks
                 </h2>
                 <p className="fs-16 font-inter text-light-gray mt-4">
@@ -43,12 +45,14 @@ const Career = () => {
             </div>
             <div className="col-lg-3 col-md-12 col-12">
               <div className="card bg-dark-blue position-relative m-lg-3 m-md-5 m-6  p-5 rounded-4">
-                <img
-                  src="./Work friendly environment.png"
-                  alt=""
-                  className="img-fluid position-absolute"
-                />
-                <h2 className="font-inter fw-semibold mt-lg-6 mt-md-5 mt-7 fs-20 text-white">
+                <div className="img-container">
+                  <img
+                    src="./Work friendly environment.png"
+                    alt=""
+                    className="img-fluid ps-lg-0 ps-md-3 ps-3"
+                  />
+                </div>
+                <h2 className="font-inter fw-semibold mt-lg-5 mt-md-5 mt-7 fs-20 text-white">
                   Work friendly environment
                 </h2>
                 <p className="fs-16 font-inter text-light-gray mt-4">
@@ -59,12 +63,14 @@ const Career = () => {
             </div>
             <div className="col-lg-3 col-md-12 col-12">
               <div className="card bg-dark-blue position-relative m-lg-3 m-md-5 m-6  p-5 rounded-4">
-                <img
-                  src="./Learning exposure.png"
-                  alt=""
-                  className="img-fluid position-absolute"
-                />
-                <h2 className="font-inter fw-semibold mt-lg-6 mt-md-5 mt-7 fs-20 text-white">
+                <div className="img-container">
+                  <img
+                    src="./Learning exposure.png"
+                    alt=""
+                    className="img-fluid ps-lg-0 ps-md-3 ps-3"
+                  />
+                </div>
+                <h2 className="font-inter fw-semibold mt-lg-5 mt-md-5 mt-7 fs-20 text-white">
                   Learning exposure
                 </h2>
                 <p className="fs-16 font-inter text-light-gray mt-4">
@@ -75,12 +81,14 @@ const Career = () => {
             </div>
             <div className="col-lg-3 col-md-12 col-12">
               <div className="card bg-dark-blue position-relative m-lg-3 m-md-5 m-6  p-5 rounded-4">
-                <img
-                  src="./Work with founders.png"
-                  alt=""
-                  className="img-fluid position-absolute pe-lg-0 pe-md-3 pe-3"
-                />
-                <h2 className="font-inter fw-semibold mt-lg-6 mt-md-5 mt-7 fs-20 text-white">
+                <div className="img-container">
+                  <img
+                    src="./Work with founders.png"
+                    alt=""
+                    className="img-fluid"
+                  />
+                </div>
+                <h2 className="font-inter fw-semibold mt-lg-5 mt-md-5 mt-7 fs-20 text-white">
                   Work with founders
                 </h2>
                 <p className="fs-16 font-inter text-light-gray mt-4">

@@ -136,6 +136,10 @@ html {
   margin-bottom: 20rem;
 }
 
+.w-15 {
+  width: 13%;
+}
+
 .ms-10 {
   margin-left: 10rem;
 }
@@ -2194,6 +2198,29 @@ li {
 }
 
 /***** End career Page Section *****/
+
+/***** applyForJob page Section *****/
+
+.applyForJob_section1 {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.applyForJob_section2 {
+  li {
+    list-style-type: disc;
+  }
+  .button {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/***** End applyForJob page Section *****/
 
 /***** Footer Section *****/
 

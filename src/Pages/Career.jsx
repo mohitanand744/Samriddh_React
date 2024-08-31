@@ -1,6 +1,7 @@
 import React from "react";
 import ProductsTitles from "../components/Titles/ProductsTitles";
 import ApplyBtn from "../components/Buttons/ApplyBtn";
+import { Link } from "react-router-dom";
 
 const Career = () => {
   return (
@@ -166,14 +167,16 @@ const Career = () => {
                 </div>
               </div>
               <div className="">
-                <ApplyBtn
-                  textColor={"text-white"}
-                  bgColor="bg-dark-blue"
-                  text="View"
-                  arrow={false}
-                  arrowDark={false}
-                  width=""
-                />
+                <Link to="/apply">
+                  <ApplyBtn
+                    textColor={"text-white"}
+                    bgColor="bg-dark-blue"
+                    text="View"
+                    arrow={false}
+                    arrowDark={false}
+                    width=""
+                  />
+                </Link>
               </div>
             </div>
             <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
@@ -194,14 +197,16 @@ const Career = () => {
                 </div>
               </div>
               <div className="">
-                <ApplyBtn
-                  textColor={"text-white"}
-                  bgColor="bg-dark-blue"
-                  text="View"
-                  arrow={false}
-                  arrowDark={false}
-                  width=""
-                />
+                <Link to="/apply">
+                  <ApplyBtn
+                    textColor={"text-white"}
+                    bgColor="bg-dark-blue"
+                    text="View"
+                    arrow={false}
+                    arrowDark={false}
+                    width=""
+                  />
+                </Link>
               </div>
             </div>
             <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
@@ -222,14 +227,16 @@ const Career = () => {
                 </div>
               </div>
               <div className="">
-                <ApplyBtn
-                  textColor={"text-white"}
-                  bgColor="bg-dark-blue"
-                  text="View"
-                  arrow={false}
-                  arrowDark={false}
-                  width=""
-                />
+                <Link to="/apply">
+                  <ApplyBtn
+                    textColor={"text-white"}
+                    bgColor="bg-dark-blue"
+                    text="View"
+                    arrow={false}
+                    arrowDark={false}
+                    width=""
+                  />
+                </Link>
               </div>
             </div>
             <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
@@ -250,14 +257,16 @@ const Career = () => {
                 </div>
               </div>
               <div className="">
-                <ApplyBtn
-                  textColor={"text-white"}
-                  bgColor="bg-dark-blue"
-                  text="View"
-                  arrow={false}
-                  arrowDark={false}
-                  width=""
-                />
+                <Link to="/apply">
+                  <ApplyBtn
+                    textColor={"text-white"}
+                    bgColor="bg-dark-blue"
+                    text="View"
+                    arrow={false}
+                    arrowDark={false}
+                    width=""
+                  />
+                </Link>
               </div>
             </div>
             <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
@@ -278,14 +287,16 @@ const Career = () => {
                 </div>
               </div>
               <div className="">
-                <ApplyBtn
-                  textColor={"text-white"}
-                  bgColor="bg-dark-blue"
-                  text="View"
-                  arrow={false}
-                  arrowDark={false}
-                  width=""
-                />
+                <Link to="/apply">
+                  <ApplyBtn
+                    textColor={"text-white"}
+                    bgColor="bg-dark-blue"
+                    text="View"
+                    arrow={false}
+                    arrowDark={false}
+                    width=""
+                  />
+                </Link>
               </div>
             </div>{" "}
             <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
@@ -306,14 +317,16 @@ const Career = () => {
                 </div>
               </div>
               <div className="">
-                <ApplyBtn
-                  textColor={"text-white"}
-                  bgColor="bg-dark-blue"
-                  text="View"
-                  arrow={false}
-                  arrowDark={false}
-                  width=""
-                />
+                <Link to="/apply">
+                  <ApplyBtn
+                    textColor={"text-white"}
+                    bgColor="bg-dark-blue"
+                    text="View"
+                    arrow={false}
+                    arrowDark={false}
+                    width=""
+                  />
+                </Link>
               </div>
             </div>
           </div>

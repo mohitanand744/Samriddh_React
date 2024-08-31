@@ -15,6 +15,7 @@ import BecomeOurPartner from "../Pages/BecomeOurPartner";
 import ProductDetailedPage from "../Pages/ProductDetailedPage";
 import EducationLoan from "../Pages/EducationLoan";
 import Career from "../Pages/Career";
+import ApplyForJob from "../Pages/ApplyForJob";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -27,6 +28,7 @@ export const router = createBrowserRouter(
       <Route path="become_our_partner" element={<BecomeOurPartner />} />
       <Route path="education_loan" element={<EducationLoan />} />{" "}
       <Route path="career" element={<Career />} />
+      <Route path="apply" element={<ApplyForJob />} />
       <Route
         path="*"
         element={

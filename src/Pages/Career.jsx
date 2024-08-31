@@ -31,7 +31,7 @@ const Career = () => {
                 <img
                   src="./Competitive salaries and perks.png"
                   alt=""
-                  className="img-fluid position-absolute"
+                  className="img-fluid position-absolute ps-lg-0 ps-md-2 ps-2"
                 />
                 <h2 className="font-inter fw-semibold mt-lg-6 mt-md-5 mt-7 fs-20 text-white">
                   Competitive salaries and perks
@@ -78,7 +78,7 @@ const Career = () => {
                 <img
                   src="./Work with founders.png"
                   alt=""
-                  className="img-fluid position-absolute"
+                  className="img-fluid position-absolute pe-lg-0 pe-md-3 pe-3"
                 />
                 <h2 className="font-inter fw-semibold mt-lg-6 mt-md-5 mt-7 fs-20 text-white">
                   Work with founders

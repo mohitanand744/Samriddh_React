@@ -106,6 +106,9 @@ html {
 .py-6 {
   padding: 3rem 0;
 }
+.mt-55 {
+  margin-top: 4rem;
+}
 
 .p-6 {
   padding: 5rem;
@@ -169,6 +172,14 @@ html {
 }
 .px-45 {
   padding: 0 2rem;
+}
+
+.m-6 {
+  margin: 4rem;
+}
+
+.p-66 {
+  padding: 7rem 6rem !important;
 }
 
 /***** End Margin & padding Section *****/
@@ -2106,6 +2117,53 @@ li {
 }
 
 /***** End education_loan page Section *****/
+
+/***** career Page Section *****/
+
+.career_section1 {
+  height: 80vh;
+
+  .rounded {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+
+    img {
+      width: 40%;
+    }
+  }
+}
+
+.career_section2 {
+  .container {
+    margin-top: -20rem;
+    background: #1e4993;
+    box-shadow: rgba(0, 0, 0, 0.596) 0px 7px 29px 0px;
+
+    .row {
+      .card {
+        height: 29rem;
+        img {
+          width: 17rem;
+          top: 0rem;
+          left: 50%;
+          right: 50%;
+          transform: translate(-50%, -50%);
+          -webkit-transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          -o-transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
+}
+
+/***** End career Page Section *****/
 
 /***** Footer Section *****/
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -27,24 +28,30 @@ const Footer = () => {
                 <h1 className="footer-heading">Platform</h1>
                 <ul className="list-unstyled">
                   <li className="mt-4">
-                    <a href="/" className="text-white">
-                      Home
-                    </a>
+                    <Link to={"/"}>
+                      <a href="/" className="text-white">
+                        Home
+                      </a>
+                    </Link>
                   </li>
                   <li className="mt-4">
-                    <a href="#" className="text-white">
-                      Get in touch
-                    </a>
+                    <Link to={"contact"}>
+                      <a className="text-white">Get in touch</a>
+                    </Link>
                   </li>
                   <li className="mt-4">
-                    <a href="#" className="text-white">
-                      How it Works
-                    </a>
+                    <Link to={"about"}>
+                      <a href="#" className="text-white">
+                        How it Works
+                      </a>
+                    </Link>
                   </li>
                   <li className="mt-4">
-                    <a href="#" className="text-white">
-                      FAQ
-                    </a>
+                    <Link to={"become_our_partner"}>
+                      <a href="#" className="text-white">
+                        FAQ
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -52,24 +59,30 @@ const Footer = () => {
                 <h1 className="footer-heading">About</h1>
                 <ul className="list-unstyled">
                   <li className="mt-4">
-                    <a href="#" className="text-white">
-                      About Us
-                    </a>
+                    <Link to={"about"}>
+                      <a href="#" className="text-white">
+                        About Us
+                      </a>
+                    </Link>
                   </li>
                   <li className="mt-4">
-                    <a
-                      href="#"
-                      className="text-white d-flex flex-column align-items-start
+                    <Link to={"career"}>
+                      <a
+                        href="#"
+                        className="text-white d-flex flex-column align-items-start
                   "
-                    >
-                      Careers{" "}
-                      <button className="highlight fs-4">Hiring now</button>
-                    </a>
+                      >
+                        Careers{" "}
+                        <button className="highlight fs-4">Hiring now</button>
+                      </a>
+                    </Link>
                   </li>
                   <li className="mt-4">
-                    <a href="#" className="text-white">
-                      Blog
-                    </a>
+                    <Link to={"education_loan"}>
+                      <a href="#" className="text-white">
+                        Blog
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -103,14 +116,18 @@ const Footer = () => {
                 <h1 className="footer-heading">Tools</h1>
                 <ul className="list-unstyled">
                   <li className="mt-4">
-                    <a href="#" className="text-white">
-                      EMI Calculator
-                    </a>
+                    <Link to={"product_detailed_page"}>
+                      <a href="#" className="text-white">
+                        EMI Calculator
+                      </a>
+                    </Link>
                   </li>
                   <li className="mt-4">
-                    <a href="#" className="text-white">
-                      Balance Transfer Calculator
-                    </a>
+                    <Link to={"product_detailed_page"}>
+                      <a href="#" className="text-white">
+                        Balance Transfer Calculator
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

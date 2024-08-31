@@ -2133,7 +2133,7 @@ li {
     -o-border-radius: 50% !important;
 
     img {
-      width: 40%;
+      width: 50%;
     }
   }
 }
@@ -2163,12 +2163,32 @@ li {
           -moz-transform: translate(-50%, -50%);
           -ms-transform: translate(-50%, -50%);
           -o-transform: translate(-50%, -50%);
+
           img {
             width: 100%;
             object-fit: contain;
           }
         }
       }
+    }
+  }
+}
+
+.career_section3 {
+  .searchContainer {
+    border: 2px solid var(--btn-bg);
+    width: 36rem;
+    height: 6rem;
+    padding: 1rem;
+
+    img {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+
+    input {
+      outline: none;
+      border-left: 2.4px solid #bdbdbd !important;
     }
   }
 }

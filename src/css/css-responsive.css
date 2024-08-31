@@ -442,6 +442,13 @@
       }
     }
   }
+
+  .career_section3 {
+    .searchContainer {
+      width: 100%;
+      margin-top: 2rem;
+    }
+  }
 }
 
 @media screen and (width < 461px) {

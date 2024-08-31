@@ -1,5 +1,6 @@
 import React from "react";
 import ProductsTitles from "../components/Titles/ProductsTitles";
+import ApplyBtn from "../components/Buttons/ApplyBtn";
 
 const Career = () => {
   return (
@@ -49,7 +50,7 @@ const Career = () => {
                   <img
                     src="./Work friendly environment.png"
                     alt=""
-                    className="img-fluid ps-lg-0 ps-md-3 ps-3"
+                    className="img-fluid ps-lg-2 ps-md-3 ps-3"
                   />
                 </div>
                 <h2 className="font-inter fw-semibold mt-lg-5 mt-md-5 mt-7 fs-20 text-white">
@@ -67,7 +68,7 @@ const Career = () => {
                   <img
                     src="./Learning exposure.png"
                     alt=""
-                    className="img-fluid ps-lg-0 ps-md-3 ps-3"
+                    className="img-fluid ps-lg-2 ps-md-3 ps-3"
                   />
                 </div>
                 <h2 className="font-inter fw-semibold mt-lg-5 mt-md-5 mt-7 fs-20 text-white">
@@ -101,9 +102,221 @@ const Career = () => {
         </div>
       </section>
 
-      <section className="career_section3 mt-15">
+      <section className="career_section3 mt-15 px-lg-0 px-md-0 px-sm-0 px-4">
         <div className="container">
           <h1 className="font-inter fw-bold fs-32 text-dark">OPENINGS</h1>
+
+          <div className="d-flex justify-content-between align-items-center mt-7 flex-wrap">
+            <h2 className="fs-26 font-inter fw-medium">
+              Careers at Samriddh Kendra
+            </h2>
+            <div className="searchContainer d-flex gap-3 rounded-4">
+              <img className="img-fluid mx-2" src="./search2.png" alt="" />
+              <input
+                type="text"
+                className="border-none w-100 fs-20 font-inter px-4"
+                placeholder="Search"
+              />
+            </div>
+          </div>
+
+          <form class="row g-3 mt-7">
+            <div class="col-md-6">
+              <label class="form-label fs-20 font-inter">Department</label>
+              <select
+                class="form-select bg-transparent p-4 rounded-4 fs-20 font-inter text-light-gray"
+                aria-label="Disabled select example"
+              >
+                <option selected>Select department</option>
+                <option value="1">Associate Growth Manager</option>
+                <option value="2">HR</option>
+                <option value="3">Developer</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label fs-20 font-inter">Location</label>
+              <select
+                class="form-select bg-transparent p-4 rounded-4 fs-20 font-inter text-light-gray"
+                aria-label="Disabled select example"
+              >
+                <option selected>Select location</option>
+                <option value="1">Bengaluru</option>
+                <option value="2">Delhi</option>
+                <option value="3">Hyderabad</option>
+              </select>
+            </div>
+          </form>
+
+          <div className="outputContainer d-flex flex-column gap-4 mt-5">
+            <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
+              <div className="">
+                <h2 className="fs-26 fw-medium font-inter">
+                  Associate Growth Manager
+                </h2>
+                <div className="d-flex flex-wrap gap-lg-5 gap-md-4 gap-2">
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    Growth and Strategy
+                  </p>
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    • Bengaluru, India
+                  </p>
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    • 1-3 years
+                  </p>
+                </div>
+              </div>
+              <div className="">
+                <ApplyBtn
+                  textColor={"text-white"}
+                  bgColor="bg-dark-blue"
+                  text="View"
+                  arrow={false}
+                  arrowDark={false}
+                  width=""
+                />
+              </div>
+            </div>
+            <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
+              <div className="">
+                <h2 className="fs-26 fw-medium font-inter">
+                  Associate Growth Manager
+                </h2>
+                <div className="d-flex flex-wrap gap-lg-5 gap-md-4 gap-2">
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    Growth and Strategy
+                  </p>
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    • Bengaluru, India
+                  </p>
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    • 1-3 years
+                  </p>
+                </div>
+              </div>
+              <div className="">
+                <ApplyBtn
+                  textColor={"text-white"}
+                  bgColor="bg-dark-blue"
+                  text="View"
+                  arrow={false}
+                  arrowDark={false}
+                  width=""
+                />
+              </div>
+            </div>
+            <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
+              <div className="">
+                <h2 className="fs-26 fw-medium font-inter">
+                  Associate Growth Manager
+                </h2>
+                <div className="d-flex flex-wrap gap-lg-5 gap-md-4 gap-2">
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    Growth and Strategy
+                  </p>
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    • Bengaluru, India
+                  </p>
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    • 1-3 years
+                  </p>
+                </div>
+              </div>
+              <div className="">
+                <ApplyBtn
+                  textColor={"text-white"}
+                  bgColor="bg-dark-blue"
+                  text="View"
+                  arrow={false}
+                  arrowDark={false}
+                  width=""
+                />
+              </div>
+            </div>
+            <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
+              <div className="">
+                <h2 className="fs-26 fw-medium font-inter">
+                  Associate Growth Manager
+                </h2>
+                <div className="d-flex flex-wrap gap-lg-5 gap-md-4 gap-2">
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    Growth and Strategy
+                  </p>
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    • Bengaluru, India
+                  </p>
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    • 1-3 years
+                  </p>
+                </div>
+              </div>
+              <div className="">
+                <ApplyBtn
+                  textColor={"text-white"}
+                  bgColor="bg-dark-blue"
+                  text="View"
+                  arrow={false}
+                  arrowDark={false}
+                  width=""
+                />
+              </div>
+            </div>
+            <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
+              <div className="">
+                <h2 className="fs-26 fw-medium font-inter">
+                  Associate Growth Manager
+                </h2>
+                <div className="d-flex flex-wrap gap-lg-5 gap-md-4 gap-2">
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    Growth and Strategy
+                  </p>
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    • Bengaluru, India
+                  </p>
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    • 1-3 years
+                  </p>
+                </div>
+              </div>
+              <div className="">
+                <ApplyBtn
+                  textColor={"text-white"}
+                  bgColor="bg-dark-blue"
+                  text="View"
+                  arrow={false}
+                  arrowDark={false}
+                  width=""
+                />
+              </div>
+            </div>{" "}
+            <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
+              <div className="">
+                <h2 className="fs-26 fw-medium font-inter">
+                  Associate Growth Manager
+                </h2>
+                <div className="d-flex flex-wrap gap-lg-5 gap-md-4 gap-2">
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    Growth and Strategy
+                  </p>
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    • Bengaluru, India
+                  </p>
+                  <p className="fs-18 fw-medium font-inter text-light-gray">
+                    • 1-3 years
+                  </p>
+                </div>
+              </div>
+              <div className="">
+                <ApplyBtn
+                  textColor={"text-white"}
+                  bgColor="bg-dark-blue"
+                  text="View"
+                  arrow={false}
+                  arrowDark={false}
+                  width=""
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>

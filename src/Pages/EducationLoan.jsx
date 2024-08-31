@@ -31,7 +31,7 @@ const EducationLoan = () => {
               <select
                 value={loanType}
                 onChange={handleLoanChange}
-                className="loan-dropdown fs-18 fw-bold font-inter border-none "
+                className="loan-dropdown fs-18 fw-bold font-inter border-none bg-transparent"
               >
                 <option value="Undergraduate Loan">Undergraduate Loan</option>
                 <option value="Graduate Loan">Graduate Loan</option>

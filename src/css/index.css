@@ -137,7 +137,7 @@ html {
 }
 
 .w-15 {
-  width: 13%;
+  width: 15rem !important;
 }
 
 .ms-10 {

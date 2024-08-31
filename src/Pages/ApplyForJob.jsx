@@ -6,7 +6,7 @@ const ApplyForJob = () => {
   return (
     <div className="applyForJob">
       <section className="applyForJob_section1 mt-7 bg-dark-blue">
-        <div className="container mx-4">
+        <div className="container mx-3">
           <div className="bg-white p-5 shadow-lg border rounded-4 d-flex justify-content-between align-items-center gap-5">
             <div className="">
               <h2 className="fs-26 fw-medium font-inter">
@@ -41,7 +41,7 @@ const ApplyForJob = () => {
       </section>
 
       <section className="applyForJob_section2 mt-7">
-        <div className="container mx-4">
+        <div className="container px-4">
           <div className="row flex-column gap-5">
             <div className="aboutUs">
               <h2 className="font-inter fw-medium fs-24">About Us</h2>

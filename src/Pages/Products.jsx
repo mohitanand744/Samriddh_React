@@ -8,7 +8,7 @@ const Products = () => {
       <section className="container-fluid mt-11 product_section_1">
         <div className="row justify-content-xl-around justify-content-lg-center  justify-content-md-center justify-content-center">
           <div className="col-xl-5  col-lg-6 col-md-6 col-12 text-lg-start text-center mt-15">
-            <div className="product-main-text-container">
+            <div data-aos="flip-right" className="product-main-text-container">
               <h1 className="title-font fs-55 fw-normal text-light-blue">
                 At Samriddh Kendra, we offer
                 <span className="text-dark fw-medium">
@@ -42,14 +42,20 @@ const Products = () => {
           </header>
 
           <div className="row  justify-content-center align-items-center">
-            <div className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+            <div
+              data-aos="flip-right"
+              className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4"
+            >
               <ProductCard
                 image="./loanHome.png"
                 cardTitle="Home Loans"
                 btnContent="Apply for loan"
               />
             </div>
-            <div className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+            <div
+              data-aos="flip-left"
+              className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4"
+            >
               <ProductCard
                 image="./lapLoan.png"
                 cardTitle="LAP Loans"
@@ -62,14 +68,20 @@ const Products = () => {
           </header>
 
           <div className="row  justify-content-center align-items-center">
-            <div className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+            <div
+              data-aos="flip-right"
+              className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4"
+            >
               <ProductCard
                 image="./loanAvatar.png"
                 cardTitle="Personal Loan"
                 btnContent="Apply for loan"
               />
             </div>
-            <div className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+            <div
+              data-aos="flip-left"
+              className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4"
+            >
               <ProductCard
                 image="./Business Loan.png"
                 cardTitle="Business Loan"
@@ -83,14 +95,20 @@ const Products = () => {
           <ProductsTitles text={"Insurance"} />
 
           <div className="row mb-4 justify-content-center align-items-center">
-            <div className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+            <div
+              data-aos="flip-right"
+              className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4"
+            >
               <ProductCard
                 image="./Health insurance.png"
                 cardTitle="Health insurance"
                 btnContent="Apply for loan"
               />
             </div>
-            <div className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+            <div
+              data-aos="flip-left"
+              className="col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4"
+            >
               <ProductCard
                 image="./Life Insurance.png"
                 cardTitle="Life Insurance"
@@ -100,14 +118,20 @@ const Products = () => {
           </div>
 
           <div className="row mb-4  justify-content-center align-items-center">
-            <div className=" col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+            <div
+              data-aos="flip-right"
+              className=" col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4"
+            >
               <ProductCard
                 image="./Shop insurance.png"
                 cardTitle="Shop insurance"
                 btnContent="Apply for loan"
               />
             </div>
-            <div className=" col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+            <div
+              data-aos="flip-left"
+              className=" col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4"
+            >
               <ProductCard
                 image="./Motor insurance.png"
                 cardTitle="Motor insurance"
@@ -116,14 +140,20 @@ const Products = () => {
             </div>
           </div>
           <div className="row mb-4  justify-content-center align-items-center">
-            <div className=" col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+            <div
+              data-aos="flip-right"
+              className=" col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4"
+            >
               <ProductCard
                 image="./Crop insurance.png"
                 cardTitle="Crop insurance"
                 btnContent="Apply for loan"
               />
             </div>
-            <div className=" col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4">
+            <div
+              data-aos="flip-left"
+              className=" col-lg-6 col-md-12 col-12 m-lg-0 m-md-4 m-4"
+            >
               <ProductCard
                 image="./Crop insurance2.png"
                 cardTitle="Crop insurance"

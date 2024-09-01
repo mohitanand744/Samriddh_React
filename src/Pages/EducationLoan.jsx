@@ -19,7 +19,7 @@ const EducationLoan = () => {
   return (
     <div className="EducationLoan mt-7">
       <section className="EducationLoanSection_1 position-relative">
-        <div className="position-absolute textContainer">
+        <div data-aos="flip-right" className="position-absolute textContainer">
           <h1 className="fs-68 fs-sm-55 fs-xs-45 font-play-bold text-white">
             Student Education Loan
           </h1>
@@ -144,7 +144,7 @@ const EducationLoan = () => {
 
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6 col-12">
+            <div data-aos="flip-right" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard bg-white border-none b-shadow">
                 <img
                   className="img-fluid"
@@ -157,14 +157,14 @@ const EducationLoan = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12">
+            <div data-aos="flip-left" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
                 <img className="img-fluid" src="./Graduate Loans.png" alt="" />
 
                 <p className=" fs-20 fw-bold font-inter mt-4">Graduate Loans</p>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12">
+            <div data-aos="flip-right" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
                 <img
                   className="img-fluid"
@@ -177,21 +177,21 @@ const EducationLoan = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12">
+            <div data-aos="flip-left" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
                 <img className="img-fluid" src="./Parent Loans.png" alt="" />
 
                 <p className=" fs-20 fw-bold font-inter mt-4">Parent Loans</p>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12">
+            <div data-aos="flip-right" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
                 <img className="img-fluid" src="./MBA Loans.png" alt="" />
 
                 <p className=" fs-20 fw-bold font-inter mt-4">MBA Loans</p>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12">
+            <div data-aos="flip-left" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
                 <img className="img-fluid" src="./Dental Loan.png" alt="" />
 
@@ -202,7 +202,10 @@ const EducationLoan = () => {
         </div>
       </section>
 
-      <section className="EducationLoanSection_4 px-lg-0 px-md-0 px-4 mt-11">
+      <section
+        data-aos="fade-down"
+        className="EducationLoanSection_4 px-lg-0 px-md-0 px-4 mt-11"
+      >
         <EducationLoanTitle
           title={"Who is this for?"}
           color="black"
@@ -282,7 +285,10 @@ const EducationLoan = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-12 col-12">
-              <div className=" mt-lg-0 mt-md-5 mt-5 p-lg-0 p-md-4 p-5">
+              <div
+                data-aos="flip-right"
+                className=" mt-lg-0 mt-md-5 mt-5 p-lg-0 p-md-4 p-5"
+              >
                 <img src="./guy+cat 2.png" alt="" className="img-fluid" />
               </div>
             </div>
@@ -290,7 +296,10 @@ const EducationLoan = () => {
         </div>
       </section>
 
-      <section className="EducationLoanSection_6 px-lg-0 px-md-0 px-4 py-6 bg-dark-blue">
+      <section
+        data-aos="flip-right"
+        className="EducationLoanSection_6 px-lg-0 px-md-0 px-4 py-6 bg-dark-blue"
+      >
         <EducationLoanTitle
           title={"What Education Loans Cover?"}
           color="white"
@@ -371,7 +380,7 @@ const EducationLoan = () => {
               />
 
               <div className="row flex-column gap-4">
-                <div className="col-12">
+                <div data-aos="fade-down" className="col-12">
                   <div className="d-flex align-items-start">
                     <p className="py-3 px-45 bg-dark-blue text-white fw-semibold fs-18 font-inter me-4">
                       1
@@ -389,7 +398,7 @@ const EducationLoan = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-12">
+                <div data-aos="fade-up" className="col-12">
                   <div className="d-flex align-items-start">
                     <p className="py-3 px-45 bg-dark-blue text-white fw-semibold fs-18 font-inter me-4">
                       2
@@ -405,7 +414,7 @@ const EducationLoan = () => {
                     </div>
                   </div>
                 </div>{" "}
-                <div className="col-12">
+                <div data-aos="fade-up" className="col-12">
                   <div className="d-flex align-items-start">
                     <p className="py-3 px-45 bg-dark-blue text-white fw-semibold fs-18 font-inter me-4">
                       3
@@ -434,7 +443,10 @@ const EducationLoan = () => {
 
       <section className="EducationLoanSection_8 container-fluid my-10">
         <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+          <div
+            data-aos="slide-left"
+            className="col-lg-6 col-md-6 col-sm-6 col-12"
+          >
             <div className="right py-8 text-center">
               <div className="rightBorder d-flex flex-column align-items-center  text-center">
                 <h1 className="fs-28 font-inter fw-bolder">
@@ -455,7 +467,10 @@ const EducationLoan = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+          <div
+            data-aos="slide-right"
+            className="col-lg-6 col-md-6 col-sm-6 col-12"
+          >
             <div className="left py-8">
               <div className="leftBorder d-flex flex-column align-items-center text-center text-white">
                 <h1 className="fs-28 font-inter fw-bolder">
@@ -494,8 +509,14 @@ const EducationLoan = () => {
             <div className=" col-lg-9 col-md-12 col-12">
               <div className="accordion" id="accordionExample">
                 {educationLoan.map((data, index) => {
+                  const fadeDirection =
+                    index % 2 === 0 ? "fade-left" : "fade-right"; // Alternate fade direction
                   return (
-                    <div key={index} className="accordion-item mt-3 rounded-4">
+                    <div
+                      data-aos={fadeDirection}
+                      key={index}
+                      className="accordion-item mt-3 rounded-4"
+                    >
                       <h2 className="accordion-header ">
                         <button
                           className={`accordion-button

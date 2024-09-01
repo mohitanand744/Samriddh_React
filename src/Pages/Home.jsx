@@ -555,7 +555,7 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="  item">
+                    <div className="item">
                       <div className="bg-white review-card rounded-4">
                         <div className="top-container">
                           <div className="img">

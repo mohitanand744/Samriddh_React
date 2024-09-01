@@ -14,11 +14,17 @@ const BecomeOurPartner = () => {
     <div className="BecomeOurPartner">
       <section className="container-fluid mt-15 BecomeOurPartner_section_1">
         <div className="row align-items-center justify-content-xl-around justify-content-lg-center  justify-content-md-center justify-content-center">
-          <div className="col-xl-7 col-lg-6 col-md-6 col-12">
+          <div
+            data-aos="fade-down"
+            className="col-xl-7 col-lg-6 col-md-6 col-12"
+          >
             <img src="./MERCHANTHeroImg.png" className="img-fluid" />
           </div>
 
-          <div className="col-xl-5  col-lg-6 col-md-6 col-12 p-8 p-5-mv">
+          <div
+            data-aos="fade-up"
+            className="col-xl-5  col-lg-6 col-md-6 col-12 p-8 p-5-mv"
+          >
             <h1 className="title-font fw-semibold fs-40">
               Join Samriddh: Sell, earn, and live your dreams!
             </h1>
@@ -42,13 +48,19 @@ const BecomeOurPartner = () => {
         />
         <div className="container">
           <div className="row justify-content-lg-center justify-content-md-center justify-content-start flex-lg-wrap flex-md-wrap flex-sm-nowrap flex-nowrap justify-content-start agent-card-slider gap-4">
-            <div className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center">
+            <div
+              data-aos="flip-right"
+              className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center"
+            >
               <div className="img-container">
                 <img className="img-fluid" src="Loan Agents.png" alt="" />
               </div>
               <p className="font-inter fs-24 fw-semibold ">Loan Agents</p>
             </div>
-            <div className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center">
+            <div
+              data-aos="flip-left"
+              className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center"
+            >
               <div className="img-container">
                 <img
                   className="img-fluid"
@@ -60,20 +72,29 @@ const BecomeOurPartner = () => {
                 Former bank employees
               </p>
             </div>
-            <div className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center">
+            <div
+              data-aos="flip-right"
+              className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center"
+            >
               <div className="img-container">
                 <img className="img-fluid" src="Insurance agents.png" alt="" />
               </div>
               <p className="font-inter fs-24 fw-semibold ">Insurance agents</p>
             </div>
 
-            <div className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center">
+            <div
+              data-aos="flip-left"
+              className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center"
+            >
               <div className="img-container">
                 <img className="img-fluid" src="Wealth Advisors.png" alt="" />
               </div>
               <p className="font-inter fs-24 fw-semibold ">Wealth Advisors</p>
             </div>
-            <div className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center">
+            <div
+              data-aos="flip-right"
+              className="agent-card d-flex justify-content-between  align-items-center flex-column bg-light-gray text-center"
+            >
               <div className="img-container">
                 <img
                   className="img-fluid"
@@ -102,14 +123,17 @@ const BecomeOurPartner = () => {
               <div
                 className={`startEarning text-white d-lg-flex d-md-flex d-sm-flex d-none justify-content-center align-items-lg-start align-items-md-center align-items-center flex-column gap-4 `}
               >
-                <div className={`startEarningCard active  step1`}>
+                <div
+                  data-aos="fade-down"
+                  className={`startEarningCard active  step1`}
+                >
                   <h2 className={`font-inter fs-1 fw-semibold `}>Sign up</h2>
                   <p className="font-inter fs-4 fw-medium">
                     Click on Signup Button and create an account
                   </p>
                   <p className="steps fw-semibold font-zilla">1</p>
                 </div>
-                <div className={`startEarningCard step2`}>
+                <div data-aos="fade-down" className={`startEarningCard step2`}>
                   <h2 className={`font-inter fs-1 fw-semibold `}>
                     Complete KYC{" "}
                   </h2>
@@ -118,7 +142,7 @@ const BecomeOurPartner = () => {
                   </p>
                   <p className="steps fw-semibold font-zilla">2</p>
                 </div>
-                <div className={`startEarningCard step3`}>
+                <div data-aos="fade-down" className={`startEarningCard step3`}>
                   <h2 className={`font-inter fs-1 fw-semibold `}>
                     Complete Your product training{" "}
                   </h2>
@@ -127,7 +151,7 @@ const BecomeOurPartner = () => {
                   </p>
                   <p className="steps fw-semibold font-zilla">3</p>
                 </div>
-                <div className={`startEarningCard step4`}>
+                <div data-aos="fade-up" className={`startEarningCard step4`}>
                   <h2 className={`font-inter fs-1 fw-semibold `}>
                     Start selling & earning
                   </h2>
@@ -185,7 +209,10 @@ const BecomeOurPartner = () => {
                 </div>
               </OwlCarousel>
             </div>
-            <div className="col-lg-6  col-md-12 col-12 order-lg-last order-md-first order-first">
+            <div
+              data-aos="fade-left"
+              className="col-lg-6  col-md-12 col-12 order-lg-last order-md-first order-first"
+            >
               <div className="image-container text-center mt-lg-0 mt-md-5 mt-5  p-5">
                 <img className="img-fluid" src="./start Earning.png" alt="" />
               </div>
@@ -359,7 +386,10 @@ const BecomeOurPartner = () => {
             <div className="row justify-content-center align-items-center h-100 pt-lg-0 pt-md-0 pt-25">
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="leftSideCards d-flex justify-content-center flex-column align-items-center gap-lg-5 gap-md-5 gap-3 mb-3">
-                  <div className="card rounded-5 p-5 bg-white ">
+                  <div
+                    data-aos="fade-right"
+                    className="card rounded-5 p-5 bg-white "
+                  >
                     <h2 className="font-inter fs-16 fw-semibold">
                       Wide Ranges of Products
                     </h2>
@@ -368,7 +398,10 @@ const BecomeOurPartner = () => {
                       your customers.
                     </p>
                   </div>
-                  <div className="card rounded-5 p-5 bg-white ">
+                  <div
+                    data-aos="fade-right"
+                    className="card rounded-5 p-5 bg-white "
+                  >
                     <h2 className="font-inter fs-16 fw-semibold">
                       Easy Digital Process
                     </h2>
@@ -377,7 +410,10 @@ const BecomeOurPartner = () => {
                       time.
                     </p>
                   </div>
-                  <div className="card rounded-5 p-5 bg-white ">
+                  <div
+                    data-aos="fade-right"
+                    className="card rounded-5 p-5 bg-white "
+                  >
                     <h2 className="font-inter fs-16 fw-semibold">
                       Smallest Payout Cycle
                     </h2>
@@ -390,7 +426,10 @@ const BecomeOurPartner = () => {
               </div>
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="rightSideCards d-flex justify-content-center flex-column align-items-center gap-lg-5 gap-md-5 gap-3">
-                  <div className="card rounded-5 p-5 bg-white ">
+                  <div
+                    data-aos="fade-left"
+                    className="card rounded-5 p-5 bg-white "
+                  >
                     <h2 className="font-inter fs-16 fw-semibold">
                       Free Education and Training
                     </h2>
@@ -399,7 +438,10 @@ const BecomeOurPartner = () => {
                       assistance at every step to achieve your goals.
                     </p>
                   </div>
-                  <div className="card rounded-5 p-5 bg-white ">
+                  <div
+                    data-aos="fade-left"
+                    className="card rounded-5 p-5 bg-white "
+                  >
                     <h2 className="font-inter fs-16 fw-semibold">
                       Instant Support
                     </h2>
@@ -408,7 +450,10 @@ const BecomeOurPartner = () => {
                       with you as soon as possible to assist you.
                     </p>
                   </div>
-                  <div className="card rounded-5 p-5 bg-white ">
+                  <div
+                    data-aos="fade-left"
+                    className="card rounded-5 p-5 bg-white "
+                  >
                     <h2 className="font-inter fs-16 fw-semibold">
                       Best in Class Commission
                     </h2>

@@ -11,7 +11,7 @@ const AboutUs = () => {
 
   return (
     <div className="aboutUs">
-      <div className={`about_section_1`}>
+      <div data-aos="zoom-in" className={`about_section_1`}>
         <div className="image-container text-center">
           <img
             className="img-fluid about-hero-img"
@@ -21,7 +21,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className={`about_section_2 container `}>
+      <div data-aos="fade-down" className={`about_section_2 container `}>
         <Title
           first_text={"Why did we start"}
           span_text={"Samriddh Kendra"}
@@ -33,7 +33,7 @@ const AboutUs = () => {
             <div
               className={`visionMissionPurposeContainer d-lg-flex d-md-flex d-sm-flex d-none justify-content-center align-items-lg-start align-items-md-center align-items-center flex-column gap-4 position-relative`}
             >
-              <div className={`visionContainer`}>
+              <div data-aos="fade-down" className={`visionContainer`}>
                 <h2 className={`font-inter fs-1 fw-semibold commonTitle`}>
                   VISION
                 </h2>
@@ -42,7 +42,7 @@ const AboutUs = () => {
                   provider in the world
                 </p>
               </div>
-              <div className={`visionContainer`}>
+              <div data-aos="fade-down" className={`visionContainer`}>
                 <h2 className={`font-inter fs-1 fw-semibold commonTitle`}>
                   MISSION
                 </h2>
@@ -50,7 +50,7 @@ const AboutUs = () => {
                   To ensure 10 million lives by 2025
                 </p>
               </div>
-              <div className={`visionContainer`}>
+              <div data-aos="fade-down" className={`visionContainer`}>
                 <h2 className={`font-inter fs-1 fw-semibold commonTitle`}>
                   PURPOSE
                 </h2>
@@ -110,12 +110,12 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="about_section_3 container-fluid">
+      <div data-aos="fade-down" className="about_section_3 container-fluid">
         <Title first_text={""} span_text={"Our Story?"} last_text={""} />
 
         <div className="container">
           <div className="box-container mt-lg-0 mt-md-5 mt-7">
-            <div className="box">
+            <div data-aos="fade-down" className="box z-1">
               <div className="title-content d-flex align-items-center justify-content-end me-6 gap-3">
                 <img
                   className="img-fluid timelineIcon"
@@ -128,7 +128,7 @@ const AboutUs = () => {
                 Founded{" "}
               </p>
             </div>
-            <div className="box">
+            <div data-aos="fade-down" className="box z-1">
               <div className="title-content d-flex align-items-center gap-3">
                 <img
                   className="img-fluid timelineIcon"
@@ -154,7 +154,7 @@ const AboutUs = () => {
                 </ul>
               </div>
             </div>
-            <div className="box">
+            <div data-aos="fade-down" className="box z-1">
               <div className="title-content d-flex align-items-center justify-content-end gap-3 me-6">
                 <img
                   className="img-fluid timelineIcon"
@@ -186,7 +186,7 @@ const AboutUs = () => {
                 </ul>
               </div>
             </div>
-            <div className="box">
+            <div data-aos="fade-down" className="box z-1">
               <div className="title-content d-flex align-items-center flex-wrap gap-3">
                 <img
                   className="img-fluid timelineIcon"
@@ -215,7 +215,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="about_section_4">
+      <div data-aos="fade-down" className="about_section_4">
         <div className="container">
           <Title first_text={"Our core values"} span_text={""} last_text={""} />
         </div>
@@ -231,7 +231,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="about_section_5">
+      <div data-aos="fade-down" className="about_section_5">
         <Title
           first_text={"The Team Behind Samriddh Kendra"}
           span_text={""}
@@ -239,7 +239,7 @@ const AboutUs = () => {
         />
         <div className="container">
           <div className="row gap-5 justify-content-lg-center justify-content-md-center justify-content-start flex-lg-wrap flex-md-wrap flex-sm-nowrap flex-nowrap justify-content-start profiles-sliders">
-            <div className="card text-center font-inter">
+            <div data-aos="flip-right" className="card text-center font-inter">
               <div className="profile-container ">
                 <img
                   src="./Suman Saurav.png"
@@ -259,7 +259,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-            <div className="card text-center font-inter">
+            <div data-aos="flip-right" className="card text-center font-inter">
               <div className="profile-container ">
                 <img
                   src="./Bipul Kumar.png"
@@ -279,7 +279,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-            <div className="card text-center font-inter">
+            <div data-aos="flip-right" className="card text-center font-inter">
               <div className="profile-container ">
                 <img
                   src="./Rajesh Mishra.png"
@@ -301,7 +301,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-            <div className="card text-center font-inter">
+            <div data-aos="flip-right" className="card text-center font-inter">
               <div className="profile-container ">
                 <img
                   src="./Yashwardhan Parwal.png"
@@ -323,7 +323,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-            <div className="card text-center font-inter">
+            <div data-aos="flip-right" className="card text-center font-inter">
               <div className="profile-container ">
                 <img
                   src="./Vishal Chopra.png"
@@ -359,7 +359,7 @@ const AboutUs = () => {
         <div className="container">
           <div className="row font-inter">
             <div className="col-lg-6 col-md-12 col-12">
-              <div className="benefits-card rounded-4">
+              <div data-aos="fade-up" className="benefits-card rounded-4">
                 <div className="img-container">
                   <img
                     className="img-fluid benefits"
@@ -387,7 +387,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="col-lg-6 col-md-12 col-12">
-              <div className="benefits-card rounded-4">
+              <div data-aos="fade-down" className="benefits-card rounded-4">
                 <div className="img-container">
                   <img
                     className="img-fluid benefits"
@@ -417,7 +417,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="about_section_7">
+      <div data-aos="fade-down" className="about_section_7">
         <Title first_text="" span_text="Contact Us" last_text="" />
 
         <div className="container">

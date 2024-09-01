@@ -1,6 +1,12 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useEffect, useState } from "react";
 
 const CreatingContext = createContext();
+
+/* On Scroll Animation With AOS*/
+
+import AOS from "aos";
+import "aos/dist/aos.js";
+import "aos/dist/aos.css";
 
 /* carouselOptions */
 
@@ -177,6 +183,12 @@ export const ContextProvider = ({ children }) => {
   /* Education Loan */
 
   const [loanType, setLoanType] = useState("Undergraduate Loan");
+
+  /* On Scroll Animation With AOS*/
+
+  useEffect(() => {
+    AOS.init({ offset: 200, duration: 2000 });
+  }, []);
 
   const handleLoanChange = (event) => {
     setLoanType(event.target.value);

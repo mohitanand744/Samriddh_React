@@ -29,7 +29,7 @@ const ApplyForJob = () => {
                 <ApplyBtn
                   textColor={"text-white"}
                   bgColor="bg-dark-blue"
-                  text="View"
+                  text="Apply"
                   arrow={false}
                   arrowDark={false}
                   width=""

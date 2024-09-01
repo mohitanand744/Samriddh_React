@@ -372,15 +372,15 @@
   .section_8 {
     & .partners-Customers {
       & .img-container {
-        width: 13rem;
-        height: 13rem;
+        width: 11rem;
+        height: 11rem;
         overflow: hidden;
         & img {
-          width: 11rem;
+          width: 9rem;
         }
 
         & .avatar {
-          width: 8.6rem;
+          width: 7.6rem;
         }
       }
     }

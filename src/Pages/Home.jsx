@@ -12,7 +12,7 @@ const Home = () => {
 
   return (
     <div className="Home">
-      <section className="container-fluid mt-15 section_1">
+      <section data-aos="zoom-in" className="container-fluid mt-15 section_1">
         <div className="container">
           <div className="row align-items-center justify-content-xl-around justify-content-lg-center  justify-content-md-center justify-content-center">
             <div className="col-xl-5  col-lg-6 col-md-6 col-12 text-lg-start text-center ">
@@ -35,7 +35,7 @@ const Home = () => {
 
       {/* ----------------------------------------------------- */}
 
-      <section className="section_2">
+      <section data-aos="zoom-in" className="section_2">
         <header className="container col-12">
           <Title
             first_text="Samriddh Kendra"
@@ -71,7 +71,7 @@ const Home = () => {
 
       {/* ----------------------------------------------------- */}
 
-      <section className="section_3 mt-3">
+      <section data-aos="zoom-in" className="section_3 mt-3">
         <div className="container-fluid insaurance">
           <div className="row justify-content-md-center justify-content-center">
             <div className="  col-xl-5 col-lg-6 col-md-10 col-sm-10 col-10  order-lg-last  order-md-last order-last">
@@ -105,7 +105,7 @@ const Home = () => {
 
       {/* ----------------------------------------------------- */}
 
-      <section className="container-fluid section_4 my-10">
+      <section data-aos="zoom-in" className="container-fluid section_4 my-10">
         <div className="container p-7 bg-gray">
           <div className="row align-items-center justify-content-between">
             <div className="col-xl-6 col-lg-6 col-md-12 col-12 ">
@@ -131,7 +131,7 @@ const Home = () => {
 
       {/* ----------------------------------------------------- */}
 
-      <section className="section_5">
+      <section data-aos="zoom-in" className="section_5">
         <header className="container col-12">
           <Title
             first_text="How does"
@@ -185,7 +185,7 @@ const Home = () => {
 
       {/* ----------------------------------------------------- */}
 
-      <section className="section_6">
+      <section data-aos="zoom-in" className="section_6">
         <header className="container mb-5">
           <Title first_text="" span_text="Recognitions" last_text="" />
         </header>
@@ -232,7 +232,7 @@ const Home = () => {
 
       {/* ----------------------------------------------------- */}
 
-      <section className="section_7">
+      <section data-aos="zoom-in" className="section_7">
         <header className="container mb-5">
           <Title
             first_text="Our"
@@ -339,7 +339,7 @@ const Home = () => {
 
       {/* ----------------------------------------------------- */}
 
-      <section className="section_8  mt-3">
+      <section data-aos="zoom-in" className="section_8  mt-3">
         <header className="container mb-5">
           <Title
             first_text="What does "
@@ -407,10 +407,10 @@ const Home = () => {
                     <div className=" item">
                       <div className="bg-white review-card rounded-top-6 d-flex flex-column justify-content-between">
                         <div className="text">
-                          <h2 className="title-font text-dark fs-1 fw-bold">
+                          <h2 className="title-font text-dark fs-24 fw-bold">
                             Top notch team, top notch product
                           </h2>
-                          <p className="font-inter fs-lg-4 fs-md-3 fs-sm-2 fs-7 text-gray mt-5">
+                          <p className="font-inter fs-18 text-gray mt-5">
                             Metaforms has been a gamechanger in our journey of
                             optimising our user funnels. The level of attention
                             to detail the team brings with pro-activeness in
@@ -424,10 +424,10 @@ const Home = () => {
                             alt=""
                           />
                           <div className="d-flex flex-column gap-2">
-                            <p className="fs-2 font-poppins fw-semibold ">
+                            <p className="fs-20 font-poppins fw-semibold ">
                               Apoorva
                             </p>
-                            <p className="fs-4 font-poppins">Porter</p>
+                            <p className="fs-16 font-poppins">Porter</p>
                           </div>
                         </div>
                       </div>
@@ -438,7 +438,7 @@ const Home = () => {
                           <div className="img">
                             <img src="./empty-img.webp" alt="" />
                           </div>
-                          <h2 className="title-font fs-1 text-dark fw-bold mx-4">
+                          <h2 className="title-font fs-24 text-dark fw-bold mx-4">
                             All necessary integrations were available.
                           </h2>
                         </div>
@@ -449,10 +449,10 @@ const Home = () => {
                             alt=""
                           />
                           <div className="d-flex flex-column gap-2">
-                            <p className="fs-2 font-poppins fw-semibold ">
+                            <p className="fs-20 font-poppins fw-semibold ">
                               Apoorva
                             </p>
-                            <p className="fs-4 font-poppins">Porter</p>
+                            <p className="fs-16 font-poppins">Porter</p>
                           </div>
                         </div>
                       </div>
@@ -460,10 +460,10 @@ const Home = () => {
                     <div className=" item">
                       <div className="bg-white review-card rounded-top-6 d-flex flex-column justify-content-between">
                         <div className="text">
-                          <h2 className="title-font text-dark fs-1 fw-bold">
+                          <h2 className="title-font text-dark fs-24 fw-bold">
                             Top notch team, top notch product
                           </h2>
-                          <p className="font-inter fs-lg-4 fs-md-3 fs-sm-2 fs-7  text-gray mt-5">
+                          <p className="font-inter fs-18 text-gray mt-5">
                             Metaforms has been a gamechanger in our journey of
                             optimising our user funnels. The level of attention
                             to detail the team brings with pro-activeness in
@@ -477,10 +477,10 @@ const Home = () => {
                             alt=""
                           />
                           <div className="d-flex flex-column gap-2">
-                            <p className="fs-2 font-poppins fw-semibold ">
+                            <p className="fs-20 font-poppins fw-semibold ">
                               Apoorva
                             </p>
-                            <p className="fs-4 font-poppins">Porter</p>
+                            <p className="fs-16 font-poppins">Porter</p>
                           </div>
                         </div>
                       </div>
@@ -491,7 +491,7 @@ const Home = () => {
                           <div className="img">
                             <img src="./empty-img.webp" alt="" />
                           </div>
-                          <h2 className="title-font fs-1 text-dark fw-bold mx-4">
+                          <h2 className="title-font fs-24 text-dark fw-bold mx-4">
                             All necessary integrations were available.
                           </h2>
                         </div>
@@ -502,10 +502,10 @@ const Home = () => {
                             alt=""
                           />
                           <div className="d-flex flex-column gap-2">
-                            <p className="fs-2 font-poppins fw-semibold ">
+                            <p className="fs-20 font-poppins fw-semibold ">
                               Apoorva
                             </p>
-                            <p className="fs-4 font-poppins">Porter</p>
+                            <p className="fs-16 font-poppins">Porter</p>
                           </div>
                         </div>
                       </div>
@@ -518,7 +518,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="section_8  mt-3">
+      <section data-aos="zoom-in" className="section_8  mt-3">
         <div className="partners-Customers py-5 container-fluid">
           <div className="container py-5 position-relative positions2">
             <div className="d-flex justify-content-xl-start justify-content-lg-between align-items-center flex-lg-row flex-md-column flex-column justify-content-md-center">
@@ -531,10 +531,10 @@ const Home = () => {
                     <div className=" item">
                       <div className="bg-white review-card rounded-top-6 d-flex flex-column justify-content-between">
                         <div className="text">
-                          <h2 className="title-font text-dark fs-1 fw-bold">
+                          <h2 className="title-font text-dark fs-24 fw-bold">
                             Top notch team, top notch product
                           </h2>
-                          <p className="font-inter fs-lg-4 fs-md-3 fs-sm-2 fs-7 text-gray mt-5">
+                          <p className="font-inter fs-18 text-gray mt-5">
                             Metaforms has been a gamechanger in our journey of
                             optimising our user funnels. The level of attention
                             to detail the team brings with pro-activeness in
@@ -545,10 +545,9 @@ const Home = () => {
                           <img
                             className="img-fluid avatar mr-4"
                             src="./avtar.png"
-                            alt=""
                           />
                           <div className="d-flex flex-column gap-2">
-                            <p className="fs-2 font-poppins fw-semibold ">
+                            <p className="fs-2 font-poppins fw-semibold">
                               Apoorva
                             </p>
                             <p className="fs-4 font-poppins">Porter</p>
@@ -691,12 +690,12 @@ const Home = () => {
 
       {/* ----------------------------------------------------- */}
 
-      <section className="section_9">
+      <section data-aos="zoom-in" className="section_9">
         <Title first_text="" span_text="Why Trust US?" last_text="" />
 
         <div className="container">
           <h2 className="fs-30 font-inter text-secondary">
-            ------------- In the press ? --------------
+            ________ In the press ? _________
           </h2>
         </div>
       </section>

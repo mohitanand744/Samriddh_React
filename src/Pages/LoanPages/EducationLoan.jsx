@@ -78,7 +78,7 @@ const EducationLoan = () => {
                 <div className="d-flex align-items-start gap-4 aspirationsCard">
                   <img
                     className="img-fluid"
-                    src="./Students Enrolled.png"
+                    src="/Students Enrolled.png"
                     alt=""
                   />
                   <div className="d-flex flex-column gap-1 ">
@@ -96,7 +96,7 @@ const EducationLoan = () => {
                 <div className="d-flex align-items-start gap-4 aspirationsCard">
                   <img
                     className="img-fluid"
-                    src="./Colleges Listed.png"
+                    src="/Colleges Listed.png"
                     alt=""
                   />
                   <div className="d-flex flex-column gap-1 ">
@@ -114,7 +114,7 @@ const EducationLoan = () => {
                 <div className="d-flex align-items-start gap-4 aspirationsCard">
                   <img
                     className="img-fluid"
-                    src="./Education Loans Provided.png"
+                    src="/Education Loans Provided.png"
                     alt=""
                   />
                   <div className="d-flex flex-column gap-1 ">
@@ -148,7 +148,7 @@ const EducationLoan = () => {
               <div className="d-flex align-items-center gap-4 productCard bg-white border-none b-shadow">
                 <img
                   className="img-fluid"
-                  src="./Undergraduate Loans.png"
+                  src="/Undergraduate Loans.png"
                   alt=""
                 />
 
@@ -159,7 +159,7 @@ const EducationLoan = () => {
             </div>
             <div data-aos="flip-left" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
-                <img className="img-fluid" src="./Graduate Loans.png" alt="" />
+                <img className="img-fluid" src="/Graduate Loans.png" alt="" />
 
                 <p className=" fs-20 fw-bold font-inter mt-4">Graduate Loans</p>
               </div>
@@ -168,7 +168,7 @@ const EducationLoan = () => {
               <div className="d-flex align-items-center gap-4 productCard">
                 <img
                   className="img-fluid"
-                  src="./Coaching Institute Loans.png"
+                  src="/Coaching Institute Loans.png"
                   alt=""
                 />
 
@@ -179,21 +179,21 @@ const EducationLoan = () => {
             </div>
             <div data-aos="flip-left" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
-                <img className="img-fluid" src="./Parent Loans.png" alt="" />
+                <img className="img-fluid" src="/Parent Loans.png" alt="" />
 
                 <p className=" fs-20 fw-bold font-inter mt-4">Parent Loans</p>
               </div>
             </div>
             <div data-aos="flip-right" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
-                <img className="img-fluid" src="./MBA Loans.png" alt="" />
+                <img className="img-fluid" src="/MBA Loans.png" alt="" />
 
                 <p className=" fs-20 fw-bold font-inter mt-4">MBA Loans</p>
               </div>
             </div>
             <div data-aos="flip-left" className="col-lg-4 col-md-6 col-12">
               <div className="d-flex align-items-center gap-4 productCard">
-                <img className="img-fluid" src="./Dental Loan.png" alt="" />
+                <img className="img-fluid" src="/Dental Loan.png" alt="" />
 
                 <p className=" fs-20 fw-bold font-inter mt-4">Dental Loan</p>
               </div>
@@ -434,7 +434,7 @@ const EducationLoan = () => {
             </div>
             <div className="col-lg-7 col-md-6 col-12">
               <div className="mt-lg-0 mt-md-0 mt-6 text-center">
-                <img className="img-fluid" src="./How to Buy.png" alt="" />
+                <img className="img-fluid" src="/How to Buy.png" alt="" />
               </div>
             </div>
           </div>

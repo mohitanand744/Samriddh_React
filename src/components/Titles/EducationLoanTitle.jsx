@@ -32,7 +32,7 @@ const EducationLoanTitle = ({
         <p className="fs-16 font-inter fw-medium mt-3">{pera2}</p>{" "}
         {ratings ? (
           <span className="fs-18 fw-bold text-dark font-inter">
-            <img src="./Rating 1.png" alt="" /> 4.7 (3246)
+            <img src="/Rating 1.png" alt="" /> 4.7 (3246)
           </span>
         ) : (
           ""

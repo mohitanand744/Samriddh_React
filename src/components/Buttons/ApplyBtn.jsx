@@ -22,7 +22,7 @@ const ApplyBtn = ({
       {arrow ? (
         <img
           className="img-fluid"
-          src={`${arrowDark ? "./arrowDark.png" : "./rightArrow.png"}`}
+          src={`${arrowDark ? "/arrowDark.png" : "/rightArrow.png"}`}
           alt=""
         />
       ) : (

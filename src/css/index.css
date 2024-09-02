@@ -2280,6 +2280,22 @@ li {
   }
 }
 
+.lifeInsuranceSection_4 {
+  .row {
+    margin-top: -5rem !important;
+    margin-bottom: 10rem;
+
+    .card {
+      height: 23rem;
+      margin: 1rem;
+
+      .card-body {
+        padding: 2.4rem;
+      }
+    }
+  }
+}
+
 /***** End Insurance Page Section *****/
 
 /***** Footer Section *****/

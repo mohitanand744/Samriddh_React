@@ -67,6 +67,9 @@ html {
 .m-7 {
   margin: 8rem;
 }
+.w-55 {
+  width: 55%;
+}
 
 .my-10 {
   margin: 10rem 0;
@@ -229,6 +232,9 @@ a {
 
 .bg-medium-gray {
   background-color: #efefef;
+}
+.bg-light-blue {
+  background: #bbd8fb38 !important;
 }
 
 .offcanvas-backdrop.show {
@@ -2231,6 +2237,47 @@ li {
 .insuranceNav {
   background: #bbd8fb38;
   padding: 0 4% !important;
+}
+
+.liftInsuranceSection_1 {
+  height: 67rem;
+  background-image: url("/lifeInsurance.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  & .textContainer {
+    top: 15%;
+    left: 8%;
+  }
+
+  .getInsurance {
+    width: 37rem;
+
+    input {
+      color: #f9f9f9;
+      background: #bbd8fb38;
+      border: 2px solid #9ecaff38;
+      outline: none;
+    }
+
+    button {
+      border: 2px solid #9ecaff38 !important;
+    }
+  }
+}
+
+.liftInsuranceSection_2 {
+  .aspirationsSlider {
+    .aspirationsCard {
+      & img {
+        width: 6rem;
+      }
+    }
+  }
+
+  & .owl-nav {
+    display: none;
+  }
 }
 
 /***** End Insurance Page Section *****/

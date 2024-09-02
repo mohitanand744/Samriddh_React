@@ -28,7 +28,7 @@ const Products = () => {
                     for our customer
                   </h1>
                   <div className="button-container w-100 d-flex flex-column  mt-7 gap-5">
-                    <Link to={"/products/insurance"}>
+                    <Link to={"/products/insurance/life"}>
                       <button className="btn custom-btn fs-24 text-white ms-5 mt-4 font-inter">
                         INSURANCE <img src="./BTNSTAR.png" alt="" />
                       </button>

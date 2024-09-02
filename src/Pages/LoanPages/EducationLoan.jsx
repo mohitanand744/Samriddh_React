@@ -2,9 +2,9 @@ import React, { useContext } from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import CreatingContext from "../context/ContexAPI";
-import EducationLoanTitle from "../components/Titles/EducationLoanTitle";
-import ApplyBtn from "../components/Buttons/ApplyBtn";
+import CreatingContext from "../../context/ContexAPI";
+import EducationLoanTitle from "../../components/Titles/EducationLoanTitle";
+import ApplyBtn from "../../components/Buttons/ApplyBtn";
 
 const EducationLoan = () => {
   const {
@@ -289,7 +289,7 @@ const EducationLoan = () => {
                 data-aos="flip-right"
                 className=" mt-lg-0 mt-md-5 mt-5 p-lg-0 p-md-4 p-5"
               >
-                <img src="./guy+cat 2.png" alt="" className="img-fluid" />
+                <img src="/guy+cat 2.png" alt="" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -443,10 +443,7 @@ const EducationLoan = () => {
 
       <section className="EducationLoanSection_8 container-fluid my-10">
         <div className="row">
-          <div
-            data-aos="slide-left"
-            className="col-lg-6 col-md-6 col-sm-6 col-12"
-          >
+          <div data-aos="fade-up" className="col-lg-6 col-md-6 col-sm-6 col-12">
             <div className="right py-8 text-center">
               <div className="rightBorder d-flex flex-column align-items-center  text-center">
                 <h1 className="fs-28 font-inter fw-bolder">
@@ -467,10 +464,7 @@ const EducationLoan = () => {
               </div>
             </div>
           </div>
-          <div
-            data-aos="slide-right"
-            className="col-lg-6 col-md-6 col-sm-6 col-12"
-          >
+          <div data-aos="fade-up" className="col-lg-6 col-md-6 col-sm-6 col-12">
             <div className="left py-8">
               <div className="leftBorder d-flex flex-column align-items-center text-center text-white">
                 <h1 className="fs-28 font-inter fw-bolder">
@@ -510,7 +504,7 @@ const EducationLoan = () => {
               <div className="accordion" id="accordionExample">
                 {educationLoan.map((data, index) => {
                   const fadeDirection =
-                    index % 2 === 0 ? "fade-left" : "fade-right"; // Alternate fade direction
+                    index % 2 === 0 ? "fade-up" : "fade-down"; // Alternate fade direction
                   return (
                     <div
                       data-aos={fadeDirection}
@@ -692,7 +686,7 @@ const EducationLoan = () => {
             >
               <div className="item">
                 <div className="blogsCard p-0 overflow-hidden bg-white d-flex flex-column justify-content-between rounded-3">
-                  <img src="./articlesImg1.png" className="img-fluid" alt="" />
+                  <img src="/articlesImg1.png" className="img-fluid" alt="" />
 
                   <div className="bottom mt-4 p-2 d-flex flex-column align-items-start">
                     <p className="fs-14 font-inter ps-4">17 JUL 2024</p>
@@ -713,7 +707,7 @@ const EducationLoan = () => {
               </div>
               <div className="item">
                 <div className="blogsCard p-0 overflow-hidden b-shadow bg-white d-flex flex-column justify-content-between rounded-3">
-                  <img src="./articlesImg2.png" className="img-fluid" alt="" />
+                  <img src="/articlesImg2.png" className="img-fluid" alt="" />
 
                   <div className="bottom mt-4 p-2 d-flex flex-column align-items-start">
                     <p className="fs-14 font-inter ps-4">17 JUL 2024</p>
@@ -734,7 +728,7 @@ const EducationLoan = () => {
               </div>
               <div className="item">
                 <div className="blogsCard p-0 overflow-hidden b-shadow bg-white d-flex flex-column justify-content-between rounded-3">
-                  <img src="./articlesImg3.png" className="img-fluid" alt="" />
+                  <img src="/articlesImg3.png" className="img-fluid" alt="" />
 
                   <div className="bottom mt-4 p-2 d-flex flex-column align-items-start">
                     <p className="fs-14 font-inter ps-4">17 JUL 2024</p>
@@ -764,7 +758,7 @@ const EducationLoan = () => {
             <div className="col-lg-6 col-md-6 col-12 ">
               <img
                 className="img-fluid h-100 object-fit-cover"
-                src="./future.png"
+                src="/future.png"
                 alt=""
               />
             </div>
@@ -812,32 +806,28 @@ const EducationLoan = () => {
               {...partnersCarouselOptions}
             >
               <div className="item">
-                <img className="img-fluid" src="./Chola Logo.webp" alt="" />
+                <img className="img-fluid" src="/Chola Logo.webp" alt="" />
+              </div>
+              <div className="item">
+                <img className="img-fluid" src="/Union Bank Logo.webp" alt="" />
               </div>
               <div className="item">
                 <img
                   className="img-fluid"
-                  src="./Union Bank Logo.webp"
+                  src="/Bandhan Bank Logo.webp"
                   alt=""
                 />
               </div>
               <div className="item">
-                <img
-                  className="img-fluid"
-                  src="./Bandhan Bank Logo.webp"
-                  alt=""
-                />
+                <img className="img-fluid" src="/HDFC Bank Logo.webp" alt="" />
               </div>
               <div className="item">
-                <img className="img-fluid" src="./HDFC Bank Logo.webp" alt="" />
-              </div>
-              <div className="item">
-                <img className="img-fluid" src="./Yes Bank Logo.webp" alt="" />
+                <img className="img-fluid" src="/Yes Bank Logo.webp" alt="" />
               </div>
               <div className="item">
                 <img
                   className="img-fluid"
-                  src="./Bajaj Finserve Logo.webp"
+                  src="/Bajaj Finserve Logo.webp"
                   alt=""
                 />
               </div>

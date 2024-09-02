@@ -114,6 +114,10 @@ html {
   padding: 5rem;
 }
 
+.w-80 {
+  width: 80%;
+}
+
 .px-11 {
   padding: 0 8rem;
 }
@@ -2221,6 +2225,15 @@ li {
 }
 
 /***** End applyForJob page Section *****/
+
+/***** Insurance Page Section *****/
+
+.insuranceNav {
+  background: #bbd8fb38;
+  padding: 0 4% !important;
+}
+
+/***** End Insurance Page Section *****/
 
 /***** Footer Section *****/
 

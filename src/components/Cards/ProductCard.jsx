@@ -22,7 +22,7 @@ const ProductCard = ({ image, cardTitle, btnContent }) => {
               </button>
             </Link>
           </div>
-          <Link to="/education_loan">
+          <Link to="/products/loan/education_loan">
             <div className="btn-container">
               <Button content={btnContent} />
             </div>

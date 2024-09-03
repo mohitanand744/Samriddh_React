@@ -2252,7 +2252,7 @@ li {
 }
 
 .liftInsuranceSection_1 {
-  height: 67rem;
+  height: 70rem;
   background-image: url("/lifeInsurance.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -2314,6 +2314,40 @@ li {
 
   .cusBG {
     background: #f3f7fd;
+  }
+}
+
+.lifeInsuranceSection_7 {
+  background: #e7e8ff61;
+
+  .border {
+    border: 3px solid #000 !important;
+    height: 35rem;
+  }
+
+  .border-bottom {
+    border-bottom: 3px solid #000 !important;
+  }
+  .border-right {
+    border-right: 3px solid #000 !important;
+  }
+}
+
+.lifeInsuranceSection_8 {
+  .nav {
+    width: 100% !important;
+    margin-top: -5rem;
+    padding: 0 !important;
+
+    .active {
+      color: #60c6ff !important;
+      border-bottom: 2px solid #ffff !important;
+    }
+  }
+
+  .card {
+    height: 12rem;
+    padding: 2rem 2rem 13rem 2rem;
   }
 }
 

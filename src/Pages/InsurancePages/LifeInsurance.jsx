@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import ApplyBtn from "../../components/Buttons/ApplyBtn";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -8,6 +8,12 @@ import EducationLoanTitle from "../../components/Titles/EducationLoanTitle";
 
 const LifeInsurance = () => {
   const { aspirationsSliderCarouselOptions } = useContext(CreatingContext);
+
+  const [activeTab, setActiveTab] = useState("exclusions");
+
+  const handleTabChange = (tab) => {
+    setActiveTab(tab);
+  };
 
   return (
     <div className="liftInsurance">
@@ -249,7 +255,11 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                   </div>
                   <a href="#" className="card-link fw-bold fs-18 font-inter">
                     Learn More{" "}
-                    <img width={8} src="/LearnMoreArrow.png" className="ms-2" />
+                    <img
+                      width={6.5}
+                      src="/LearnMoreArrow.png"
+                      className="ms-2"
+                    />
                   </a>
                 </div>
               </div>
@@ -269,7 +279,11 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                   </div>
                   <a href="#" className="card-link fw-bold fs-18 font-inter">
                     Learn More{" "}
-                    <img width={8} src="/LearnMoreArrow.png" className="ms-2" />
+                    <img
+                      width={6.5}
+                      src="/LearnMoreArrow.png"
+                      className="ms-2"
+                    />
                   </a>
                 </div>
               </div>
@@ -289,7 +303,11 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                   </div>
                   <a href="#" className="card-link fw-bold fs-18 font-inter">
                     Learn More{" "}
-                    <img width={8} src="/LearnMoreArrow.png" className="ms-2" />
+                    <img
+                      width={6.5}
+                      src="/LearnMoreArrow.png"
+                      className="ms-2"
+                    />
                   </a>
                 </div>
               </div>
@@ -308,7 +326,7 @@ It consists of parts of Latin words with no specific meaning and is used as temp
           pera2={" "}
         />
 
-        <div className="container">
+        <div data-aos="fade-up" className="container">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-12">
               <div className="d-flex align-items-center gap-5 my-5">
@@ -449,6 +467,287 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                     Your medical history or any previous illnesses in your
                     family can influence your premiums.
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="lifeInsuranceSection_6 px-lg-0 px-md-0 px-4 py-6">
+        <div className="container">
+          <div className="row justify-content-center align-items-center">
+            <div className="col-lg-4 col-md-6 col-12">
+              <EducationLoanTitle
+                title={"How to Buy?"}
+                color="black"
+                fontSize="fs-40"
+                ratings={false}
+                pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry."
+                pera2={""}
+              />
+
+              <div data-aos="fade-up" className="row flex-column gap-4">
+                <div className="col-12">
+                  <div className="d-flex align-items-start">
+                    <p className="py-3 px-45 bg-dark-blue text-white fw-semibold fs-18 font-inter me-4">
+                      1
+                    </p>
+                    <div className="txt">
+                      <h2 className="fw-medium fs-20 font-inter">
+                        Tell us about yourself
+                      </h2>
+                      <p className="fs-16 font-inter">
+                        We'll need some basic information from you (and your
+                        cosigner if you're applying with one) like your name,
+                        address, and date of birth, along with some details
+                        about your school.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12">
+                  <div className="d-flex align-items-start">
+                    <p className="py-3 px-45 bg-dark-blue text-white fw-semibold fs-18 font-inter me-4">
+                      2
+                    </p>
+                    <div className="txt">
+                      <h2 className="fw-medium fs-20 font-inter">
+                        Payment of Premium
+                      </h2>
+                      <p className="fs-16 font-inter">
+                        Choose the best Plan and Add-ons for you, and confirm
+                        your details.
+                      </p>
+                    </div>
+                  </div>
+                </div>{" "}
+                <div className="col-12">
+                  <div className="d-flex align-items-start">
+                    <p className="py-3 px-45 bg-dark-blue text-white fw-semibold fs-18 font-inter me-4">
+                      3
+                    </p>
+                    <div className="txt">
+                      <h2 className="fw-medium fs-20 font-inter">
+                        Document upload & Get the policy
+                      </h2>
+                      <p className="fs-16 font-inter">
+                        Upload the required documents. Post insurer’s approval,
+                        the policy is sent on the registered email id.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-up" className="col-lg-7 col-md-6 col-12">
+              <div className="mt-lg-0 mt-md-0 mt-6 text-center">
+                <img className="img-fluid" src="/How to Buy2.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="lifeInsuranceSection_7 px-lg-0 px-md-0 px-4 py-6">
+        <EducationLoanTitle
+          title={"Who can purchase a Life Insurance Policy?"}
+          color="black"
+          fontSize="fs-36"
+          ratings={false}
+          pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no specific meaning and is used as temporary filler content when the actual text is not available or finalized."
+          pera2={""}
+        />
+
+        <div className="container mt-4">
+          <div className="col-12">
+            <div className="border rounded-5 overflow-hidden ">
+              <div className="border-bottom  d-flex">
+                <div className="col-4">
+                  <div className="border-right h-100 text-center p-3 fs-20 fw-bold font-inter">
+                    <p>Age Group</p>
+                  </div>
+                </div>
+                <div className="col-8">
+                  <div className=" text-center p-3 fs-20 fw-bold font-inter">
+                    <p>Importance of buying life insurance</p>
+                  </div>
+                </div>
+              </div>
+              <div className="d-flex h-100 w-100">
+                <div className="col-4">
+                  <div className="border-right w-100 h-100 p-4"></div>
+                </div>
+                <div className="col-8">
+                  <div className="w-100 h-100 p-4"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="lifeInsuranceSection_8 px-lg-0 px-md-0 px-4 py-6 bg-dark-blue my-7">
+        <EducationLoanTitle
+          title={"Life Insurance Plan - What it Covers?"}
+          color="white"
+          fontSize="fs-36"
+          ratings={false}
+          pera="What is covered in Life insurance"
+          pera2={""}
+        />
+
+        <div className="container">
+          <ul className="nav gap-5 nav-underline">
+            <li className="nav-item">
+              <a
+                className={`nav-link text-light-gray fs-24 fw-bold font-inter ${
+                  activeTab === "inclusions" ? "active" : ""
+                }`}
+                onClick={() => handleTabChange("inclusions")}
+                aria-current="page"
+              >
+                Inclusions
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className={`nav-link text-light-gray fs-24 fw-bold font-inter ${
+                  activeTab === "exclusions" ? "active" : ""
+                }`}
+                onClick={() => handleTabChange("exclusions")}
+              >
+                Exclusions
+              </a>
+            </li>
+          </ul>
+
+          <div className="row">
+            <div className="col-lg-4 col-md-6 col-12">
+              <div
+                className="card d-flex my-4 flex-row gap-3 rounded-5 "
+                data-aos="flip-left"
+              >
+                <div className="mt-3">
+                  <img src="/cut.png" width={35} alt="" />
+                </div>
+                <div className="card-body">
+                  <div className="">
+                    <h5 className="card-title fs-20 font-inter fw-semibold">
+                      Suicide
+                    </h5>
+
+                    <p className="card-text fs-18 font-inter mt-4">
+                      Death occurs by suicide within a certain period of policy.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <div
+                className="card rounded-5 my-4 d-flex flex-row gap-3"
+                data-aos="flip-right"
+              >
+                <div className="mt-3">
+                  <img src="/cut.png" width={35} alt="" />
+                </div>
+                <div className="card-body d-flex flex-column justify-content-between">
+                  <div className="">
+                    <h5 className="card-title fs-20 font-inter fw-semibold">
+                      Death due to drug or alcohol
+                    </h5>
+
+                    <p className="card-text fs-18 font-inter mt-4">
+                      Dies due to any kind of substance abuse.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <div
+                className="card rounded-5 my-4 d-flex flex-row gap-3"
+                data-aos="flip-left"
+              >
+                <div className="mt-3">
+                  <img src="/cut.png" width={35} alt="" />
+                </div>
+                <div className="card-body d-flex flex-column justify-content-between">
+                  <div className="">
+                    <h5 className="card-title fs-20 font-inter fw-semibold">
+                      Pre-existing diseases
+                    </h5>
+
+                    <p className="card-text fs-18 font-inter mt-4">
+                      Plans that cover after a 2 to 4-year waiting period.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 col-12">
+              <div
+                className="card d-flex my-4 flex-row gap-3 rounded-5 "
+                data-aos="flip-left"
+              >
+                <div className="mt-3">
+                  <img src="/cut.png" width={35} alt="" />
+                </div>
+                <div className="card-body">
+                  <div className="">
+                    <h5 className="card-title fs-20 font-inter fw-semibold">
+                      Criminal act
+                    </h5>
+
+                    <p className="card-text fs-18 font-inter mt-4">
+                      If the insured’s death occurs through any criminal
+                      activities.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <div
+                className="card rounded-5 my-4 d-flex flex-row gap-3"
+                data-aos="flip-right"
+              >
+                <div className="mt-3">
+                  <img src="/cut.png" width={35} alt="" />
+                </div>
+                <div className="card-body d-flex flex-column justify-content-between">
+                  <div className="">
+                    <h5 className="card-title fs-20 font-inter fw-semibold">
+                      War
+                    </h5>
+
+                    <p className="card-text fs-18 font-inter mt-4">
+                      If the insured dies due to war or any war-related
+                      activity.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <div
+                className="card rounded-5 my-4 d-flex flex-row gap-3"
+                data-aos="flip-left"
+              >
+                <div className="mt-3">
+                  <img src="/cut.png" width={35} alt="" />
+                </div>
+                <div className="card-body d-flex flex-column justify-content-between">
+                  <div className="">
+                    <h5 className="card-title fs-20 font-inter fw-semibold">
+                      Life-threatening activity
+                    </h5>
+
+                    <p className="card-text fs-18 font-inter mt-4">
+                      Death caused by any high-risk activities like racing.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

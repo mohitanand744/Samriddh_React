@@ -6,7 +6,7 @@ const Insurance = () => {
     <div className="insurance mt-11 ">
       <nav
         className="navbar navbar-expand-lg font-inter I
-      py-5 insuranceNav "
+      py-4 insuranceNav "
       >
         <div className="container ">
           <div className="w-100 d-flex justify-content-end align-items-center">

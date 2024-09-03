@@ -248,7 +248,8 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                     </p>
                   </div>
                   <a href="#" className="card-link fw-bold fs-18 font-inter">
-                    Learn More &#x2B9E;
+                    Learn More{" "}
+                    <img width={8} src="/LearnMoreArrow.png" className="ms-2" />
                   </a>
                 </div>
               </div>
@@ -267,7 +268,8 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                     </p>
                   </div>
                   <a href="#" className="card-link fw-bold fs-18 font-inter">
-                    Learn More &#x2B9E;
+                    Learn More{" "}
+                    <img width={8} src="/LearnMoreArrow.png" className="ms-2" />
                   </a>
                 </div>
               </div>
@@ -286,7 +288,8 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                     </p>
                   </div>
                   <a href="#" className="card-link fw-bold fs-18 font-inter">
-                    Learn More &#x2B9E;
+                    Learn More{" "}
+                    <img width={8} src="/LearnMoreArrow.png" className="ms-2" />
                   </a>
                 </div>
               </div>
@@ -304,6 +307,153 @@ It consists of parts of Latin words with no specific meaning and is used as temp
           pera="Lorem ipsum is a placeholder text commonly used in the design and typesetting industry. It consists of parts of Latin words with no specific meaning and is used as temporary filler content when the actual text is not available or finalized."
           pera2={" "}
         />
+
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-md-6 col-12">
+              <div className="d-flex align-items-center gap-5 my-5">
+                <img
+                  className="img-fluid"
+                  width={60}
+                  src="/Comprehensive Coverage.png"
+                  alt=""
+                />
+                <div className="d-flex flex-column gap-2">
+                  <h3 className="fs-20 fw-medium">Comprehensive Coverage</h3>
+                  <p className="fs-18 font-inter">
+                    Diverse plans, ensuring that there's a solution for every
+                    need, whether it's pure protection, wealth accumulation,
+                    retirement planning.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6 col-12">
+              <div className="d-flex align-items-center gap-5 my-5">
+                <img
+                  className="img-fluid"
+                  width={60}
+                  src="/Long-Term Coverage.png"
+                  alt=""
+                />
+                <div className="d-flex flex-column gap-2">
+                  <h3 className="fs-20 fw-medium">Long-Term Coverage</h3>
+                  <p className="fs-18 font-inter">
+                    You can choose the tenure of your term insurance based on
+                    your long-term financial planning.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6 col-12">
+              <div className="d-flex align-items-center gap-5 my-5">
+                <img
+                  className="img-fluid"
+                  width={50}
+                  src="/Convenient Online Option.png"
+                  alt=""
+                />
+                <div className="d-flex flex-column gap-2">
+                  <h3 className="fs-20 fw-medium">Convenient Online Option</h3>
+                  <p className="fs-18 font-inter">
+                    You can buy a term policy online too at your convenience.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6 col-12">
+              <div className="d-flex align-items-center gap-5 my-5">
+                <img
+                  className="img-fluid"
+                  width={60}
+                  src="/Easy Premium Payment Options.png"
+                  alt=""
+                />
+                <div className="d-flex flex-column gap-2">
+                  <h3 className="fs-20 fw-medium">
+                    Easy Premium Payment Options
+                  </h3>
+                  <p className="fs-18 font-inter">
+                    You may pay for the plan through several modes online or
+                    offline, based on your payment cycle.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="lifeInsuranceSection_5 px-lg-0 px-md-0 px-4 pt-10">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-5 col-md-6 col-12">
+              <div className="d-flex flex-column align-items-start gap-3">
+                <EducationLoanTitle
+                  title={"What factors influence Life Insurance Premium?"}
+                  color=""
+                  cusColor={"cusColor"}
+                  fontSize="fs-36"
+                  ratings={false}
+                  pera="The premium in insurance refers to the amount of money paid by the policyholder to the insurance company in exchange for coverage and its influenced by insured members age, city, lifestyle, BMI, Occupation type, etc"
+                  pera2={" "}
+                />
+
+                <div className="mt--5">
+                  <ApplyBtn
+                    textColor={"text-dark-blue"}
+                    bgColor="bg-white"
+                    text={"Apply Now"}
+                    arrow={false}
+                    arrowDark={false}
+                    width=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-7 col-md-6 col-12">
+              <div className="rounded-top-4 p-5 d-flex flex-column gap-5 cusBG mt-lg-0 mt-md-0 mt-7">
+                <p className="font-inter fw-normal fs-18 text-light-blue">
+                  How is it calculated
+                </p>
+
+                <div className="d-flex flex-column gap-2">
+                  <h3 className="fs-18 fw-semibold font-inter">
+                    Lifestyle Choices
+                  </h3>
+                  <p className="fs-18 font-inter text-gray">
+                    Habits like smoking or excessive alcohol consumption can
+                    increase your premium due to higher health risks.
+                  </p>
+                </div>
+                <div className="d-flex flex-column gap-2">
+                  <h3 className="fs-18 fw-semibold font-inter">Occupation</h3>
+                  <p className="fs-18 font-inter text-gray">
+                    Jobs that are considered high-risk can lead to higher
+                    premiums. If your profession exposes you to danger, insurers
+                    might charge more.
+                  </p>
+                </div>
+                <div className="d-flex flex-column gap-2">
+                  <h3 className="fs-18 fw-semibold font-inter">Age</h3>
+                  <p className="fs-18 font-inter text-gray">
+                    Younger applicants typically pay lower premiums as they are
+                    considered less risky.
+                  </p>
+                </div>
+                <div className="d-flex flex-column gap-2">
+                  <h3 className="fs-18 fw-semibold font-inter">
+                    Medical history
+                  </h3>
+                  <p className="fs-18 font-inter text-gray">
+                    Your medical history or any previous illnesses in your
+                    family can influence your premiums.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );

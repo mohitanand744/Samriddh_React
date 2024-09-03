@@ -3,6 +3,7 @@ import React from "react";
 const EducationLoanTitle = ({
   title,
   color,
+  cusColor,
   fontSize,
   ratings,
   pera,
@@ -12,7 +13,11 @@ const EducationLoanTitle = ({
     <div className="container my-7">
       <h1
         className={`${fontSize} fw-bolder font-inter ${
-          color === "black" ? "text-dark" : "text-white"
+          color === "black"
+            ? "text-dark"
+            : color === "white"
+            ? "text-white"
+            : cusColor
         }`}
       >
         {title}

@@ -210,7 +210,7 @@ const BecomeOurPartner = () => {
               </OwlCarousel>
             </div>
             <div
-              data-aos="fade-left"
+              data-aos="fade-down"
               className="col-lg-6  col-md-12 col-12 order-lg-last order-md-first order-first"
             >
               <div className="image-container text-center mt-lg-0 mt-md-5 mt-5  p-5">
@@ -387,7 +387,7 @@ const BecomeOurPartner = () => {
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="leftSideCards d-flex justify-content-center flex-column align-items-center gap-lg-5 gap-md-5 gap-3 mb-3">
                   <div
-                    data-aos="fade-right"
+                    data-aos="fade-down"
                     className="card rounded-5 p-5 bg-white "
                   >
                     <h2 className="font-inter fs-16 fw-semibold">
@@ -399,7 +399,7 @@ const BecomeOurPartner = () => {
                     </p>
                   </div>
                   <div
-                    data-aos="fade-right"
+                    data-aos="fade-down"
                     className="card rounded-5 p-5 bg-white "
                   >
                     <h2 className="font-inter fs-16 fw-semibold">
@@ -411,7 +411,7 @@ const BecomeOurPartner = () => {
                     </p>
                   </div>
                   <div
-                    data-aos="fade-right"
+                    data-aos="fade-down"
                     className="card rounded-5 p-5 bg-white "
                   >
                     <h2 className="font-inter fs-16 fw-semibold">
@@ -427,7 +427,7 @@ const BecomeOurPartner = () => {
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="rightSideCards d-flex justify-content-center flex-column align-items-center gap-lg-5 gap-md-5 gap-3">
                   <div
-                    data-aos="fade-left"
+                    data-aos="fade-down"
                     className="card rounded-5 p-5 bg-white "
                   >
                     <h2 className="font-inter fs-16 fw-semibold">
@@ -439,7 +439,7 @@ const BecomeOurPartner = () => {
                     </p>
                   </div>
                   <div
-                    data-aos="fade-left"
+                    data-aos="fade-down"
                     className="card rounded-5 p-5 bg-white "
                   >
                     <h2 className="font-inter fs-16 fw-semibold">
@@ -451,7 +451,7 @@ const BecomeOurPartner = () => {
                     </p>
                   </div>
                   <div
-                    data-aos="fade-left"
+                    data-aos="fade-down"
                     className="card rounded-5 p-5 bg-white "
                   >
                     <h2 className="font-inter fs-16 fw-semibold">

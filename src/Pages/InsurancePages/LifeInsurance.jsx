@@ -89,7 +89,7 @@ const LifeInsurance = () => {
               </div>
 
               <input
-                className="font-inter w-100 mt-4 p-3 fs-18 fw-medium rounded-4"
+                className="font-inter text-dark w-100 mt-4 p-3 fs-18 fw-medium rounded-4"
                 type="number"
                 placeholder="+91  |  Phone Number"
               />

@@ -146,7 +146,7 @@ const LifeInsurance = () => {
                   <img
                     className="img-fluid"
                     src="/Students Enrolled.png"
-                    alt=""
+                    alt="image"
                   />
                   <div className="d-flex flex-column gap-1 ">
                     <h2 className="color-light-blue fs-18 fw-bold font-inter">

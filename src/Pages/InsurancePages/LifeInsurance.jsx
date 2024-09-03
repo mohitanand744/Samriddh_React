@@ -40,7 +40,7 @@ const LifeInsurance = () => {
                       className="img-fluid"
                       width={23}
                       src="/Term Life.png"
-                      alt=""
+                      alt="image"
                     />
                     <h2 className="fw-semibold fs-18 text-white font-inter">
                       Term Life

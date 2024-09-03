@@ -637,7 +637,8 @@ It consists of parts of Latin words with no specific meaning and is used as temp
                     </h5>
 
                     <p className="card-text fs-18 font-inter mt-4">
-                      Death occurs by suicide within a certain period of policy.
+                      Death occurs by suicide with in a certain period of
+                      policy.
                     </p>
                   </div>
                 </div>

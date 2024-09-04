@@ -5,7 +5,7 @@ import DonutChart from "../components/DataCharts/DonutChart";
 import AmountCal from "../components/Cards/AmountCal";
 import MonthDropdown from "../components/Cards/SelectMonth";
 
-const ProductDetailedPage = () => {
+const Calculate_EMI_Interest = () => {
   return (
     <div className="product_detailed_page">
       <section className="container-fluid resources-container mt-7">
@@ -206,4 +206,4 @@ const ProductDetailedPage = () => {
   );
 };
 
-export default ProductDetailedPage;
+export default Calculate_EMI_Interest;

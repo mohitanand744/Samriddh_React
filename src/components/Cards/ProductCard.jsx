@@ -15,7 +15,7 @@ const ProductCard = ({ image, cardTitle, btnContent }) => {
 
         <div className="d-flex flex-column gap-5">
           <div className="btn-containers">
-            <Link to={"/product_detailed_page"}>
+            <Link to={"/products/Calculate_EMI_Interest"}>
               <button className="btn fs-3 text-white fw-bold cus-btn-transparent font-poppins">
                 Know more
                 <img className="move-right" src="./Arrow white.png" alt="" />

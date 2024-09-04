@@ -12,7 +12,7 @@ import AboutUs from "../Pages/AboutUs";
 import Products from "../Pages/Products";
 import ContactUs from "../Pages/ContactUs";
 import BecomeOurPartner from "../Pages/BecomeOurPartner";
-import ProductDetailedPage from "../Pages/ProductDetailedPage";
+import Calculate_EMI_Interest from "../Pages/Calculate_EMI_Interest";
 import EducationLoan from "../Pages/LoanPages/EducationLoan";
 import Career from "../Pages/Career";
 import ApplyForJob from "../Pages/ApplyForJob";
@@ -38,12 +38,16 @@ export const router = createBrowserRouter(
         <Route path="loan" element={<Loan />}>
           <Route path="education_loan" element={<EducationLoan />} />
         </Route>
+        <Route
+          path="Calculate_EMI_Interest"
+          element={<Calculate_EMI_Interest />}
+        />
       </Route>
-      <Route path="product_detailed_page" element={<ProductDetailedPage />} />
       <Route path="contact" element={<ContactUs />} />
       <Route path="become_our_partner" element={<BecomeOurPartner />} />
-      <Route path="career" element={<Career />} />
-      <Route path="apply" element={<ApplyForJob />} />
+      <Route path="career" element={<Career />}>
+        <Route path="apply" element={<ApplyForJob />} />
+      </Route>
       <Route
         path="*"
         element={
